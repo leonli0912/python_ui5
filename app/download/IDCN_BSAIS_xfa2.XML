@@ -1,0 +1,2929 @@
+<ns0:xdp xmlns:html="http://www.w3.org/1999/xhtml" xmlns:ns0="http://ns.adobe.com/xdp/" xmlns:ns1="http://www.xfa.org/schema/xfa-template/2.5/" xmlns:ns10="adobe:ns:meta/" xmlns:ns12="http://ns.adobe.com/xap/1.0/" xmlns:ns13="http://ns.adobe.com/pdf/1.3/" xmlns:ns14="http://ns.adobe.com/xap/1.0/mm/" xmlns:ns2="http://www.xfa.org/schema/xfa-xliff/1.0/" xmlns:ns4="http://www.xfa.org/schema/xfa-data/1.0/" xmlns:ns5="urn:oasis:names:tc:xliff:document:1.1" xmlns:ns6="http://www.xfa.org/schema/xci/1.0/" xmlns:ns7="http://www.xfa.org/schema/xfa-connection-set/2.1/" xmlns:ns8="http://ns.adobe.com/data-description/" xmlns:ns9="http://www.xfa.org/schema/xfa-locale-set/2.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" timeStamp="2018-01-26T09:41:33Z" uuid="82ec3b5e-a364-431a-afe1-71f8efd9c11a">
+<ns1:template>
+   <ns2:tags><ns2:value id="24FB61E6-08CE-479E-82B9-05B9C9560411">Liabilities</ns2:value><ns2:value id="2C1FEB37-91D4-4005-98F1-9A8DC8FA1311">-1</ns2:value><ns2:value id="4097BF42-A810-4B4D-AD35-DDD2B60F7092">Last Period</ns2:value><ns2:value id="459F2280-1712-4003-B040-6E34C97DC33E">Current Period</ns2:value><ns2:value id="4E4FB1D0-B7D0-471A-A07B-CE71A0737BA0">Item</ns2:value><ns2:value id="612E17BB-254F-4AE8-A848-D3806F376A0A">Assets - Period-end Balance</ns2:value><ns2:value id="618E8219-F172-4DEF-AA9F-322FF4C09CA3">Assets - Number</ns2:value><ns2:value id="7B5DB33A-13A2-4BA4-A94C-02AA2E6A1FD5">Assets - Year-beginning Balance</ns2:value><ns2:value id="81D9F9AB-69D4-4786-B6EC-AB9564C774D9">-1</ns2:value><ns2:value id="AE871168-9AB1-4194-90AB-D0EE8DA03825">Liabilities - Year-beginning Balance</ns2:value><ns2:value id="B466038D-D706-48F7-9745-3A736234BF71">Assets</ns2:value><ns2:value id="D21918DB-7CE3-4B9C-9292-32B81A62683B">Liabilities - Period-end Balance</ns2:value><ns2:value id="EFC134DA-5190-4E8B-B817-DF3A4EAE45B2">Number</ns2:value><ns2:value id="F801F91B-BDB2-45DB-8473-8ADA9D8F6BB4">-1</ns2:value><ns2:value id="N1187">Balance Sheet</ns2:value><ns2:value id="N1246">Enterprise accounting report 01</ns2:value><ns2:value id="N1313">Reporting company:</ns2:value><ns2:value id="N1379">Year:</ns2:value><ns2:value id="N1445">Month:</ns2:value><ns2:value id="N1511">Currency:</ns2:value><ns2:value id="N1739">Income Statement</ns2:value><ns2:value id="N2044">Current Period</ns2:value><ns2:value id="N2052-1181">Day:</ns2:value><ns2:value id="N2131">Year:</ns2:value><ns2:value id="N2197">Month:</ns2:value><ns2:value id="N2215-1141">Item</ns2:value><ns2:value id="N2263">Currency:</ns2:value><ns2:value id="N2328">Reporting company:</ns2:value><ns2:value id="N2368">Enterprise accounting report 02</ns2:value><ns2:value id="N2372-1141">Last Period</ns2:value><ns2:value id="N523-1181">Day:</ns2:value><ns2:value id="N566">Assets</ns2:value><ns2:value id="N608">No</ns2:value><ns2:value id="N650"><html:body ns4:APIVersion="2.5.7087.0"><html:p>Period-end</html:p><html:p>Balance</html:p></html:body></ns2:value><ns2:value id="N710">Year-beginning Balance</ns2:value><ns2:value id="N752">Liabilities and Owner's Equity</ns2:value><ns2:value id="N794">No</ns2:value><ns2:value id="N836"><html:body ns4:APIVersion="2.5.7087.0"><html:p>Period-end</html:p><html:p>Balance</html:p></html:body></ns2:value><ns2:value id="N894">Year-beginning Balance</ns2:value></ns2:tags>
+   
+   
+   
+   <ns1:subform layout="tb" locale="zh_CN" name="data" restoreState="auto">
+      <ns1:pageSet>
+         <ns1:pageArea id="Page1" name="Page">
+            <ns1:contentArea h="284.3001mm" name="MasterPage" w="197.3002mm" x="0.25in" y="0.25in" />
+            <ns1:medium long="297mm" short="210mm" stock="a4" />
+            </ns1:pageArea>
+         <ns1:pageArea id="6f084e43-48f2-11e2-893f-70f3950cb3ea" name="Page_L">
+            <ns1:medium long="297mm" orientation="landscape" short="210mm" stock="a4" />
+            <ns1:contentArea h="203.696mm" name="MasterPage" w="287.133mm" x="4.997mm" y="3mm" />
+            </ns1:pageArea>
+         </ns1:pageSet>
+      <ns1:subform h="283.596mm" name="Balance" w="197.3mm">
+         <ns1:draw h="7mm" name="Title" w="2.875in" x="63.65mm">
+            <ns1:ui>
+               <ns1:textEdit />
+            </ns1:ui>
+            <ns1:value>
+               <ns1:text ns2:id="N1187" ns5:rid="N1187">Balance Sheet</ns1:text>
+            </ns1:value>
+            <ns1:font baselineShift="0pt" size="14pt" typeface="Arial" weight="bold" />
+            <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+            <ns1:para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" />
+            
+            </ns1:draw>
+         <ns1:draw h="6mm" name="Report_ID" w="2.022097in" x="145.939mm" y="6.35mm">
+            <ns1:ui>
+               <ns1:textEdit />
+            </ns1:ui>
+            <ns1:value>
+               <ns1:text ns2:id="N1246" ns5:rid="N1246">Enterprise accounting report 01</ns1:text>
+            </ns1:value>
+            <ns1:font baselineShift="0pt" typeface="Arial" />
+            <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+            <ns1:para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" />
+            
+            </ns1:draw>
+         <ns1:field access="readOnly" h="6mm" name="GSBER" w="47.62mm" y="6.35mm">
+            <ns1:ui>
+               <ns1:textEdit>
+                  <ns1:border presence="hidden">
+                     </ns1:border>
+                  <ns1:margin />
+               </ns1:textEdit>
+            </ns1:ui>
+            <ns1:font typeface="Arial" />
+            <ns1:margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm" />
+            <ns1:para vAlign="middle" />
+            <ns1:caption reserve="32.7309mm">
+               <ns1:font baselineShift="0pt" typeface="Arial" />
+               <ns1:para hAlign="right" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle" />
+               <ns1:value>
+                  <ns1:text ns2:id="N1313" ns5:rid="B1DCEC19-8DD1-4BD6-B272-27A038C504DB">Business Area:</ns1:text>
+               </ns1:value>
+            </ns1:caption>
+            <ns1:bind match="dataRef" ref="$.SettingNode.Header.Gsber" />
+            <ns1:desc>
+               <ns1:text name="Schema Annotation">Business Area</ns1:text>
+            </ns1:desc>
+            <ns1:assist>
+               <ns1:speak priority="caption" />
+            </ns1:assist>
+            </ns1:field>
+         <ns1:field access="readOnly" h="6mm" name="PRCTR" w="72.636mm" y="12.85mm">
+            <ns1:ui>
+               <ns1:textEdit>
+                  <ns1:border presence="hidden">
+                     </ns1:border>
+                  <ns1:margin />
+               </ns1:textEdit>
+            </ns1:ui>
+            <ns1:font typeface="Arial" />
+            <ns1:margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm" />
+            <ns1:para vAlign="middle" />
+            <ns1:caption reserve="32.7309mm">
+               <ns1:font baselineShift="0pt" typeface="Arial" />
+               <ns1:para hAlign="right" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle" />
+               <ns1:value>
+                  <ns1:text ns2:id="N1313" ns5:rid="0A09F9A4-48F1-4388-B20E-FEE3432D3694">Profit Center:</ns1:text>
+               </ns1:value>
+            </ns1:caption>
+            <ns1:bind match="dataRef" ref="$.SettingNode.Header.Prctr" />
+            <ns1:desc>
+               <ns1:text name="Schema Annotation">Business Area</ns1:text>
+            </ns1:desc>
+            <ns1:assist>
+               <ns1:speak priority="caption" />
+            </ns1:assist>
+            </ns1:field>
+         <ns1:field access="readOnly" h="9.0001mm" name="COMPANY" w="79.375mm" y="19.65mm">
+            <ns1:ui>
+               <ns1:textEdit>
+                  <ns1:border presence="hidden">
+                     </ns1:border>
+                  <ns1:margin />
+               </ns1:textEdit>
+            </ns1:ui>
+            <ns1:font typeface="Arial" />
+            <ns1:margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm" />
+            <ns1:para vAlign="middle" />
+            <ns1:caption reserve="32.7309mm">
+               <ns1:font baselineShift="0pt" typeface="Arial" />
+               <ns1:para hAlign="right" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle" />
+               <ns1:value>
+                  <ns1:text ns2:id="N1313" ns5:rid="N1313">Reporting company:</ns1:text>
+               </ns1:value>
+            </ns1:caption>
+            <ns1:bind match="dataRef" ref="$.SettingNode.Header.Company" />
+            <ns1:value>
+               <ns1:text maxChars="30" />
+            </ns1:value>
+            <ns1:desc>
+               <ns1:text name="Schema Annotation">Company name</ns1:text>
+            </ns1:desc>
+            <ns1:assist>
+               <ns1:speak priority="caption" />
+            </ns1:assist>
+            </ns1:field>
+         <ns1:subform h="9mm" name="EN_FORMAT" w="71.4mm" x="79.735mm" y="19.56mm">
+            <ns1:bind match="none" ref="$.SettingNode.Header.Company" />
+            <ns1:field access="readOnly" h="9.0001mm" name="CYEAR" w="25.4mm" y="0mm">
+               <ns1:ui>
+                  <ns1:textEdit>
+                     <ns1:border presence="hidden">
+                        </ns1:border>
+                     <ns1:margin />
+                  </ns1:textEdit>
+               </ns1:ui>
+               <ns1:font typeface="Arial" />
+               <ns1:margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm" />
+               <ns1:para vAlign="middle" />
+               <ns1:caption reserve="10.3371mm">
+                  <ns1:para vAlign="middle" />
+                  <ns1:value>
+                     <ns1:text ns2:id="N1379" ns5:rid="N1379">Year:</ns1:text>
+                  </ns1:value>
+               </ns1:caption>
+               <ns1:bind match="dataRef" ref="$.SettingNode.Header.Vperiod_D" />
+               <ns1:value>
+                  <ns1:text maxChars="4" />
+               </ns1:value>
+               <ns1:desc>
+                  <ns1:text name="Schema Annotation">Fiscal Year</ns1:text>
+               </ns1:desc>
+               <ns1:assist>
+                  <ns1:speak priority="caption" />
+               </ns1:assist>
+               </ns1:field>
+            <ns1:field access="readOnly" h="9.0001mm" name="CMONTH" w="25.4mm" x="23mm" y="0mm">
+               <ns1:ui>
+                  <ns1:textEdit>
+                     <ns1:border presence="hidden">
+                        </ns1:border>
+                     <ns1:margin />
+                  </ns1:textEdit>
+               </ns1:ui>
+               <ns1:font typeface="Arial" />
+               <ns1:margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm" />
+               <ns1:para vAlign="middle" />
+               <ns1:caption reserve="11.4156mm">
+                  <ns1:para vAlign="middle" />
+                  <ns1:value>
+                     <ns1:text ns2:id="N1445" ns5:rid="N1445">Month:</ns1:text>
+                  </ns1:value>
+               </ns1:caption>
+               <ns1:bind match="dataRef" ref="$.SettingNode.Header.Bperiod_D" />
+               <ns1:value>
+                  <ns1:text maxChars="2" />
+               </ns1:value>
+               <ns1:desc>
+                  <ns1:text name="Schema Annotation">Fiscal Period</ns1:text>
+               </ns1:desc>
+               <ns1:calculate override="error" />
+               <ns1:assist>
+                  <ns1:speak priority="caption" />
+               </ns1:assist>
+               </ns1:field>
+            <ns1:field access="readOnly" h="9.0001mm" name="CDAY" w="25.4mm" x="46mm" y="0mm">
+               <ns1:ui>
+                  <ns1:textEdit>
+                     <ns1:border presence="hidden">
+                        </ns1:border>
+                     <ns1:margin />
+                  </ns1:textEdit>
+               </ns1:ui>
+               <ns1:font typeface="Arial" />
+               <ns1:margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm" />
+               <ns1:para vAlign="middle" />
+               <ns1:caption reserve="8.7871mm">
+                  <ns1:para vAlign="middle" />
+                  <ns1:value>
+                     <ns1:text ns2:id="N523-1181" ns5:rid="N523-1181">Day:</ns1:text>
+                  </ns1:value>
+               </ns1:caption>
+               <ns1:bind match="dataRef" ref="$.SettingNode.Header.Bday" />
+               <ns1:value>
+                  <ns1:text maxChars="2" />
+               </ns1:value>
+               <ns1:desc>
+                  <ns1:text name="Schema Annotation">Fiscal Period</ns1:text>
+               </ns1:desc>
+               <ns1:assist>
+                  <ns1:speak priority="caption" />
+               </ns1:assist>
+               </ns1:field>
+            <ns1:event activity="initialize" name="event__initialize">
+               <ns1:script>//log on in ZH: EN_FORMAT hidden while ZH_FORMAT shown
+if ( $record.GV_LANGU eq "ZH" )
+then
+  this.presence = "hidden";
+endif
+
+</ns1:script>
+            </ns1:event>
+            </ns1:subform>
+         <ns1:subform h="9mm" name="ZH_FORMAT" w="71.4mm" x="79.735mm" y="19.56mm">
+            <ns1:bind match="none" ref="$.SettingNode.Header.Bday" />
+            <ns1:field access="readOnly" h="9mm" name="CYEAR" w="20.067mm" x="12.74mm">
+               <ns1:ui>
+                  <ns1:textEdit>
+                     <ns1:border presence="hidden">
+                        </ns1:border>
+                     <ns1:margin />
+                  </ns1:textEdit>
+               </ns1:ui>
+               <ns1:font typeface="Arial" />
+               <ns1:margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm" />
+               <ns1:para hAlign="right" vAlign="middle" />
+               <ns1:caption placement="right" reserve="10mm">
+                  <ns1:para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle" />
+                  <ns1:value>
+                     <ns1:text ns5:rid="9D7D7F8A-2DE9-4814-8875-3BD49B69E614">Year</ns1:text>
+                  </ns1:value>
+                  <ns1:font baselineShift="0pt" typeface="Arial" />
+               </ns1:caption>
+               <ns1:bind match="dataRef" ref="$.SettingNode.Header.Vperiod_D" />
+               <ns1:value>
+                  <ns1:text maxChars="4" />
+               </ns1:value>
+               <ns1:desc>
+                  <ns1:text name="Schema Annotation">Fiscal Year</ns1:text>
+               </ns1:desc>
+               <ns1:assist>
+                  <ns1:speak priority="caption" />
+               </ns1:assist>
+               </ns1:field>
+            <ns1:field access="readOnly" h="9mm" name="CMONTH" w="15.903mm" x="28.46mm">
+               <ns1:ui>
+                  <ns1:textEdit>
+                     <ns1:border presence="hidden">
+                        </ns1:border>
+                     <ns1:margin />
+                  </ns1:textEdit>
+               </ns1:ui>
+               <ns1:font typeface="Arial" />
+               <ns1:margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm" />
+               <ns1:para hAlign="right" vAlign="middle" />
+               <ns1:caption placement="right" reserve="10mm">
+                  <ns1:para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle" />
+                  <ns1:value>
+                     <ns1:text ns5:rid="E6346F32-B6D3-473E-AC12-46DF20008D63">Month</ns1:text>
+                  </ns1:value>
+                  <ns1:font baselineShift="0pt" typeface="Arial" />
+               </ns1:caption>
+               <ns1:bind match="dataRef" ref="$.SettingNode.Header.Bperiod_D" />
+               <ns1:value>
+                  <ns1:text maxChars="2" />
+               </ns1:value>
+               <ns1:desc>
+                  <ns1:text name="Schema Annotation">Fiscal Period</ns1:text>
+               </ns1:desc>
+               <ns1:assist>
+                  <ns1:speak priority="caption" />
+               </ns1:assist>
+               </ns1:field>
+            <ns1:field access="readOnly" h="9mm" name="CDAY" w="13.951mm" x="42.1mm">
+               <ns1:ui>
+                  <ns1:textEdit>
+                     <ns1:border presence="hidden">
+                        </ns1:border>
+                     <ns1:margin />
+                  </ns1:textEdit>
+               </ns1:ui>
+               <ns1:font typeface="Arial" />
+               <ns1:margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm" />
+               <ns1:para hAlign="right" vAlign="middle" />
+               <ns1:caption placement="right" reserve="7.964mm">
+                  <ns1:para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle" />
+                  <ns1:value>
+                     <ns1:text ns5:rid="6AF9CA5C-C55B-498C-BC27-7250D0CDD9A6">Day</ns1:text>
+                  </ns1:value>
+                  <ns1:font baselineShift="0pt" typeface="Arial" />
+               </ns1:caption>
+               <ns1:bind match="dataRef" ref="$.SettingNode.Header.Bday" />
+               <ns1:value>
+                  <ns1:text maxChars="2" />
+               </ns1:value>
+               <ns1:desc>
+                  <ns1:text name="Schema Annotation">Fiscal Period</ns1:text>
+               </ns1:desc>
+               <ns1:assist>
+                  <ns1:speak priority="caption" />
+               </ns1:assist>
+               </ns1:field>
+            <ns1:event activity="initialize" name="event__initialize">
+               <ns1:script>//log on in non-ZH: EN_FORMAT shown while ZH_FORMAT hidden
+if ( $record.GV_LANGU ne "ZH" )
+then
+  this.presence = "hidden";
+endif
+
+</ns1:script>
+            </ns1:event>
+            </ns1:subform>
+         <ns1:field access="readOnly" h="9mm" name="CURRENCY" w="51.084mm" x="145.939mm" y="19.65mm">
+            <ns1:ui>
+               <ns1:textEdit multiLine="1">
+                  <ns1:border presence="hidden">
+                     </ns1:border>
+                  <ns1:margin />
+               </ns1:textEdit>
+            </ns1:ui>
+            <ns1:font typeface="Arial" />
+            <ns1:margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm" />
+            <ns1:para vAlign="middle" />
+            <ns1:caption reserve="16.7978mm">
+               <ns1:para hAlign="right" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle" />
+               <ns1:value>
+                  <ns1:text ns2:id="N1511" ns5:rid="N1511">Currency:</ns1:text>
+               </ns1:value>
+               <ns1:font baselineShift="0pt" typeface="Arial" />
+            </ns1:caption>
+            <ns1:bind match="dataRef" ref="$.SettingNode.Header.Currency" />
+            <ns1:desc>
+               <ns1:text name="Schema Annotation">Currency Key</ns1:text>
+            </ns1:desc>
+            <ns1:assist>
+               <ns1:speak priority="caption" />
+            </ns1:assist>
+            </ns1:field>
+         <ns1:subform columnWidths="46mm 6mm 23.325mm 23.325mm 46mm 6mm 23.325mm 23.325mm" layout="table" name="Table" y="27.65mm">
+            <ns1:border>
+               <ns1:edge />
+            </ns1:border>
+            <ns1:subform id="HeaderRow_ID_copy1_copy2" layout="row" name="HeaderRow">
+               <ns1:assist role="TH" />
+               <ns1:draw h="11.504mm" name="TEXT45_AS" w="30mm">
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:ui>
+                     <ns1:textEdit>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                  </ns1:ui>
+                  <ns1:value>
+                     <ns1:text ns2:id="N566" ns5:rid="N566">Assets</ns1:text>
+                  </ns1:value>
+                  <ns1:font size="8pt" typeface="Arial" weight="bold" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para hAlign="center" vAlign="middle" />
+               </ns1:draw>
+               <ns1:draw h="11.504mm" name="LINENR_AS" w="30mm">
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:ui>
+                     <ns1:textEdit>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                  </ns1:ui>
+                  <ns1:value>
+                     <ns1:text ns2:id="N608" ns5:rid="N608">No</ns1:text>
+                  </ns1:value>
+                  <ns1:font size="8pt" typeface="Arial" weight="bold" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para hAlign="center" vAlign="middle" />
+               </ns1:draw>
+               <ns1:draw minH="11.504mm" name="BSUM_AS" w="21.325mm">
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:ui>
+                     <ns1:textEdit>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                  </ns1:ui>
+                  <ns1:value>
+                     <ns1:text ns2:id="N710" ns5:rid="CA9F4A7A-95DE-4122-90FC-BD3F0A98409F">Period-end Balance</ns1:text>
+                  </ns1:value>
+                  <ns1:font size="8pt" typeface="Arial" weight="bold" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para hAlign="center" vAlign="middle" />
+               </ns1:draw>
+               <ns1:draw h="11.504mm" name="VSUM_AS" w="30mm">
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:ui>
+                     <ns1:textEdit>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                  </ns1:ui>
+                  <ns1:value>
+                     <ns1:text ns2:id="N710" ns5:rid="N710">Year-beginning Balance</ns1:text>
+                  </ns1:value>
+                  <ns1:font size="8pt" typeface="Arial" weight="bold" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para hAlign="center" vAlign="middle" />
+               </ns1:draw>
+               <ns1:draw h="11.504mm" name="TEXT45_LE" w="30mm">
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:ui>
+                     <ns1:textEdit>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                  </ns1:ui>
+                  <ns1:value>
+                     <ns1:text ns2:id="N752" ns5:rid="N752">Liabilities and Owner's Equity</ns1:text>
+                  </ns1:value>
+                  <ns1:font size="8pt" typeface="Arial" weight="bold" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para hAlign="center" vAlign="middle" />
+               </ns1:draw>
+               <ns1:draw h="11.504mm" name="LINENR_LE" w="30mm">
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:ui>
+                     <ns1:textEdit>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                  </ns1:ui>
+                  <ns1:value>
+                     <ns1:text ns2:id="N794" ns5:rid="N794">No</ns1:text>
+                  </ns1:value>
+                  <ns1:font size="8pt" typeface="Arial" weight="bold" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para hAlign="center" vAlign="middle" />
+               </ns1:draw>
+               <ns1:draw minH="11.504mm" name="BSUM_LE" w="21.325mm">
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:ui>
+                     <ns1:textEdit>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                  </ns1:ui>
+                  <ns1:value>
+                     <ns1:text ns2:id="N894" ns5:rid="0FE34CE6-7D52-40BD-95D7-10C7910C6E69">Period-end Balance</ns1:text>
+                  </ns1:value>
+                  <ns1:font baselineShift="0pt" size="8pt" typeface="Arial" weight="bold" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle" />
+               </ns1:draw>
+               <ns1:draw h="11.504mm" name="VSUM_LE" w="30mm">
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:ui>
+                     <ns1:textEdit>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                  </ns1:ui>
+                  <ns1:value>
+                     <ns1:text ns2:id="N894" ns5:rid="N894">Year-beginning Balance</ns1:text>
+                  </ns1:value>
+                  <ns1:font baselineShift="0pt" size="8pt" typeface="Arial" weight="bold" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle" />
+               </ns1:draw>
+               <ns1:border>
+                  <ns1:edge presence="hidden" />
+               </ns1:border>
+               <ns1:occur max="-1" />
+               <ns1:bind match="none" ref="$.SettingNode.Header.Currency" />
+               </ns1:subform>
+            <ns1:subform layout="row" name="Row">
+               <ns1:assist role="TR" />
+               <ns1:field access="readOnly" minH="5mm" name="LINETEXT_AS" w="30mm">
+                  <ns1:ui>
+                     <ns1:textEdit multiLine="1">
+                        <ns1:border presence="hidden">
+                           </ns1:border>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                  </ns1:ui>
+                  <ns1:font size="8pt" typeface="Arial" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para vAlign="middle" />
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:bind match="dataRef" ref="$.SettingNode.Header.ItemAS.ItemNode_AS[*].Linetext" />
+                  <ns1:desc>
+                     <ns1:text name="Schema Annotation">ZJF Line description</ns1:text>
+                  </ns1:desc>
+                  <ns1:assist>
+                     <ns1:speak disable="1" ns2:id="B466038D-D706-48F7-9745-3A736234BF71" ns5:rid="B466038D-D706-48F7-9745-3A736234BF71">Assets</ns1:speak>
+                  </ns1:assist>
+                  <ns1:event activity="initialize" name="event__initialize">
+                     <ns1:script>A = A + 1
+
+if ( count($record.GT_FORMLINES_AS.DATA[*].LINELEV) gt A ) then
+   this.margin.leftInset = concat( 0.5 + 2 * $record.GT_FORMLINES_AS.DATA[A].LINELEV, "mm")
+endif
+</ns1:script>
+                  </ns1:event>
+                  </ns1:field>
+               <ns1:field access="readOnly" h="5mm" name="LINENR_AS" w="30mm">
+                  <ns1:ui>
+                     <ns1:textEdit>
+                        <ns1:border presence="hidden">
+                           </ns1:border>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                  </ns1:ui>
+                  <ns1:font size="8pt" typeface="Arial" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para hAlign="center" vAlign="middle" />
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:bind match="dataRef" ref="$.SettingNode.Header.ItemAS.ItemNode_AS[*].Linenrext" />
+                  <ns1:assist>
+                     <ns1:speak disable="1" ns2:id="618E8219-F172-4DEF-AA9F-322FF4C09CA3" ns5:rid="618E8219-F172-4DEF-AA9F-322FF4C09CA3">Assets - Number</ns1:speak>
+                  </ns1:assist>
+                  </ns1:field>
+               <ns1:field access="readOnly" h="5mm" name="BSUM_AS" w="30mm">
+                  <ns1:ui>
+                     <ns1:textEdit>
+                        <ns1:border presence="hidden">
+                           </ns1:border>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                     <ns1:picture>zero{}|num.decimal{}</ns1:picture>
+                  </ns1:ui>
+                  <ns1:font size="7pt" typeface="Arial" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para hAlign="right" vAlign="middle" />
+                  <ns1:assist>
+                     <ns1:speak disable="1" ns2:id="612E17BB-254F-4AE8-A848-D3806F376A0A" ns5:rid="612E17BB-254F-4AE8-A848-D3806F376A0A">Assets - Period-end Balance</ns1:speak>
+                  </ns1:assist>
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:calculate override="error" />
+                  <ns1:event activity="initialize" name="event__initialize">
+                     <ns1:script>//if (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "1") then
+//   this.format.picture.value = "num{zzzzzzzzzz9.9}"
+//elseif (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "0") then
+//   this.format.picture.value = "num{zzzzzzzzzz9}"
+//endif
+
+if ( count($record.GT_FORMLINES_AS.DATA[*].LINELEV) gt A ) then
+   if ($record.GT_FORMLINES_AS.DATA[A].LINETYPE eq "B") then
+//      this.format.picture.value = "zero{}"
+      this.rawValue = null
+   endif
+endif
+</ns1:script>
+                  </ns1:event>
+                  <ns1:bind match="dataRef" ref="$.SettingNode.Header.ItemAS.ItemNode_AS[*].Bsum" />
+                  </ns1:field>
+               <ns1:field access="readOnly" h="5mm" name="VSUM_AS" w="30mm">
+                  <ns1:ui>
+                     <ns1:textEdit>
+                        <ns1:border presence="hidden">
+                           </ns1:border>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                     <ns1:picture>zero{}|num.decimal{}</ns1:picture>
+                  </ns1:ui>
+                  <ns1:font size="7pt" typeface="Arial" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para hAlign="right" vAlign="middle" />
+                  <ns1:assist>
+                     <ns1:speak disable="1" ns2:id="7B5DB33A-13A2-4BA4-A94C-02AA2E6A1FD5" ns5:rid="7B5DB33A-13A2-4BA4-A94C-02AA2E6A1FD5">Assets - Year-beginning Balance</ns1:speak>
+                  </ns1:assist>
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:event activity="initialize" name="event__initialize">
+                     <ns1:script>//if (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "1") then
+//  this.format.picture.value = "num{zzzzzzzzzz9.9}"
+//elseif (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "0") then
+//   this.format.picture.value = "num{zzzzzzzzzz9}"
+//endif
+
+if ( count($record.GT_FORMLINES_AS.DATA[*].LINELEV) gt A ) then
+   if ($record.GT_FORMLINES_AS.DATA[A].LINETYPE eq "B") then
+//      this.format.picture.value = "zero{}"
+      this.rawValue = null
+   endif
+endif
+</ns1:script>
+                  </ns1:event>
+                  <ns1:bind match="dataRef" ref="$.SettingNode.Header.ItemAS.ItemNode_AS[*].Vsum" />
+                  </ns1:field>
+               <ns1:field access="readOnly" minH="5mm" name="LINETEXT_LE" w="30mm">
+                  <ns1:ui>
+                     <ns1:textEdit multiLine="1">
+                        <ns1:border presence="hidden">
+                           </ns1:border>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                  </ns1:ui>
+                  <ns1:font size="8pt" typeface="Arial" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para vAlign="middle" />
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:bind match="dataRef" ref="$.SettingNode.Header.ItemLE.ItemNode_LE[*].Linetext" />
+                  <ns1:event activity="initialize" name="event__initialize">
+                     <ns1:script>
+L = L + 1
+
+if ( count($record.GT_FORMLINES_LE.DATA[*].LINELEV) gt L ) then
+   this.margin.leftInset = concat( 0.5 + 2 * $record.GT_FORMLINES_LE.DATA[L].LINELEV, "mm")
+endif
+</ns1:script>
+                  </ns1:event>
+                  <ns1:assist>
+                     <ns1:speak disable="1" ns2:id="24FB61E6-08CE-479E-82B9-05B9C9560411" ns5:rid="24FB61E6-08CE-479E-82B9-05B9C9560411">Liabilities</ns1:speak>
+                  </ns1:assist>
+                  </ns1:field>
+               <ns1:field h="5mm" w="30mm">
+                  <ns1:font size="8pt" typeface="Arial" />
+                  <ns1:para hAlign="center" vAlign="middle" />
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:bind match="dataRef" ref="$.SettingNode.Header.ItemLE.ItemNode_LE[*].Linenrext" />
+                  <ns1:assist>
+                     <ns1:speak disable="1" />
+                  </ns1:assist>
+                  
+               </ns1:field>
+               <ns1:field access="readOnly" h="5mm" name="BSUM_LE" w="30mm">
+                  <ns1:ui>
+                     <ns1:textEdit>
+                        <ns1:border presence="hidden">
+                           </ns1:border>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                  </ns1:ui>
+                  <ns1:font size="7pt" typeface="Arial" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para hAlign="right" vAlign="middle" />
+                  <ns1:assist>
+                     <ns1:speak disable="1" ns2:id="D21918DB-7CE3-4B9C-9292-32B81A62683B" ns5:rid="D21918DB-7CE3-4B9C-9292-32B81A62683B">Liabilities - Period-end Balance</ns1:speak>
+                  </ns1:assist>
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:event activity="initialize" name="event__initialize">
+                     <ns1:script>//if (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "1") then
+//   this.format.picture.value = "num{zzzzzzzzzz9.9}"
+//elseif (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "0") then
+//   this.format.picture.value = "num{zzzzzzzzzz9}"
+//endif
+
+if ( count($record.GT_FORMLINES_LE.DATA[*].LINELEV) gt L ) then
+   if ($record.GT_FORMLINES_LE.DATA[L].LINETYPE eq "B") then
+//      this.format.picture.value = "zero{}"
+      this.rawValue = null
+   endif
+endif
+</ns1:script>
+                  </ns1:event>
+                  <ns1:bind match="dataRef" ref="$.SettingNode.Header.ItemLE.ItemNode_LE[*].Bsum" />
+                  </ns1:field>
+               <ns1:field access="readOnly" h="5mm" name="VSUM_LE" w="30mm">
+                  <ns1:ui>
+                     <ns1:textEdit>
+                        <ns1:border presence="hidden">
+                           </ns1:border>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                  </ns1:ui>
+                  <ns1:font size="7pt" typeface="Arial" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para hAlign="right" vAlign="middle" />
+                  <ns1:assist>
+                     <ns1:speak disable="1" ns2:id="AE871168-9AB1-4194-90AB-D0EE8DA03825" ns5:rid="AE871168-9AB1-4194-90AB-D0EE8DA03825">Liabilities - Year-beginning Balance</ns1:speak>
+                  </ns1:assist>
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:event activity="initialize" name="event__initialize">
+                     <ns1:script>//if (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "1") then
+ //  this.format.picture.value = "num{zzzzzzzzzz9.9}"
+//elseif (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "0") then
+//   this.format.picture.value = "num{zzzzzzzzzz9}"
+//endif
+
+if ( count($record.GT_FORMLINES_LE.DATA[*].LINELEV) gt L ) then
+   if ($record.GT_FORMLINES_LE.DATA[L].LINETYPE eq "B") then
+//      this.format.picture.value = "zero{}"
+      this.rawValue = null
+   endif
+endif
+</ns1:script>
+                  </ns1:event>
+                  <ns1:bind match="dataRef" ref="$.SettingNode.Header.ItemLE.ItemNode_LE[*].Vsum" />
+                  </ns1:field>
+               <ns1:border>
+                  <ns1:edge presence="hidden" />
+               </ns1:border>
+               <ns1:bind match="none" ref="$.SettingNode.Header.ItemLE.ItemNode_LE[*].Vsum" />
+               <ns1:occur max="44" />
+               </ns1:subform>
+            
+            <ns1:break overflowLeader="#HeaderRow_ID_copy1_copy2" />
+            <ns1:bind match="none" ref="$.SettingNode.Header.ItemLE.ItemNode_LE[*].Vsum" />
+            <ns1:assist>
+               <ns1:speak disable="1" />
+            </ns1:assist>
+            </ns1:subform>
+         <ns1:bind match="none" ref="$.SettingNode.Header.ItemLE.ItemNode_LE[*].Vsum" />
+         <ns1:occur max="-1" min="0" />
+         <ns1:event activity="initialize" name="event__initialize">
+            <ns1:script>
+if ( $record.GS_FORMHDR.BILATYPE eq "I" or $record.GV_ORIENT eq "L" ) then
+  data.Balance.presence = "hidden"
+endif
+
+if ($record.GS_FORMHDR.GSBER eq null) then
+   data.Balance.GSBER.presence = "hidden"
+  else
+   data.Balance.GSBER.presence = "visible"
+endif
+
+if ($record.GS_FORMHDR.PRCTR eq null) then
+   data.Balance.PRCTR.presence = "hidden"
+  else
+   data.Balance.PRCTR.presence = "visible"
+endif
+</ns1:script>
+         </ns1:event>
+         </ns1:subform>
+      <ns1:subform h="284.3001mm" name="Income" w="197.3mm">
+         <ns1:draw h="7mm" name="Title" w="2.875in" x="63.65mm">
+            <ns1:ui>
+               <ns1:textEdit>
+                  <ns1:margin />
+               </ns1:textEdit>
+            </ns1:ui>
+            <ns1:value>
+               <ns1:text ns2:id="N1739" ns5:rid="N1739">Income Statement</ns1:text>
+            </ns1:value>
+            <ns1:font baselineShift="0pt" size="14pt" typeface="Arial" weight="bold" />
+            <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+            <ns1:para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" />
+            
+            </ns1:draw>
+         <ns1:draw h="0.25in" name="Report_ID" w="2.022097in" x="145.939mm" y="6.35mm">
+            <ns1:ui>
+               <ns1:textEdit>
+                  <ns1:margin />
+               </ns1:textEdit>
+            </ns1:ui>
+            <ns1:value>
+               <ns1:text ns2:id="N2368" ns5:rid="N2368">Enterprise accounting report 02</ns1:text>
+            </ns1:value>
+            <ns1:font baselineShift="0pt" typeface="Arial" />
+            <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+            <ns1:para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" />
+            
+            </ns1:draw>
+         <ns1:field access="readOnly" h="6mm" name="GSBER" w="47.62mm" y="10.991mm">
+            <ns1:ui>
+               <ns1:textEdit>
+                  <ns1:border presence="hidden">
+                     </ns1:border>
+                  <ns1:margin />
+               </ns1:textEdit>
+            </ns1:ui>
+            <ns1:font typeface="Arial" />
+            <ns1:margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm" />
+            <ns1:para vAlign="middle" />
+            <ns1:caption reserve="32.7309mm">
+               <ns1:font baselineShift="0pt" typeface="Arial" />
+               <ns1:para hAlign="right" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle" />
+               <ns1:value>
+                  <ns1:text ns2:id="N1313" ns5:rid="E211F2AD-39B4-4E36-AE70-D043D4B26E94">Business Area:</ns1:text>
+               </ns1:value>
+            </ns1:caption>
+            <ns1:bind match="dataRef" ref="$.SettingNode.Header.Gsber" />
+            <ns1:desc>
+               <ns1:text name="Schema Annotation">Business Area</ns1:text>
+            </ns1:desc>
+            <ns1:assist>
+               <ns1:speak priority="caption" />
+            </ns1:assist>
+            </ns1:field>
+         <ns1:field access="readOnly" h="6mm" name="PRCTR" w="72.636mm" y="16.777mm">
+            <ns1:ui>
+               <ns1:textEdit>
+                  <ns1:border presence="hidden">
+                     </ns1:border>
+                  <ns1:margin />
+               </ns1:textEdit>
+            </ns1:ui>
+            <ns1:font typeface="Arial" />
+            <ns1:margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm" />
+            <ns1:para vAlign="middle" />
+            <ns1:caption reserve="32.7309mm">
+               <ns1:font baselineShift="0pt" typeface="Arial" />
+               <ns1:para hAlign="right" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle" />
+               <ns1:value>
+                  <ns1:text ns2:id="N1313" ns5:rid="E231DD51-DDBB-4392-A8FE-48846B360141">Profit Center:</ns1:text>
+               </ns1:value>
+            </ns1:caption>
+            <ns1:bind match="dataRef" ref="$.SettingNode.Header.Prctr" />
+            <ns1:desc>
+               <ns1:text name="Schema Annotation">Business Area</ns1:text>
+            </ns1:desc>
+            <ns1:assist>
+               <ns1:speak priority="caption" />
+            </ns1:assist>
+            </ns1:field>
+         <ns1:field access="readOnly" h="6mm" name="COMPANY" w="79.375mm" y="22.506mm">
+            <ns1:ui>
+               <ns1:textEdit>
+                  <ns1:border presence="hidden">
+                     </ns1:border>
+                  <ns1:margin />
+               </ns1:textEdit>
+            </ns1:ui>
+            <ns1:font typeface="Arial" />
+            <ns1:margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm" />
+            <ns1:para vAlign="middle" />
+            <ns1:caption reserve="32.7309mm">
+               <ns1:font baselineShift="0pt" typeface="Arial" />
+               <ns1:para hAlign="right" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle" />
+               <ns1:value>
+                  <ns1:text ns2:id="N2328" ns5:rid="N2328">Reporting company:</ns1:text>
+               </ns1:value>
+            </ns1:caption>
+            <ns1:bind match="dataRef" ref="$.SettingNode.Header.Company" />
+            <ns1:value>
+               <ns1:text maxChars="30" />
+            </ns1:value>
+            <ns1:desc>
+               <ns1:text name="Schema Annotation">Company name</ns1:text>
+            </ns1:desc>
+            <ns1:assist>
+               <ns1:speak priority="caption" />
+            </ns1:assist>
+            </ns1:field>
+         <ns1:subform h="9.044mm" name="EN_FORMAT" w="48.869mm" x="88.082mm" y="19.389mm">
+            <ns1:bind match="none" ref="$.SettingNode.Header.Company" />
+            <ns1:field access="readOnly" h="9.0001mm" name="CYEAR" w="25.4mm" y="0mm">
+               <ns1:ui>
+                  <ns1:textEdit>
+                     <ns1:border presence="hidden">
+                        </ns1:border>
+                     <ns1:margin />
+                  </ns1:textEdit>
+               </ns1:ui>
+               <ns1:font typeface="Arial" />
+               <ns1:margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm" />
+               <ns1:para vAlign="middle" />
+               <ns1:caption reserve="10.3371mm">
+                  <ns1:para vAlign="middle" />
+                  <ns1:value>
+                     <ns1:text ns2:id="N2131" ns5:rid="N2131">Year:</ns1:text>
+                  </ns1:value>
+               </ns1:caption>
+               <ns1:bind match="dataRef" ref="$.SettingNode.Header.Vperiod_D" />
+               <ns1:value>
+                  <ns1:text maxChars="4" />
+               </ns1:value>
+               <ns1:desc>
+                  <ns1:text name="Schema Annotation">Fiscal Year</ns1:text>
+               </ns1:desc>
+               <ns1:assist>
+                  <ns1:speak priority="caption" />
+               </ns1:assist>
+               </ns1:field>
+            <ns1:field access="readOnly" h="9.0001mm" name="CMONTH" w="25.4mm" x="23mm" y="0mm">
+               <ns1:ui>
+                  <ns1:textEdit>
+                     <ns1:border presence="hidden">
+                        </ns1:border>
+                     <ns1:margin />
+                  </ns1:textEdit>
+               </ns1:ui>
+               <ns1:font typeface="Arial" />
+               <ns1:margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm" />
+               <ns1:para vAlign="middle" />
+               <ns1:caption reserve="11.4156mm">
+                  <ns1:para vAlign="middle" />
+                  <ns1:value>
+                     <ns1:text ns2:id="N2197" ns5:rid="N2197">Month:</ns1:text>
+                  </ns1:value>
+               </ns1:caption>
+               <ns1:bind match="dataRef" ref="$.SettingNode.Header.Bperiod_D" />
+               <ns1:value>
+                  <ns1:text maxChars="2" />
+               </ns1:value>
+               <ns1:desc>
+                  <ns1:text name="Schema Annotation">Fiscal Period</ns1:text>
+               </ns1:desc>
+               <ns1:assist>
+                  <ns1:speak priority="caption" />
+               </ns1:assist>
+               </ns1:field>
+            <ns1:event activity="initialize" name="event__initialize">
+               <ns1:script>//log on in ZH: EN_FORMAT hidden while ZH_FORMAT shown
+if ( $record.GV_LANGU eq "ZH" )
+then
+  this.presence = "hidden";
+endif
+
+</ns1:script>
+            </ns1:event>
+            </ns1:subform>
+         <ns1:subform h="9.044mm" name="ZH_FORMAT" w="48.514mm" x="88.26mm" y="19.307mm">
+            <ns1:bind match="none" ref="$.SettingNode.Header.Bperiod_D" />
+            <ns1:field access="readOnly" h="9mm" name="CYEAR" w="20.511mm" x="7.231mm">
+               <ns1:ui>
+                  <ns1:textEdit>
+                     <ns1:border presence="hidden">
+                        </ns1:border>
+                     <ns1:margin />
+                  </ns1:textEdit>
+               </ns1:ui>
+               <ns1:font typeface="Arial" />
+               <ns1:margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm" />
+               <ns1:para hAlign="right" vAlign="middle" />
+               <ns1:caption placement="right" reserve="10mm">
+                  <ns1:para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle" />
+                  <ns1:value>
+                     <ns1:text ns5:rid="6916D8C0-7F77-44B7-A8E6-94B3C2370735">Year</ns1:text>
+                  </ns1:value>
+                  <ns1:font baselineShift="0pt" typeface="Arial" />
+               </ns1:caption>
+               <ns1:bind match="dataRef" ref="$.SettingNode.Header.Vperiod_D" />
+               <ns1:value>
+                  <ns1:text maxChars="4" />
+               </ns1:value>
+               <ns1:desc>
+                  <ns1:text name="Schema Annotation">Fiscal Year</ns1:text>
+               </ns1:desc>
+               <ns1:assist>
+                  <ns1:speak priority="caption" />
+               </ns1:assist>
+               </ns1:field>
+            <ns1:field access="readOnly" h="9mm" name="CMONTH" w="16.013mm" x="23mm">
+               <ns1:ui>
+                  <ns1:textEdit>
+                     <ns1:border presence="hidden">
+                        </ns1:border>
+                     <ns1:margin />
+                  </ns1:textEdit>
+               </ns1:ui>
+               <ns1:font typeface="Arial" />
+               <ns1:margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm" />
+               <ns1:para hAlign="right" vAlign="middle" />
+               <ns1:caption placement="right" reserve="10mm">
+                  <ns1:para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle" />
+                  <ns1:value>
+                     <ns1:text ns5:rid="4FE8A2B4-A609-4312-9E6C-8244AD63F815">Month</ns1:text>
+                  </ns1:value>
+                  <ns1:font baselineShift="0pt" typeface="Arial" />
+               </ns1:caption>
+               <ns1:bind match="dataRef" ref="$.SettingNode.Header.Bperiod_D" />
+               <ns1:value>
+                  <ns1:text maxChars="2" />
+               </ns1:value>
+               <ns1:desc>
+                  <ns1:text name="Schema Annotation">Fiscal Period</ns1:text>
+               </ns1:desc>
+               <ns1:assist>
+                  <ns1:speak priority="caption" />
+               </ns1:assist>
+               </ns1:field>
+            <ns1:event activity="initialize" name="event__initialize">
+               <ns1:script>//log on in non-ZH: EN_FORMAT shown while ZH_FORMAT hidden
+if ( $record.GV_LANGU ne "ZH" )
+then
+  this.presence = "hidden";
+endif
+
+</ns1:script>
+            </ns1:event>
+            </ns1:subform>
+         <ns1:field access="readOnly" h="9mm" name="CURRENCY" w="50.911mm" x="145.939mm" y="19.65mm">
+            <ns1:ui>
+               <ns1:textEdit multiLine="1">
+                  <ns1:border presence="hidden">
+                     </ns1:border>
+                  <ns1:margin />
+               </ns1:textEdit>
+            </ns1:ui>
+            <ns1:font typeface="Arial" />
+            <ns1:margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm" />
+            <ns1:para vAlign="middle" />
+            <ns1:caption reserve="16.6256mm">
+               <ns1:para hAlign="right" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle" />
+               <ns1:value>
+                  <ns1:text ns2:id="N2263" ns5:rid="N2263">Currency:</ns1:text>
+               </ns1:value>
+               <ns1:font baselineShift="0pt" typeface="Arial" />
+            </ns1:caption>
+            <ns1:bind match="dataRef" ref="$.SettingNode.Header.Currency" />
+            <ns1:desc>
+               <ns1:text name="Schema Annotation">Currency Key</ns1:text>
+            </ns1:desc>
+            <ns1:assist>
+               <ns1:speak priority="caption" />
+            </ns1:assist>
+            </ns1:field>
+         <ns1:bind match="none" ref="$.SettingNode.Header.Currency" />
+         <ns1:subform columnWidths="115mm 12.064mm 35mm 35mm" layout="table" name="Table" y="28.65mm">
+            
+            <ns1:border>
+               <ns1:edge />
+            </ns1:border>
+            <ns1:subform id="HeaderRow_ID_copy1_copy2_copy1" layout="row" name="HeaderRow">
+               <ns1:assist role="TH" />
+               <ns1:draw h="12mm" name="TEXT45_PL" w="30mm">
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:ui>
+                     <ns1:textEdit>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                  </ns1:ui>
+                  <ns1:value>
+                     <ns1:text ns2:id="N2215-1141" ns5:rid="N2215-1141">Item</ns1:text>
+                  </ns1:value>
+                  <ns1:font size="8pt" typeface="Arial" weight="bold" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para hAlign="center" vAlign="middle" />
+               </ns1:draw>
+               <ns1:draw h="12mm" name="LINENR_PL" w="30mm">
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:ui>
+                     <ns1:textEdit>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                  </ns1:ui>
+                  <ns1:value>
+                     <ns1:text ns2:id="N608" ns5:rid="D61E6290-361A-4E06-8963-05107BEDED14">No</ns1:text>
+                  </ns1:value>
+                  <ns1:font size="8pt" typeface="Arial" weight="bold" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para hAlign="center" vAlign="middle" />
+               </ns1:draw>
+               <ns1:draw h="12mm" name="BSUM_PL" w="30mm">
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:ui>
+                     <ns1:textEdit>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                  </ns1:ui>
+                  <ns1:value>
+                     <ns1:text ns2:id="N2044" ns5:rid="N2044">Current Period</ns1:text>
+                  </ns1:value>
+                  <ns1:font baselineShift="0pt" size="8pt" typeface="Arial" weight="bold" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle" />
+               </ns1:draw>
+               <ns1:field access="readOnly" minH="12mm" name="GV_VSUM_PL" w="32mm">
+                  <ns1:ui>
+                     <ns1:textEdit>
+                        <ns1:border presence="hidden">
+                           </ns1:border>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                  </ns1:ui>
+                  <ns1:font size="8pt" typeface="Arial" weight="bold" />
+                  <ns1:margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm" />
+                  <ns1:para hAlign="center" vAlign="middle" />
+                  <ns1:value>
+                     <ns1:text maxChars="12" />
+                  </ns1:value>
+                  <ns1:bind match="dataRef" ref="$.GV_VSUM_PL" />
+                  <ns1:desc>
+                     <ns1:text name="Schema Annotation">Character Field of Length 12</ns1:text>
+                  </ns1:desc>
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:assist>
+                     <ns1:speak priority="caption" />
+                     <ns1:toolTip ns5:rid="AEBBBEB3-45CF-4A63-9E75-843A8EEDD8D6">Period Name</ns1:toolTip>
+                  </ns1:assist>
+                  </ns1:field>
+               <ns1:border>
+                  <ns1:edge presence="hidden" />
+               </ns1:border>
+               <ns1:occur max="-1" />
+               <ns1:bind match="none" />
+               </ns1:subform>
+            <ns1:subform layout="row" name="Row">
+               <ns1:assist role="TR" />
+               <ns1:field access="readOnly" minH="6mm" name="LINETEXT_PL" w="30mm">
+                  <ns1:ui>
+                     <ns1:textEdit multiLine="1">
+                        <ns1:border presence="hidden">
+                           </ns1:border>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                  </ns1:ui>
+                  <ns1:font size="8pt" typeface="Arial" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para vAlign="middle" />
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:bind match="dataRef" ref="$.SettingNode.Header.ItemPL.ItemNode_PL[*].Linetext" />
+                  <ns1:assist>
+                     <ns1:speak disable="1" ns2:id="4E4FB1D0-B7D0-471A-A07B-CE71A0737BA0" ns5:rid="4E4FB1D0-B7D0-471A-A07B-CE71A0737BA0">Item</ns1:speak>
+                  </ns1:assist>
+                  <ns1:event activity="initialize" name="event__initialize">
+                     <ns1:script>
+P = P + 1
+
+this.margin.leftInset = concat(0.5 + 2 * $record.GT_FORMLINES_PL.DATA[P].LINELEV, "mm")
+</ns1:script>
+                  </ns1:event>
+                  </ns1:field>
+               <ns1:field access="readOnly" h="6mm" name="LINENR_PL" w="30mm">
+                  <ns1:ui>
+                     <ns1:textEdit>
+                        <ns1:border presence="hidden">
+                           </ns1:border>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                  </ns1:ui>
+                  <ns1:font size="8pt" typeface="Arial" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para hAlign="center" vAlign="middle" />
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:bind match="dataRef" ref="$.SettingNode.Header.ItemPL.ItemNode_PL[*].Linenrext" />
+                  <ns1:calculate override="error" />
+                  <ns1:assist>
+                     <ns1:speak disable="1" ns2:id="EFC134DA-5190-4E8B-B817-DF3A4EAE45B2" ns5:rid="EFC134DA-5190-4E8B-B817-DF3A4EAE45B2">Number</ns1:speak>
+                  </ns1:assist>
+                  </ns1:field>
+               <ns1:field access="readOnly" h="6mm" name="BSUM_PL" w="30mm">
+                  <ns1:ui>
+                     <ns1:textEdit>
+                        <ns1:border presence="hidden">
+                           </ns1:border>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                  </ns1:ui>
+                  <ns1:font size="8pt" typeface="Arial" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para hAlign="right" vAlign="middle" />
+                  <ns1:assist>
+                     <ns1:speak disable="1" ns2:id="459F2280-1712-4003-B040-6E34C97DC33E" ns5:rid="459F2280-1712-4003-B040-6E34C97DC33E">Current Period</ns1:speak>
+                  </ns1:assist>
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:calculate override="error" />
+                  <ns1:event activity="initialize" name="event__initialize">
+                     <ns1:script>//if (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "1") then
+ //  this.format.picture.value = "num{zzzzzzzzzz9.9}"
+//elseif (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "0") then
+//   this.format.picture.value = "num{zzzzzzzzzz9}"
+//endif
+
+if ($record.GT_FORMLINES_PL.DATA[P].LINETYPE eq "B") then
+ //  this.format.picture.value = "zero{}"
+   this.rawValue = null
+endif
+</ns1:script>
+                  </ns1:event>
+                  <ns1:bind match="dataRef" ref="$.SettingNode.Header.ItemPL.ItemNode_PL[*].Bsum" />
+                  </ns1:field>
+               <ns1:field access="readOnly" h="6mm" name="VSUM_PL" w="30mm">
+                  <ns1:ui>
+                     <ns1:textEdit>
+                        <ns1:border presence="hidden">
+                           </ns1:border>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                     <ns1:picture>num{zzzzzzzzzz9.99}</ns1:picture>
+                  </ns1:ui>
+                  <ns1:font size="8pt" typeface="Arial" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para hAlign="right" vAlign="middle" />
+                  <ns1:assist>
+                     <ns1:speak disable="1" ns2:id="4097BF42-A810-4B4D-AD35-DDD2B60F7092" ns5:rid="4097BF42-A810-4B4D-AD35-DDD2B60F7092">Last Period</ns1:speak>
+                  </ns1:assist>
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:event activity="initialize" name="event__initialize">
+                     <ns1:script>//if (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "1") then
+//   this.format.picture.value = "num{zzzzzzzzzz9.9}"
+//elseif (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "0") then
+//   this.format.picture.value = "num{zzzzzzzzzz9}"
+//endif
+
+if ($record.GT_FORMLINES_PL.DATA[P].LINETYPE eq "B") then
+//   this.format.picture.value = "zero{}"
+   this.rawValue = null
+endif
+</ns1:script>
+                  </ns1:event>
+                  <ns1:bind match="dataRef" ref="$.SettingNode.Header.ItemPL.ItemNode_PL[*].Vsum" />
+                  </ns1:field>
+               <ns1:border>
+                  <ns1:edge presence="hidden" />
+               </ns1:border>
+               <ns1:bind match="none" ref="$.SettingNode.Header.ItemPL.ItemNode_PL[*].Vsum" />
+               <ns1:occur max="44" />
+               </ns1:subform>
+            <ns1:break overflowLeader="#HeaderRow_ID_copy1_copy2" />
+            <ns1:bind match="none" ref="$.SettingNode.Header.ItemPL.ItemNode_PL[*].Vsum" />
+            <ns1:assist>
+               <ns1:speak disable="1" />
+            </ns1:assist>
+            </ns1:subform>
+         <ns1:occur max="-1" />
+         <ns1:event activity="initialize" name="event__initialize">
+            <ns1:script>
+if ( $record.GS_FORMHDR.BILATYPE eq "B" or $record.GV_ORIENT eq "L") then
+  data.Income.presence = "hidden"
+endif
+
+if ($record.GS_FORMHDR.GSBER eq null) then
+   data.Income.GSBER.presence = "hidden"
+  else
+   data.Income.GSBER.presence = "visible"
+endif
+
+if ($record.GS_FORMHDR.PRCTR eq null) then
+   data.Income.PRCTR.presence = "hidden"
+  else
+   data.Income.PRCTR.presence = "visible"
+endif
+</ns1:script>
+         </ns1:event>
+         </ns1:subform>
+      <ns1:subform h="203mm" name="Balance_L" w="287.132mm">
+         <ns1:break after="pageArea" afterTarget="#6f084e43-48f2-11e2-893f-70f3950cb3ea" before="pageArea" beforeTarget="#6f084e43-48f2-11e2-893f-70f3950cb3ea" />
+         <ns1:bind match="none" ref="$.SettingNode.Header.ItemPL.ItemNode_PL[*].Vsum" />
+         <ns1:draw h="7mm" name="Title" w="2.875in" x="107.349mm" y="0.175mm">
+            <ns1:ui>
+               <ns1:textEdit />
+            </ns1:ui>
+            <ns1:value>
+               <ns1:text ns2:id="N1187" ns5:rid="C1441C64-9B64-4DA6-B365-8564DBEEE9B4">Balance Sheet</ns1:text>
+            </ns1:value>
+            <ns1:font baselineShift="0pt" size="14pt" typeface="Arial" weight="bold" />
+            <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+            <ns1:para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" />
+            
+            </ns1:draw>
+         <ns1:draw h="6mm" name="Report_ID" w="51mm" x="236.082mm" y="6.55mm">
+            <ns1:ui>
+               <ns1:textEdit />
+            </ns1:ui>
+            <ns1:value>
+               <ns1:text ns2:id="N1246" ns5:rid="EC8E860F-21FC-45E1-8FAB-992D7E523444">Enterprise accounting report 01</ns1:text>
+            </ns1:value>
+            <ns1:font baselineShift="0pt" typeface="Arial" />
+            <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+            <ns1:para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" />
+            
+            </ns1:draw>
+         <ns1:field access="readOnly" h="6mm" name="GSBER" w="48.628mm" x="0.297mm" y="6.55mm">
+            <ns1:ui>
+               <ns1:textEdit>
+                  <ns1:border presence="hidden">
+                     </ns1:border>
+                  <ns1:margin />
+               </ns1:textEdit>
+            </ns1:ui>
+            <ns1:font typeface="Arial" />
+            <ns1:margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm" />
+            <ns1:para vAlign="middle" />
+            <ns1:caption reserve="32.7309mm">
+               <ns1:font baselineShift="0pt" typeface="Arial" />
+               <ns1:para hAlign="right" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle" />
+               <ns1:value>
+                  <ns1:text ns2:id="N1313" ns5:rid="32476FD8-7B36-446C-A0DE-42C4F884F232">Business Area:</ns1:text>
+               </ns1:value>
+            </ns1:caption>
+            <ns1:bind match="dataRef" ref="$.SettingNode.Header.Gsber" />
+            <ns1:desc>
+               <ns1:text name="Schema Annotation">Business Area</ns1:text>
+            </ns1:desc>
+            <ns1:assist>
+               <ns1:speak priority="caption" />
+            </ns1:assist>
+            </ns1:field>
+         <ns1:field access="readOnly" h="6mm" name="PRCTR" w="73.633mm" x="0.297mm" y="12.55mm">
+            <ns1:ui>
+               <ns1:textEdit>
+                  <ns1:border presence="hidden">
+                     </ns1:border>
+                  <ns1:margin />
+               </ns1:textEdit>
+            </ns1:ui>
+            <ns1:font typeface="Arial" />
+            <ns1:margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm" />
+            <ns1:para vAlign="middle" />
+            <ns1:caption reserve="32.7309mm">
+               <ns1:font baselineShift="0pt" typeface="Arial" />
+               <ns1:para hAlign="right" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle" />
+               <ns1:value>
+                  <ns1:text ns2:id="N1313" ns5:rid="59F70C68-7E9C-4B56-99DB-2A982EAA2E9A">Profit Center:</ns1:text>
+               </ns1:value>
+            </ns1:caption>
+            <ns1:bind match="dataRef" ref="$.SettingNode.Header.Prctr" />
+            <ns1:desc>
+               <ns1:text name="Schema Annotation">Business Area</ns1:text>
+            </ns1:desc>
+            <ns1:assist>
+               <ns1:speak priority="caption" />
+            </ns1:assist>
+            </ns1:field>
+         <ns1:field access="readOnly" h="6mm" name="COMPANY" w="79.375mm" x="0.297mm" y="18.55mm">
+            <ns1:ui>
+               <ns1:textEdit>
+                  <ns1:border presence="hidden">
+                     </ns1:border>
+                  <ns1:margin />
+               </ns1:textEdit>
+            </ns1:ui>
+            <ns1:font typeface="Arial" />
+            <ns1:margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm" />
+            <ns1:para vAlign="middle" />
+            <ns1:caption reserve="32.7309mm">
+               <ns1:font baselineShift="0pt" typeface="Arial" />
+               <ns1:para hAlign="right" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle" />
+               <ns1:value>
+                  <ns1:text ns2:id="N1313" ns5:rid="D3AC629C-BAAE-4A7D-8EC4-8E5BA742A2A1">Reporting company:</ns1:text>
+               </ns1:value>
+            </ns1:caption>
+            <ns1:bind match="dataRef" ref="$.SettingNode.Header.Company" />
+            <ns1:value>
+               <ns1:text maxChars="30" />
+            </ns1:value>
+            <ns1:desc>
+               <ns1:text name="Schema Annotation">Company name</ns1:text>
+            </ns1:desc>
+            <ns1:assist>
+               <ns1:speak priority="caption" />
+            </ns1:assist>
+            </ns1:field>
+         <ns1:field access="readOnly" h="6mm" name="CURRENCY" w="51.084mm" x="236.048mm" y="18.55mm">
+            <ns1:ui>
+               <ns1:textEdit multiLine="1">
+                  <ns1:border presence="hidden">
+                     </ns1:border>
+                  <ns1:margin />
+               </ns1:textEdit>
+            </ns1:ui>
+            <ns1:font typeface="Arial" />
+            <ns1:margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm" />
+            <ns1:para vAlign="middle" />
+            <ns1:caption reserve="16.7672mm">
+               <ns1:para hAlign="right" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle" />
+               <ns1:value>
+                  <ns1:text ns2:id="N1511" ns5:rid="2DFA26A0-AD45-4B6B-8FF8-FD934A37A73C">Currency:</ns1:text>
+               </ns1:value>
+               <ns1:font baselineShift="0pt" typeface="Arial" />
+            </ns1:caption>
+            <ns1:bind match="dataRef" ref="$.SettingNode.Header.Currency" />
+            <ns1:desc>
+               <ns1:text name="Schema Annotation">Currency Key</ns1:text>
+            </ns1:desc>
+            <ns1:assist>
+               <ns1:speak priority="caption" />
+            </ns1:assist>
+            </ns1:field>
+         <ns1:subform columnWidths="46.5mm 6mm 45.5mm 45.5mm 46.5mm 6mm 45.5mm 45.5mm" layout="table" name="Table" x="0.132mm" y="24.521mm">
+            <ns1:border>
+               <ns1:edge />
+            </ns1:border>
+            <ns1:subform id="HeaderRow_ID" layout="row" name="HeaderRow">
+               <ns1:assist role="TH" />
+               <ns1:draw h="6mm" name="TEXT45_AS" w="30mm">
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:ui>
+                     <ns1:textEdit>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                  </ns1:ui>
+                  <ns1:value>
+                     <ns1:text ns2:id="N566" ns5:rid="3B0E69C1-2858-4EF5-883A-ADFFF91A7D3F">Assets</ns1:text>
+                  </ns1:value>
+                  <ns1:font size="8pt" typeface="Arial" weight="bold" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para hAlign="center" vAlign="middle" />
+               </ns1:draw>
+               <ns1:draw h="6mm" name="LINENR_AS" w="30mm">
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:ui>
+                     <ns1:textEdit>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                  </ns1:ui>
+                  <ns1:value>
+                     <ns1:text ns2:id="N608" ns5:rid="609CE942-0ADA-4C52-AB9F-88C2431DD1B0">No</ns1:text>
+                  </ns1:value>
+                  <ns1:font size="8pt" typeface="Arial" weight="bold" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para hAlign="center" vAlign="middle" />
+               </ns1:draw>
+               <ns1:draw minH="6mm" name="BSUM_AS" w="21.325mm">
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:ui>
+                     <ns1:textEdit>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                  </ns1:ui>
+                  <ns1:value>
+                     <ns1:text ns2:id="N710" ns5:rid="A7F2A4AA-0D72-4CD1-AAD7-E5CA188E9D7D">Period-end Balance</ns1:text>
+                  </ns1:value>
+                  <ns1:font size="8pt" typeface="Arial" weight="bold" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para hAlign="center" vAlign="middle" />
+               </ns1:draw>
+               <ns1:draw h="6mm" name="VSUM_AS" w="30mm">
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:ui>
+                     <ns1:textEdit>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                  </ns1:ui>
+                  <ns1:value>
+                     <ns1:text ns2:id="N710" ns5:rid="9294E27B-0EEF-4CEC-BE09-16AB42E1804F">Year-beginning Balance</ns1:text>
+                  </ns1:value>
+                  <ns1:font size="8pt" typeface="Arial" weight="bold" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para hAlign="center" vAlign="middle" />
+               </ns1:draw>
+               <ns1:draw h="6mm" name="TEXT45_LE" w="30mm">
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:ui>
+                     <ns1:textEdit>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                  </ns1:ui>
+                  <ns1:value>
+                     <ns1:text ns2:id="N752" ns5:rid="DB1F9807-3C83-4A92-AD3C-636D85BD7F88">Liabilities and Owner's Equity</ns1:text>
+                  </ns1:value>
+                  <ns1:font size="8pt" typeface="Arial" weight="bold" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para hAlign="center" vAlign="middle" />
+               </ns1:draw>
+               <ns1:draw h="6mm" name="LINENR_LE" w="30mm">
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:ui>
+                     <ns1:textEdit>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                  </ns1:ui>
+                  <ns1:value>
+                     <ns1:text ns2:id="N794" ns5:rid="AE3EEA1C-2698-433D-8B31-A5DC990CF152">No</ns1:text>
+                  </ns1:value>
+                  <ns1:font size="8pt" typeface="Arial" weight="bold" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para hAlign="center" vAlign="middle" />
+               </ns1:draw>
+               <ns1:draw minH="6mm" name="BSUM_LE" w="21.325mm">
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:ui>
+                     <ns1:textEdit>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                  </ns1:ui>
+                  <ns1:value>
+                     <ns1:text ns2:id="N894" ns5:rid="45C9A6CA-C919-4666-B279-C57390CE6B1B">Period-end Balance</ns1:text>
+                  </ns1:value>
+                  <ns1:font baselineShift="0pt" size="8pt" typeface="Arial" weight="bold" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle" />
+               </ns1:draw>
+               <ns1:draw h="6mm" name="VSUM_LE" w="30mm">
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:ui>
+                     <ns1:textEdit>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                  </ns1:ui>
+                  <ns1:value>
+                     <ns1:text ns2:id="N894" ns5:rid="D805CC0A-0A21-45A4-929B-EFDACFE6BC3A">Year-beginning Balance</ns1:text>
+                  </ns1:value>
+                  <ns1:font baselineShift="0pt" size="8pt" typeface="Arial" weight="bold" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle" />
+               </ns1:draw>
+               <ns1:border>
+                  <ns1:edge presence="hidden" />
+               </ns1:border>
+               <ns1:occur max="-1" />
+               <ns1:bind match="none" ref="$.SettingNode.Header.Currency" />
+               </ns1:subform>
+            <ns1:subform layout="row" name="Row">
+               <ns1:assist role="TR" />
+               <ns1:field access="readOnly" minH="4.8mm" name="LINETEXT_AS" w="30mm">
+                  <ns1:ui>
+                     <ns1:textEdit multiLine="1">
+                        <ns1:border presence="hidden">
+                           </ns1:border>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                  </ns1:ui>
+                  <ns1:font size="8pt" typeface="Arial" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para vAlign="middle" />
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:bind match="dataRef" ref="$.SettingNode.Header.ItemAS.ItemNode_AS1[*].Linetext" />
+                  <ns1:desc>
+                     <ns1:text name="Schema Annotation">ZJF Line description</ns1:text>
+                  </ns1:desc>
+                  <ns1:assist>
+                     <ns1:speak disable="1" ns2:id="B466038D-D706-48F7-9745-3A736234BF71" ns5:rid="AFE36CB9-9AD9-4880-8881-27FC85DA6A4A">Assets</ns1:speak>
+                  </ns1:assist>
+                  <ns1:event activity="initialize" name="event__initialize">
+                     <ns1:script>AL = AL + 1
+
+if ( count($record.GT_FORMLINES_AS1.DATA[*].LINELEV) gt AL ) then
+   this.margin.leftInset = concat( 0.5 + 2 * $record.GT_FORMLINES_AS1.DATA[AL].LINELEV, "mm")
+endif
+</ns1:script>
+                  </ns1:event>
+                  </ns1:field>
+               <ns1:field access="readOnly" h="4.8mm" name="LINENR_AS" w="30mm">
+                  <ns1:ui>
+                     <ns1:textEdit>
+                        <ns1:border presence="hidden">
+                           </ns1:border>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                  </ns1:ui>
+                  <ns1:font size="8pt" typeface="Arial" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para hAlign="center" vAlign="middle" />
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:bind match="dataRef" ref="$.SettingNode.Header.ItemAS.ItemNode_AS1[*].Linenrext" />
+                  <ns1:assist>
+                     <ns1:speak disable="1" ns2:id="618E8219-F172-4DEF-AA9F-322FF4C09CA3" ns5:rid="0916888E-8AD4-42C4-A354-3DE620C9E6E8">Assets - Number</ns1:speak>
+                  </ns1:assist>
+                  </ns1:field>
+               <ns1:field access="readOnly" h="4.8mm" name="BSUM_AS" w="30mm">
+                  <ns1:ui>
+                     <ns1:textEdit>
+                        <ns1:border presence="hidden">
+                           </ns1:border>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                     <ns1:picture>zero{}|num.decimal{}</ns1:picture>
+                  </ns1:ui>
+                  <ns1:font size="8pt" typeface="Arial" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para hAlign="right" vAlign="middle" />
+                  <ns1:assist>
+                     <ns1:speak disable="1" ns2:id="612E17BB-254F-4AE8-A848-D3806F376A0A" ns5:rid="C904083C-7B76-41BE-85BA-1AB642485DA7">Assets - Period-end Balance</ns1:speak>
+                  </ns1:assist>
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:calculate override="error" />
+                  <ns1:event activity="initialize" name="event__initialize">
+                     <ns1:script>//if (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "1") then
+//   this.format.picture.value = "num{zzzzzzzzzz9.9}"
+//elseif (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "0") then
+//   this.format.picture.value = "num{zzzzzzzzzz9}"
+//endif
+
+if ( count($record.GT_FORMLINES_AS1.DATA[*].LINELEV) gt A ) then
+   if ($record.GT_FORMLINES_AS1.DATA[A].LINETYPE eq "B") then
+//      this.format.picture.value = "zero{}"
+      this.rawValue = null
+   endif
+endif
+</ns1:script>
+                  </ns1:event>
+                  <ns1:bind match="dataRef" ref="$.SettingNode.Header.ItemAS.ItemNode_AS1[*].Bsum" />
+                  </ns1:field>
+               <ns1:field access="readOnly" h="4.8mm" name="VSUM_AS" w="30mm">
+                  <ns1:ui>
+                     <ns1:textEdit>
+                        <ns1:border presence="hidden">
+                           </ns1:border>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                     <ns1:picture>zero{}|num.decimal{}</ns1:picture>
+                  </ns1:ui>
+                  <ns1:font size="8pt" typeface="Arial" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para hAlign="right" vAlign="middle" />
+                  <ns1:assist>
+                     <ns1:speak disable="1" ns2:id="7B5DB33A-13A2-4BA4-A94C-02AA2E6A1FD5" ns5:rid="D4B3FDB4-B43E-4AA4-BA07-A5E8D2641BD0">Assets - Year-beginning Balance</ns1:speak>
+                  </ns1:assist>
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:event activity="initialize" name="event__initialize">
+                     <ns1:script>//if (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "1") then
+//  this.format.picture.value = "num{zzzzzzzzzz9.9}"
+//elseif (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "0") then
+//   this.format.picture.value = "num{zzzzzzzzzz9}"
+//endif
+
+if ( count($record.GT_FORMLINES_AS1.DATA[*].LINELEV) gt AL ) then
+   if ($record.GT_FORMLINES_AS1.DATA[AL].LINETYPE eq "B") then
+//      this.format.picture.value = "zero{}"
+      this.rawValue = null
+   endif
+endif
+</ns1:script>
+                  </ns1:event>
+                  <ns1:bind match="dataRef" ref="$.SettingNode.Header.ItemAS.ItemNode_AS1[*].Vsum" />
+                  </ns1:field>
+               <ns1:field access="readOnly" minH="4.8mm" name="LINETEXT_LE" w="30mm">
+                  <ns1:ui>
+                     <ns1:textEdit multiLine="1">
+                        <ns1:border presence="hidden">
+                           </ns1:border>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                  </ns1:ui>
+                  <ns1:font size="8pt" typeface="Arial" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para vAlign="middle" />
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:bind match="dataRef" ref="$.SettingNode.Header.ItemLE.ItemNode_LE1[*].Linetext" />
+                  <ns1:event activity="initialize" name="event__initialize">
+                     <ns1:script>
+LL = LL + 1
+
+if ( count($record.GT_FORMLINES_LE1.DATA[*].LINELEV) gt LL ) then
+   this.margin.leftInset = concat( 0.5 + 2 * $record.GT_FORMLINES_LE1.DATA[LL].LINELEV, "mm")
+endif
+</ns1:script>
+                  </ns1:event>
+                  <ns1:assist>
+                     <ns1:speak disable="1" ns2:id="24FB61E6-08CE-479E-82B9-05B9C9560411" ns5:rid="518C25CD-80FE-437C-B317-3D96F09AE22B">Liabilities</ns1:speak>
+                  </ns1:assist>
+                  </ns1:field>
+               <ns1:field h="4.8mm" w="30mm">
+                  <ns1:font size="8pt" typeface="Arial" />
+                  <ns1:para hAlign="center" vAlign="middle" />
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:bind match="dataRef" ref="$.SettingNode.Header.ItemLE.ItemNode_LE1[*].Linenrext" />
+                  <ns1:assist>
+                     <ns1:speak disable="1" />
+                  </ns1:assist>
+                  
+               </ns1:field>
+               <ns1:field access="readOnly" h="4.8mm" name="BSUM_LE" w="30mm">
+                  <ns1:ui>
+                     <ns1:textEdit hScrollPolicy="off">
+                        <ns1:border presence="hidden">
+                           </ns1:border>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                  </ns1:ui>
+                  <ns1:font size="8pt" typeface="Arial" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para hAlign="right" vAlign="middle" />
+                  <ns1:assist>
+                     <ns1:speak disable="1" ns2:id="D21918DB-7CE3-4B9C-9292-32B81A62683B" ns5:rid="A8F889F6-ADA8-4B37-9661-E0B5C113BBED">Liabilities - Period-end Balance</ns1:speak>
+                  </ns1:assist>
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:event activity="initialize" name="event__initialize">
+                     <ns1:script>//if (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "1") then
+//   this.format.picture.value = "num{zzzzzzzzzz9.9}"
+//elseif (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "0") then
+//   this.format.picture.value = "num{zzzzzzzzzz9}"
+//endif
+
+if ( count($record.GT_FORMLINES_LE1.DATA[*].LINELEV) gt LL ) then
+   if ($record.GT_FORMLINES_LE1.DATA[LL].LINETYPE eq "B") then
+//      this.format.picture.value = "zero{}"
+      this.rawValue = null
+   endif
+
+
+endif
+</ns1:script>
+                  </ns1:event>
+                  <ns1:bind match="dataRef" ref="$.SettingNode.Header.ItemLE.ItemNode_LE1[*].Bsum" />
+                  </ns1:field>
+               <ns1:field access="readOnly" h="4.8mm" name="VSUM_LE" w="30mm" x="-0.131mm">
+                  <ns1:ui>
+                     <ns1:textEdit hScrollPolicy="off">
+                        <ns1:border presence="hidden">
+                           </ns1:border>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                  </ns1:ui>
+                  <ns1:font size="8pt" typeface="Arial" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para hAlign="right" vAlign="middle" />
+                  <ns1:assist>
+                     <ns1:speak disable="1" ns2:id="AE871168-9AB1-4194-90AB-D0EE8DA03825" ns5:rid="729A82C3-3A37-479F-B2EB-BB276FB01F82">Liabilities - Year-beginning Balance</ns1:speak>
+                  </ns1:assist>
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:event activity="initialize" name="event__initialize">
+                     <ns1:script>//if (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "1") then
+ //  this.format.picture.value = "num{zzzzzzzzzz9.9}"
+//elseif (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "0") then
+//   this.format.picture.value = "num{zzzzzzzzzz9}"
+//endif
+
+if ( count($record.GT_FORMLINES_LE1.DATA[*].LINELEV) gt LL ) then
+   if ($record.GT_FORMLINES_LE1.DATA[LL].LINETYPE eq "B") then
+//      this.format.picture.value = "zero{}"
+      this.rawValue = null
+   endif
+endif
+</ns1:script>
+                  </ns1:event>
+                  <ns1:bind match="dataRef" ref="$.SettingNode.Header.ItemLE.ItemNode_LE1[*].Vsum" />
+                  </ns1:field>
+               <ns1:border>
+                  <ns1:edge presence="hidden" />
+               </ns1:border>
+               <ns1:bind match="none" ref="$.SettingNode.Header.ItemLE.ItemNode_LE1[*].Vsum" />
+               <ns1:occur max="44" />
+               </ns1:subform>
+            
+            <ns1:break overflowLeader="#HeaderRow_ID" />
+            <ns1:bind match="none" ref="$.SettingNode.Header.ItemLE.ItemNode_LE1[*].Vsum" />
+            <ns1:assist>
+               <ns1:speak disable="1" />
+            </ns1:assist>
+            </ns1:subform>
+         <ns1:subform h="6mm" name="EN_FORMAT" w="71.4mm" x="108.027mm" y="18.55mm">
+            <ns1:bind match="none" ref="$.SettingNode.Header.ItemLE.ItemNode_LE1[*].Vsum" />
+            <ns1:field access="readOnly" h="6mm" name="CYEAR" w="25.4mm" y="0mm">
+               <ns1:ui>
+                  <ns1:textEdit>
+                     <ns1:border presence="hidden">
+                        </ns1:border>
+                     <ns1:margin />
+                  </ns1:textEdit>
+               </ns1:ui>
+               <ns1:font typeface="Arial" />
+               <ns1:margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm" />
+               <ns1:para vAlign="middle" />
+               <ns1:caption reserve="10.3371mm">
+                  <ns1:para vAlign="middle" />
+                  <ns1:value>
+                     <ns1:text ns2:id="N1379" ns5:rid="23681DE5-DA2A-47D4-A9BB-5AF2E8BC6CC6">Year:</ns1:text>
+                  </ns1:value>
+               </ns1:caption>
+               <ns1:bind match="dataRef" ref="$.SettingNode.Header.Vperiod_D" />
+               <ns1:value>
+                  <ns1:text maxChars="4" />
+               </ns1:value>
+               <ns1:desc>
+                  <ns1:text name="Schema Annotation">Fiscal Year</ns1:text>
+               </ns1:desc>
+               <ns1:assist>
+                  <ns1:speak priority="caption" />
+               </ns1:assist>
+               </ns1:field>
+            <ns1:field access="readOnly" h="6mm" name="CMONTH" w="25.4mm" x="23mm" y="0mm">
+               <ns1:ui>
+                  <ns1:textEdit>
+                     <ns1:border presence="hidden">
+                        </ns1:border>
+                     <ns1:margin />
+                  </ns1:textEdit>
+               </ns1:ui>
+               <ns1:font typeface="Arial" />
+               <ns1:margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm" />
+               <ns1:para vAlign="middle" />
+               <ns1:caption reserve="11.4156mm">
+                  <ns1:para vAlign="middle" />
+                  <ns1:value>
+                     <ns1:text ns2:id="N1445" ns5:rid="4EEEA1A1-069D-4348-BBB5-4A743DBD1E58">Month:</ns1:text>
+                  </ns1:value>
+               </ns1:caption>
+               <ns1:bind match="dataRef" ref="$.SettingNode.Header.Bperiod_D" />
+               <ns1:value>
+                  <ns1:text maxChars="2" />
+               </ns1:value>
+               <ns1:desc>
+                  <ns1:text name="Schema Annotation">Fiscal Period</ns1:text>
+               </ns1:desc>
+               <ns1:calculate override="error" />
+               <ns1:assist>
+                  <ns1:speak priority="caption" />
+               </ns1:assist>
+               </ns1:field>
+            <ns1:field access="readOnly" h="6mm" name="CDAY" w="25.4mm" x="46mm" y="0mm">
+               <ns1:ui>
+                  <ns1:textEdit>
+                     <ns1:border presence="hidden">
+                        </ns1:border>
+                     <ns1:margin />
+                  </ns1:textEdit>
+               </ns1:ui>
+               <ns1:font typeface="Arial" />
+               <ns1:margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm" />
+               <ns1:para vAlign="middle" />
+               <ns1:caption reserve="8.7871mm">
+                  <ns1:para vAlign="middle" />
+                  <ns1:value>
+                     <ns1:text ns2:id="N523-1181" ns5:rid="B4DCEF91-E638-427F-8F05-8017112091A2">Day:</ns1:text>
+                  </ns1:value>
+               </ns1:caption>
+               <ns1:bind match="dataRef" ref="$.SettingNode.Header.Bday" />
+               <ns1:value>
+                  <ns1:text maxChars="2" />
+               </ns1:value>
+               <ns1:desc>
+                  <ns1:text name="Schema Annotation">Fiscal Period</ns1:text>
+               </ns1:desc>
+               <ns1:assist>
+                  <ns1:speak priority="caption" />
+               </ns1:assist>
+               </ns1:field>
+            <ns1:event activity="initialize" name="event__initialize">
+               <ns1:script>//log on in ZH: EN_FORMAT hidden while ZH_FORMAT shown
+if ( $record.GV_LANGU eq "ZH" )
+then
+  this.presence = "hidden";
+endif
+
+</ns1:script>
+            </ns1:event>
+            </ns1:subform>
+         <ns1:subform h="7.194mm" name="ZH_FORMAT" w="66.749mm" x="107.74mm" y="17.378mm">
+            <ns1:bind match="none" ref="$.SettingNode.Header.Bday" />
+            <ns1:field access="readOnly" h="6mm" name="CYEAR" w="20.067mm" x="9.453mm" y="1.194mm">
+               <ns1:ui>
+                  <ns1:textEdit>
+                     <ns1:border presence="hidden">
+                        </ns1:border>
+                     <ns1:margin />
+                  </ns1:textEdit>
+               </ns1:ui>
+               <ns1:font typeface="Arial" />
+               <ns1:margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm" />
+               <ns1:para hAlign="right" vAlign="middle" />
+               <ns1:caption placement="right" reserve="10mm">
+                  <ns1:para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle" />
+                  <ns1:value>
+                     <ns1:text ns5:rid="2DED69E5-DD5B-4054-BD20-8BB569E1E3F8">Year</ns1:text>
+                  </ns1:value>
+                  <ns1:font baselineShift="0pt" typeface="Arial" />
+               </ns1:caption>
+               <ns1:bind match="dataRef" ref="$.SettingNode.Header.Vperiod_D" />
+               <ns1:value>
+                  <ns1:text maxChars="4" />
+               </ns1:value>
+               <ns1:desc>
+                  <ns1:text name="Schema Annotation">Fiscal Year</ns1:text>
+               </ns1:desc>
+               <ns1:assist>
+                  <ns1:speak priority="caption" />
+               </ns1:assist>
+               </ns1:field>
+            <ns1:field access="readOnly" h="6mm" name="CMONTH" w="15.903mm" x="25.173mm" y="1.194mm">
+               <ns1:ui>
+                  <ns1:textEdit>
+                     <ns1:border presence="hidden">
+                        </ns1:border>
+                     <ns1:margin />
+                  </ns1:textEdit>
+               </ns1:ui>
+               <ns1:font typeface="Arial" />
+               <ns1:margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm" />
+               <ns1:para hAlign="right" vAlign="middle" />
+               <ns1:caption placement="right" reserve="10.1374mm">
+                  <ns1:para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle" />
+                  <ns1:value>
+                     <ns1:text ns5:rid="5C7D0240-F111-47E0-88B6-4FC4E781FEDC">Month</ns1:text>
+                  </ns1:value>
+                  <ns1:font baselineShift="0pt" typeface="Arial" />
+               </ns1:caption>
+               <ns1:bind match="dataRef" ref="$.SettingNode.Header.Bperiod_D" />
+               <ns1:value>
+                  <ns1:text maxChars="2" />
+               </ns1:value>
+               <ns1:desc>
+                  <ns1:text name="Schema Annotation">Fiscal Period</ns1:text>
+               </ns1:desc>
+               <ns1:assist>
+                  <ns1:speak priority="caption" />
+               </ns1:assist>
+               </ns1:field>
+            <ns1:field access="readOnly" h="6mm" name="CDAY" w="13.951mm" x="38.813mm" y="1.194mm">
+               <ns1:ui>
+                  <ns1:textEdit>
+                     <ns1:border presence="hidden">
+                        </ns1:border>
+                     <ns1:margin />
+                  </ns1:textEdit>
+               </ns1:ui>
+               <ns1:font typeface="Arial" />
+               <ns1:margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm" />
+               <ns1:para hAlign="right" vAlign="middle" />
+               <ns1:caption placement="right" reserve="7.964mm">
+                  <ns1:para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle" />
+                  <ns1:value>
+                     <ns1:text ns5:rid="2ECB8803-BC13-4EA0-8A64-E334F2FE46C6">Day</ns1:text>
+                  </ns1:value>
+                  <ns1:font baselineShift="0pt" typeface="Arial" />
+               </ns1:caption>
+               <ns1:bind match="dataRef" ref="$.SettingNode.Header.Bday" />
+               <ns1:value>
+                  <ns1:text maxChars="2" />
+               </ns1:value>
+               <ns1:desc>
+                  <ns1:text name="Schema Annotation">Fiscal Period</ns1:text>
+               </ns1:desc>
+               <ns1:assist>
+                  <ns1:speak priority="caption" />
+               </ns1:assist>
+               </ns1:field>
+            <ns1:event activity="initialize" name="event__initialize">
+               <ns1:script>//log on in non-ZH: EN_FORMAT shown while ZH_FORMAT hidden
+if ( $record.GV_LANGU ne "ZH" )
+then
+  this.presence = "hidden";
+endif
+
+</ns1:script>
+            </ns1:event>
+            </ns1:subform>
+         <ns1:event activity="initialize" name="event__initialize">
+            <ns1:script>//if ( $record.GS_FORMHDR.BILATYPE eq "I" ) then
+if ( $record.GS_FORMHDR.BILATYPE eq "I" or $record.GV_ORIENT ne "L" ) then
+  data.Balance_L.presence = "hidden"
+endif
+
+if ($record.GS_FORMHDR.GSBER eq null) then
+   data.Balance_L.GSBER.presence = "hidden"
+  else
+   data.Balance_L.GSBER.presence = "visible"
+endif
+
+if ($record.GS_FORMHDR.PRCTR eq null) then
+   data.Balance_L.PRCTR.presence = "hidden"
+  else
+   data.Balance_L.PRCTR.presence = "visible"
+endif
+</ns1:script>
+         </ns1:event>
+         </ns1:subform>
+      <ns1:subform h="203mm" name="Income_L" w="286.763mm">
+         <ns1:break before="pageArea" beforeTarget="#6f084e43-48f2-11e2-893f-70f3950cb3ea" />
+         <ns1:bind match="none" ref="$.SettingNode.Header.Bday" />
+         <ns1:draw h="7mm" name="Title" w="2.875in" x="109.969mm" y="0.407mm">
+            <ns1:ui>
+               <ns1:textEdit>
+                  <ns1:margin />
+               </ns1:textEdit>
+            </ns1:ui>
+            <ns1:value>
+               <ns1:text ns2:id="N1739" ns5:rid="D4FA2B98-9FFA-4C6E-8CE8-92BA9DBBD94C">Income Statement</ns1:text>
+            </ns1:value>
+            <ns1:font baselineShift="0pt" size="14pt" typeface="Arial" weight="bold" />
+            <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+            <ns1:para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" />
+            
+            </ns1:draw>
+         <ns1:draw h="6mm" name="Report_ID" w="2.022097in" x="235.173mm" y="6.42mm">
+            <ns1:ui>
+               <ns1:textEdit>
+                  <ns1:margin />
+               </ns1:textEdit>
+            </ns1:ui>
+            <ns1:value>
+               <ns1:text ns2:id="N2368" ns5:rid="926CCC0B-775F-4F0D-B291-82E9C3BEF546">Enterprise accounting report 02</ns1:text>
+            </ns1:value>
+            <ns1:font baselineShift="0pt" typeface="Arial" />
+            <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+            <ns1:para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" />
+            
+            </ns1:draw>
+         <ns1:field access="readOnly" h="6mm" name="GSBER" w="47.62mm" x="0.297mm" y="6.175mm">
+            <ns1:ui>
+               <ns1:textEdit>
+                  <ns1:border presence="hidden">
+                     </ns1:border>
+                  <ns1:margin />
+               </ns1:textEdit>
+            </ns1:ui>
+            <ns1:font typeface="Arial" />
+            <ns1:margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm" />
+            <ns1:para vAlign="middle" />
+            <ns1:caption reserve="32.7309mm">
+               <ns1:font baselineShift="0pt" typeface="Arial" />
+               <ns1:para hAlign="right" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle" />
+               <ns1:value>
+                  <ns1:text ns2:id="N1313" ns5:rid="FD684D31-93BD-412A-A767-49B6DFAF64F8">Business Area:</ns1:text>
+               </ns1:value>
+            </ns1:caption>
+            <ns1:bind match="dataRef" ref="$.SettingNode.Header.Gsber" />
+            <ns1:desc>
+               <ns1:text name="Schema Annotation">Business Area</ns1:text>
+            </ns1:desc>
+            <ns1:assist>
+               <ns1:speak priority="caption" />
+            </ns1:assist>
+            </ns1:field>
+         <ns1:field access="readOnly" h="6mm" name="PRCTR" w="72.636mm" x="0.297mm" y="12.175mm">
+            <ns1:ui>
+               <ns1:textEdit>
+                  <ns1:border presence="hidden">
+                     </ns1:border>
+                  <ns1:margin />
+               </ns1:textEdit>
+            </ns1:ui>
+            <ns1:font typeface="Arial" />
+            <ns1:margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm" />
+            <ns1:para vAlign="middle" />
+            <ns1:caption reserve="32.7309mm">
+               <ns1:font baselineShift="0pt" typeface="Arial" />
+               <ns1:para hAlign="right" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle" />
+               <ns1:value>
+                  <ns1:text ns2:id="N1313" ns5:rid="F29494AD-C904-4910-AE74-D2A77C70744A">Profit Center:</ns1:text>
+               </ns1:value>
+            </ns1:caption>
+            <ns1:bind match="dataRef" ref="$.SettingNode.Header.Prctr" />
+            <ns1:desc>
+               <ns1:text name="Schema Annotation">Business Area</ns1:text>
+            </ns1:desc>
+            <ns1:assist>
+               <ns1:speak priority="caption" />
+            </ns1:assist>
+            </ns1:field>
+         <ns1:field access="readOnly" h="6mm" name="COMPANY" w="79.375mm" x="0.297mm" y="18.175mm">
+            <ns1:ui>
+               <ns1:textEdit>
+                  <ns1:border presence="hidden">
+                     </ns1:border>
+                  <ns1:margin />
+               </ns1:textEdit>
+            </ns1:ui>
+            <ns1:font typeface="Arial" />
+            <ns1:margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm" />
+            <ns1:para vAlign="middle" />
+            <ns1:caption reserve="32.6559mm">
+               <ns1:font baselineShift="0pt" typeface="Arial" />
+               <ns1:para hAlign="right" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle" />
+               <ns1:value>
+                  <ns1:text ns2:id="N2328" ns5:rid="481EA39A-7160-45DA-A9EF-EEEFA62F118D">Reporting company:</ns1:text>
+               </ns1:value>
+            </ns1:caption>
+            <ns1:bind match="dataRef" ref="$.SettingNode.Header.Company" />
+            <ns1:value>
+               <ns1:text maxChars="30" />
+            </ns1:value>
+            <ns1:desc>
+               <ns1:text name="Schema Annotation">Company name</ns1:text>
+            </ns1:desc>
+            <ns1:assist>
+               <ns1:speak priority="caption" />
+            </ns1:assist>
+            </ns1:field>
+         <ns1:subform h="10.184mm" name="EN_FORMAT" w="50.769mm" x="124.318mm" y="18.175mm">
+            <ns1:bind match="none" ref="$.SettingNode.Header.Company" />
+            <ns1:field access="readOnly" h="6mm" name="CYEAR" w="25.4mm" x="1.718mm" y="0.867mm">
+               <ns1:ui>
+                  <ns1:textEdit>
+                     <ns1:border presence="hidden">
+                        </ns1:border>
+                     <ns1:margin />
+                  </ns1:textEdit>
+               </ns1:ui>
+               <ns1:font typeface="Arial" />
+               <ns1:margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm" />
+               <ns1:para vAlign="middle" />
+               <ns1:caption reserve="10.3371mm">
+                  <ns1:para vAlign="middle" />
+                  <ns1:value>
+                     <ns1:text ns2:id="N2131" ns5:rid="97777D72-CA5E-4344-80AD-648E6802DBC0">Year:</ns1:text>
+                  </ns1:value>
+               </ns1:caption>
+               <ns1:bind match="dataRef" ref="$.SettingNode.Header.Vperiod_D" />
+               <ns1:value>
+                  <ns1:text maxChars="4" />
+               </ns1:value>
+               <ns1:desc>
+                  <ns1:text name="Schema Annotation">Fiscal Year</ns1:text>
+               </ns1:desc>
+               <ns1:assist>
+                  <ns1:speak priority="caption" />
+               </ns1:assist>
+               </ns1:field>
+            <ns1:field access="readOnly" h="6mm" name="CMONTH" w="25.4mm" x="24.718mm" y="0.867mm">
+               <ns1:ui>
+                  <ns1:textEdit>
+                     <ns1:border presence="hidden">
+                        </ns1:border>
+                     <ns1:margin />
+                  </ns1:textEdit>
+               </ns1:ui>
+               <ns1:font typeface="Arial" />
+               <ns1:margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm" />
+               <ns1:para vAlign="middle" />
+               <ns1:caption reserve="11.4156mm">
+                  <ns1:para vAlign="middle" />
+                  <ns1:value>
+                     <ns1:text ns2:id="N2197" ns5:rid="0A93A269-8EBB-44CC-A076-88A88CE56094">Month:</ns1:text>
+                  </ns1:value>
+               </ns1:caption>
+               <ns1:bind match="dataRef" ref="$.SettingNode.Header.Bperiod_D" />
+               <ns1:value>
+                  <ns1:text maxChars="2" />
+               </ns1:value>
+               <ns1:desc>
+                  <ns1:text name="Schema Annotation">Fiscal Period</ns1:text>
+               </ns1:desc>
+               <ns1:assist>
+                  <ns1:speak priority="caption" />
+               </ns1:assist>
+               </ns1:field>
+            <ns1:event activity="initialize" name="event__initialize">
+               <ns1:script>//log on in ZH: EN_FORMAT hidden while ZH_FORMAT shown
+if ( $record.GV_LANGU eq "ZH" )
+then
+  this.presence = "hidden";
+endif
+
+</ns1:script>
+            </ns1:event>
+            </ns1:subform>
+         <ns1:subform h="10.14mm" name="ZH_FORMAT" w="48.514mm" x="126.396mm" y="18.175mm">
+            <ns1:bind match="none" ref="$.SettingNode.Header.Bperiod_D" />
+            <ns1:field access="readOnly" h="6mm" name="CYEAR" w="20.511mm" x="7.049mm" y="0.867mm">
+               <ns1:ui>
+                  <ns1:textEdit>
+                     <ns1:border presence="hidden">
+                        </ns1:border>
+                     <ns1:margin />
+                  </ns1:textEdit>
+               </ns1:ui>
+               <ns1:font typeface="Arial" />
+               <ns1:margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm" />
+               <ns1:para hAlign="right" vAlign="middle" />
+               <ns1:caption placement="right" reserve="10mm">
+                  <ns1:para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle" />
+                  <ns1:value>
+                     <ns1:text ns5:rid="DF340DD7-CA18-4FEF-B63F-62F10D071478">Year</ns1:text>
+                  </ns1:value>
+                  <ns1:font baselineShift="0pt" typeface="Arial" />
+               </ns1:caption>
+               <ns1:bind match="dataRef" ref="$.SettingNode.Header.Vperiod_D" />
+               <ns1:value>
+                  <ns1:text maxChars="4" />
+               </ns1:value>
+               <ns1:desc>
+                  <ns1:text name="Schema Annotation">Fiscal Year</ns1:text>
+               </ns1:desc>
+               <ns1:assist>
+                  <ns1:speak priority="caption" />
+               </ns1:assist>
+               </ns1:field>
+            <ns1:field access="readOnly" h="6mm" name="CMONTH" w="16.013mm" x="22.818mm" y="0.867mm">
+               <ns1:ui>
+                  <ns1:textEdit>
+                     <ns1:border presence="hidden">
+                        </ns1:border>
+                     <ns1:margin />
+                  </ns1:textEdit>
+               </ns1:ui>
+               <ns1:font typeface="Arial" />
+               <ns1:margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm" />
+               <ns1:para hAlign="right" vAlign="middle" />
+               <ns1:caption placement="right" reserve="10mm">
+                  <ns1:para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle" />
+                  <ns1:value>
+                     <ns1:text ns5:rid="FE496203-C882-4D4D-9485-340AF5A94ED7">Month</ns1:text>
+                  </ns1:value>
+                  <ns1:font baselineShift="0pt" typeface="Arial" />
+               </ns1:caption>
+               <ns1:bind match="dataRef" ref="$.SettingNode.Header.Bperiod_D" />
+               <ns1:value>
+                  <ns1:text maxChars="2" />
+               </ns1:value>
+               <ns1:desc>
+                  <ns1:text name="Schema Annotation">Fiscal Period</ns1:text>
+               </ns1:desc>
+               <ns1:assist>
+                  <ns1:speak priority="caption" />
+               </ns1:assist>
+               </ns1:field>
+            <ns1:event activity="initialize" name="event__initialize">
+               <ns1:script>//log on in non-ZH: EN_FORMAT shown while ZH_FORMAT hidden
+if ( $record.GV_LANGU ne "ZH" )
+then
+  this.presence = "hidden";
+endif
+
+</ns1:script>
+            </ns1:event>
+            </ns1:subform>
+         <ns1:field access="readOnly" h="6mm" name="CURRENCY" w="50.911mm" x="235.623mm" y="18.175mm">
+            <ns1:ui>
+               <ns1:textEdit multiLine="1">
+                  <ns1:border presence="hidden">
+                     </ns1:border>
+                  <ns1:margin />
+               </ns1:textEdit>
+            </ns1:ui>
+            <ns1:font typeface="Arial" />
+            <ns1:margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm" />
+            <ns1:para vAlign="middle" />
+            <ns1:caption reserve="16.6256mm">
+               <ns1:para hAlign="right" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle" />
+               <ns1:value>
+                  <ns1:text ns2:id="N2263" ns5:rid="AD8715DC-94A7-4FE3-9D44-37CCB3EEFC6C">Currency:</ns1:text>
+               </ns1:value>
+               <ns1:font baselineShift="0pt" typeface="Arial" />
+            </ns1:caption>
+            <ns1:bind match="dataRef" ref="$.SettingNode.Header.Currency" />
+            <ns1:desc>
+               <ns1:text name="Schema Annotation">Currency Key</ns1:text>
+            </ns1:desc>
+            <ns1:assist>
+               <ns1:speak priority="caption" />
+            </ns1:assist>
+            </ns1:field>
+         <ns1:subform columnWidths="122.3418mm 10.0247mm 73.3838mm 80.453mm" layout="table" name="Table" x="0.297mm" y="24.178mm">
+            
+            <ns1:border>
+               <ns1:edge />
+            </ns1:border>
+            <ns1:subform id="HeaderRow_ID_copy1_copy2_copy1_copy1" layout="row" name="HeaderRow">
+               <ns1:assist role="TH" />
+               <ns1:draw h="8.284mm" name="TEXT45_PL" w="30mm">
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:ui>
+                     <ns1:textEdit>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                  </ns1:ui>
+                  <ns1:value>
+                     <ns1:text ns2:id="N2215-1141" ns5:rid="A72465A0-CF11-415E-BE32-87863AE2AECC">Item</ns1:text>
+                  </ns1:value>
+                  <ns1:font size="8pt" typeface="Arial" weight="bold" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para hAlign="center" vAlign="middle" />
+               </ns1:draw>
+               <ns1:draw h="8.284mm" name="LINENR_PL" w="30mm">
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:ui>
+                     <ns1:textEdit>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                  </ns1:ui>
+                  <ns1:value>
+                     <ns1:text ns2:id="N608" ns5:rid="F60EC06C-CC6D-40C3-A8AC-796BA47A9B87">No</ns1:text>
+                  </ns1:value>
+                  <ns1:font size="8pt" typeface="Arial" weight="bold" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para hAlign="center" vAlign="middle" />
+               </ns1:draw>
+               <ns1:draw h="8.284mm" name="BSUM_PL" w="30mm">
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:ui>
+                     <ns1:textEdit>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                  </ns1:ui>
+                  <ns1:value>
+                     <ns1:text ns2:id="N2044" ns5:rid="477B776C-31FF-4251-BD68-C32A683F1E7F">Current Period</ns1:text>
+                  </ns1:value>
+                  <ns1:font baselineShift="0pt" size="8pt" typeface="Arial" weight="bold" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle" />
+               </ns1:draw>
+               <ns1:field access="readOnly" minH="8.284mm" name="GV_VSUM_PL" w="32mm">
+                  <ns1:ui>
+                     <ns1:textEdit>
+                        <ns1:border presence="hidden">
+                           </ns1:border>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                  </ns1:ui>
+                  <ns1:font size="8pt" typeface="Arial" weight="bold" />
+                  <ns1:margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm" />
+                  <ns1:para hAlign="center" vAlign="middle" />
+                  <ns1:value>
+                     <ns1:text maxChars="12" />
+                  </ns1:value>
+                  <ns1:bind match="dataRef" ref="$.GV_VSUM_PL" />
+                  <ns1:desc>
+                     <ns1:text name="Schema Annotation">Character Field of Length 12</ns1:text>
+                  </ns1:desc>
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:assist>
+                     <ns1:speak priority="caption" />
+                     <ns1:toolTip ns5:rid="67D08E1C-CFB7-44C3-A78E-DD487AA43E94">Period Name</ns1:toolTip>
+                  </ns1:assist>
+                  </ns1:field>
+               <ns1:border>
+                  <ns1:edge presence="hidden" />
+               </ns1:border>
+               <ns1:occur max="-1" />
+               <ns1:bind match="none" />
+               </ns1:subform>
+            <ns1:subform layout="row" name="Row">
+               <ns1:assist role="TR" />
+               <ns1:field access="readOnly" minH="8.284mm" name="LINETEXT_PL" w="30mm">
+                  <ns1:ui>
+                     <ns1:textEdit multiLine="1">
+                        <ns1:border presence="hidden">
+                           </ns1:border>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                  </ns1:ui>
+                  <ns1:font size="8pt" typeface="Arial" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para vAlign="middle" />
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:bind match="dataRef" ref="GT_FORMLINES_PL1.DATA[*].LINETEXT" />
+                  <ns1:assist>
+                     <ns1:speak disable="1" ns2:id="4E4FB1D0-B7D0-471A-A07B-CE71A0737BA0" ns5:rid="0AACD135-99CB-4C75-81BA-EFE7DD3DCEE8">Item</ns1:speak>
+                  </ns1:assist>
+                  <ns1:event activity="initialize" name="event__initialize">
+                     <ns1:script>
+PL = PL + 1
+
+this.margin.leftInset = concat(0.5 + 2 * $record.GT_FORMLINES_PL1.DATA[PL].LINELEV, "mm")
+</ns1:script>
+                  </ns1:event>
+                  </ns1:field>
+               <ns1:field access="readOnly" h="8.284mm" name="LINENR_PL" w="30mm">
+                  <ns1:ui>
+                     <ns1:textEdit>
+                        <ns1:border presence="hidden">
+                           </ns1:border>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                  </ns1:ui>
+                  <ns1:font size="8pt" typeface="Arial" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para hAlign="center" vAlign="middle" />
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:bind match="dataRef" ref="GT_FORMLINES_PL1.DATA[*].LINENREXT" />
+                  <ns1:calculate override="error" />
+                  <ns1:assist>
+                     <ns1:speak disable="1" ns2:id="EFC134DA-5190-4E8B-B817-DF3A4EAE45B2" ns5:rid="BC57856D-605D-4521-9A78-867455B0301B">Number</ns1:speak>
+                  </ns1:assist>
+                  </ns1:field>
+               <ns1:field access="readOnly" h="8mm" name="BSUM_PL" w="30mm">
+                  <ns1:ui>
+                     <ns1:textEdit>
+                        <ns1:border presence="hidden">
+                           </ns1:border>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                  </ns1:ui>
+                  <ns1:font size="8pt" typeface="Arial" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para hAlign="right" vAlign="middle" />
+                  <ns1:assist>
+                     <ns1:speak disable="1" ns2:id="459F2280-1712-4003-B040-6E34C97DC33E" ns5:rid="DD4C07B6-5719-42F6-A038-BEAE8F40CA85">Current Period</ns1:speak>
+                  </ns1:assist>
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:calculate override="error" />
+                  <ns1:event activity="initialize" name="event__initialize">
+                     <ns1:script>//if (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "1") then
+ //  this.format.picture.value = "num{zzzzzzzzzz9.9}"
+//elseif (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "0") then
+//   this.format.picture.value = "num{zzzzzzzzzz9}"
+//endif
+
+if ($record.GT_FORMLINES_PL1.DATA[PL].LINETYPE eq "B") then
+ //  this.format.picture.value = "zero{}"
+ 
+   this.rawValue = null
+endif
+</ns1:script>
+                  </ns1:event>
+                  <ns1:bind match="dataRef" ref="GT_FORMLINES_PL1.DATA[*].BSUM" />
+                  </ns1:field>
+               <ns1:field access="readOnly" h="8.284mm" name="VSUM_PL" w="30mm">
+                  <ns1:ui>
+                     <ns1:textEdit>
+                        <ns1:border presence="hidden">
+                           </ns1:border>
+                        <ns1:margin />
+                     </ns1:textEdit>
+                     <ns1:picture>num{zzzzzzzzzz9.99}</ns1:picture>
+                  </ns1:ui>
+                  <ns1:font size="8pt" typeface="Arial" />
+                  <ns1:margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm" />
+                  <ns1:para hAlign="right" vAlign="middle" />
+                  <ns1:assist>
+                     <ns1:speak disable="1" ns2:id="4097BF42-A810-4B4D-AD35-DDD2B60F7092" ns5:rid="EBECF98A-5FC4-420E-8C83-68632D97101C">Last Period</ns1:speak>
+                  </ns1:assist>
+                  <ns1:border>
+                     <ns1:edge />
+                     <ns1:corner thickness="0.1778mm" />
+                  </ns1:border>
+                  <ns1:event activity="initialize" name="event__initialize">
+                     <ns1:script>//if (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "1") then
+//   this.format.picture.value = "num{zzzzzzzzzz9.9}"
+//elseif (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "0") then
+//   this.format.picture.value = "num{zzzzzzzzzz9}"
+//endif
+
+if ($record.GT_FORMLINES_PL1.DATA[PL].LINETYPE eq "B") then
+//   this.format.picture.value = "zero{}"
+   this.rawValue = null
+endif
+</ns1:script>
+                  </ns1:event>
+                  <ns1:bind match="dataRef" ref="GT_FORMLINES_PL1.DATA[*].VSUM" />
+                  </ns1:field>
+               <ns1:border>
+                  <ns1:edge presence="hidden" />
+               </ns1:border>
+               <ns1:bind match="none" />
+               <ns1:occur max="44" />
+               </ns1:subform>
+            <ns1:break overflowLeader="#HeaderRow_ID_copy1_copy2" />
+            <ns1:bind match="none" />
+            <ns1:assist>
+               <ns1:speak disable="1" />
+            </ns1:assist>
+            </ns1:subform>
+         <ns1:event activity="initialize" name="event__initialize">
+            <ns1:script>
+if ( $record.GS_FORMHDR.BILATYPE eq "B" or $record.GV_ORIENT ne "L" ) then
+  data.Income_L.presence = "hidden"
+endif
+
+if ($record.GS_FORMHDR.GSBER eq null) then
+   data.Income_L.GSBER.presence = "hidden"
+  else
+   data.Income_L.GSBER.presence = "visible"
+endif
+
+if ($record.GS_FORMHDR.PRCTR eq null) then
+   data.Income_L.PRCTR.presence = "hidden"
+  else
+   data.Income_L.PRCTR.presence = "visible"
+endif
+</ns1:script>
+         </ns1:event>
+         </ns1:subform>
+      <ns1:proto />
+      <ns1:variables>
+         <ns1:text name="A" ns2:id="2C1FEB37-91D4-4005-98F1-9A8DC8FA1311" ns5:rid="2C1FEB37-91D4-4005-98F1-9A8DC8FA1311">-1</ns1:text>
+         <ns1:text name="L" ns2:id="F801F91B-BDB2-45DB-8473-8ADA9D8F6BB4" ns5:rid="F801F91B-BDB2-45DB-8473-8ADA9D8F6BB4">-1</ns1:text>
+         <ns1:text name="P" ns2:id="81D9F9AB-69D4-4786-B6EC-AB9564C774D9" ns5:rid="81D9F9AB-69D4-4786-B6EC-AB9564C774D9">-1</ns1:text>
+         <ns1:text name="AL" ns5:rid="88A5B3CF-7129-4BE7-ABD9-23660F0DCBCB">-1
+</ns1:text>
+         <ns1:text name="LL" ns5:rid="6A9159B0-0028-426E-B63A-6D18B8883AA5">-1</ns1:text>
+         <ns1:text name="PL" ns5:rid="5387B161-D050-40E8-BB6D-A77BE0DB09D6">-1</ns1:text>
+         </ns1:variables>
+      
+      
+      
+   </ns1:subform>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   </ns1:template>
+<ns6:config>
+   <ns6:agent name="designer">
+      
+      <ns6:destination>pdf</ns6:destination>
+      <ns6:pdf>
+         
+         <ns6:fontInfo />
+         <ns6:taggedMode>custom</ns6:taggedMode>
+      </ns6:pdf>
+      <ns6:common>
+         <ns6:template>
+            <ns6:base>https://ldai4er9.wdf.sap.corp:44300/sap/bc/fp/form/layout/</ns6:base>
+         </ns6:template>
+      </ns6:common>
+   </ns6:agent>
+   <ns6:present>
+      
+      <ns6:pdf>
+         
+         <ns6:version>1.7</ns6:version>
+      </ns6:pdf>
+      <ns6:common>
+         <ns6:data>
+            <ns6:xsl>
+               <ns6:uri />
+            </ns6:xsl>
+            <ns6:outputXSL>
+               <ns6:uri />
+            </ns6:outputXSL>
+         </ns6:data>
+      </ns6:common>
+      <ns6:cache>
+         <ns6:macroCache />
+      </ns6:cache>
+      <ns6:xdp>
+         <ns6:packets>*</ns6:packets>
+      </ns6:xdp>
+   </ns6:present>
+   <ns6:psMap>
+      <ns6:font posture="normal" psName="AdobeArabic-Regular" typeface="Adobe Arabic" weight="normal" />
+      <ns6:font posture="normal" psName="AdobeHebrew-Regular" typeface="Adobe Hebrew" weight="normal" />
+      <ns6:font posture="normal" psName="AdobeThai-Regular" typeface="Adobe Thai" weight="normal" />
+      <ns6:font posture="normal" psName="AgencyFB-Bold" typeface="Agency FB" weight="bold" />
+      <ns6:font posture="normal" psName="Algerian" typeface="Algerian" weight="normal" />
+      <ns6:font posture="normal" psName="ArabicTypesetting" typeface="Arabic Typesetting" weight="normal" />
+   </ns6:psMap>
+</ns6:config>
+<ns7:connectionSet>
+   <ns7:xsdConnection dataDescription="data" name="IDCN_BSAIS">
+      <ns7:uri />
+      <ns7:rootElement>data</ns7:rootElement>
+   </ns7:xsdConnection>
+   </ns7:connectionSet>
+<ns4:datasets>
+   <ns4:data ns4:dataNode="dataGroup" />
+   <ns8:dataDescription ns8:name="data">
+      <data>
+         <GS_FORMHDR>
+            <COMPANY />
+            <CURRENCY />
+            <BILASKAL />
+            <BILASKALTXT />
+            <BILATYPE />
+            <CDATE />
+            <CTIME />
+            <CUSER />
+            <FSCDES />
+            <BYEAR />
+            <BMONTH />
+            <BDAY />
+            <VYEAR />
+            <VMONTH />
+            <VDAY />
+            <BPERIOD_D />
+            <VPERIOD_D />
+            <BJJV />
+            <BMMV />
+            <BJJB />
+            <BMMB />
+            <VJJV />
+            <VMMV />
+            <VJJB />
+            <VMMB />
+            <TITLE />
+            <BTXTCOL />
+            <VTXTCOL />
+            <PDF />
+            <GSBER />
+            <PRCTR />
+         </GS_FORMHDR>
+         <GT_FORMLINES_PL ns8:minOccur="0">
+            <DATA ns8:maxOccur="-1">
+               <LINENR />
+               <LINESEC />
+               <LINELEV />
+               <LINETYPE />
+               <LINETEXT />
+               <LINENREXT />
+               <ERGSL />
+               <BSUM />
+               <VSUM />
+               <SALDO />
+               <WAERS />
+            </DATA>
+         </GT_FORMLINES_PL>
+         <GT_FORMLINES_AS ns8:minOccur="0">
+            <DATA ns8:maxOccur="-1">
+               <LINENR />
+               <LINESEC />
+               <LINELEV />
+               <LINETYPE />
+               <LINETEXT />
+               <LINENREXT />
+               <ERGSL />
+               <BSUM />
+               <VSUM />
+               <SALDO />
+               <WAERS />
+            </DATA>
+         </GT_FORMLINES_AS>
+         <GT_FORMLINES_LE ns8:minOccur="0">
+            <DATA ns8:maxOccur="-1">
+               <LINENR />
+               <LINESEC />
+               <LINELEV />
+               <LINETYPE />
+               <LINETEXT />
+               <LINENREXT />
+               <ERGSL />
+               <BSUM />
+               <VSUM />
+               <SALDO />
+               <WAERS />
+            </DATA>
+         </GT_FORMLINES_LE>
+         <GV_VSUM_PL />
+      </data>
+   </ns8:dataDescription>
+</ns4:datasets>
+<ns9:localeSet>
+   <ns9:locale desc="Czech (Czech Republic)" name="cs_CZ">
+      <ns9:calendarSymbols name="gregorian">
+         <ns9:monthNames>
+            <ns9:month>leden</ns9:month>
+            <ns9:month>&#250;nor</ns9:month>
+            <ns9:month>b&#345;ezen</ns9:month>
+            <ns9:month>duben</ns9:month>
+            <ns9:month>kv&#283;ten</ns9:month>
+            <ns9:month>&#269;erven</ns9:month>
+            <ns9:month>&#269;ervenec</ns9:month>
+            <ns9:month>srpen</ns9:month>
+            <ns9:month>z&#225;&#345;&#237;</ns9:month>
+            <ns9:month>&#345;&#237;jen</ns9:month>
+            <ns9:month>listopad</ns9:month>
+            <ns9:month>prosinec</ns9:month>
+         </ns9:monthNames>
+         <ns9:monthNames abbr="1">
+            <ns9:month>I</ns9:month>
+            <ns9:month>II</ns9:month>
+            <ns9:month>III</ns9:month>
+            <ns9:month>IV</ns9:month>
+            <ns9:month>V</ns9:month>
+            <ns9:month>VI</ns9:month>
+            <ns9:month>VII</ns9:month>
+            <ns9:month>VIII</ns9:month>
+            <ns9:month>IX</ns9:month>
+            <ns9:month>X</ns9:month>
+            <ns9:month>XI</ns9:month>
+            <ns9:month>XII</ns9:month>
+         </ns9:monthNames>
+         <ns9:dayNames>
+            <ns9:day>Ned&#283;le</ns9:day>
+            <ns9:day>Pond&#283;l&#237;</ns9:day>
+            <ns9:day>&#218;ter&#253;</ns9:day>
+            <ns9:day>St&#345;eda</ns9:day>
+            <ns9:day>&#268;tvrtek</ns9:day>
+            <ns9:day>P&#225;tek</ns9:day>
+            <ns9:day>Sobota</ns9:day>
+         </ns9:dayNames>
+         <ns9:dayNames abbr="1">
+            <ns9:day>Ne</ns9:day>
+            <ns9:day>Po</ns9:day>
+            <ns9:day>&#218;t</ns9:day>
+            <ns9:day>St</ns9:day>
+            <ns9:day>&#268;t</ns9:day>
+            <ns9:day>P&#225;</ns9:day>
+            <ns9:day>So</ns9:day>
+         </ns9:dayNames>
+         <ns9:meridiemNames>
+            <ns9:meridiem>dop.</ns9:meridiem>
+            <ns9:meridiem>odp.</ns9:meridiem>
+         </ns9:meridiemNames>
+         <ns9:eraNames>
+            <ns9:era>p&#345;.Kr.</ns9:era>
+            <ns9:era>po Kr.</ns9:era>
+         </ns9:eraNames>
+      </ns9:calendarSymbols>
+      <ns9:datePatterns>
+         <ns9:datePattern name="full">EEEE, D. MMMM YYYY</ns9:datePattern>
+         <ns9:datePattern name="long">D. MMMM YYYY</ns9:datePattern>
+         <ns9:datePattern name="med">D.M.YYYY</ns9:datePattern>
+         <ns9:datePattern name="short">D.M.YY</ns9:datePattern>
+      </ns9:datePatterns>
+      <ns9:timePatterns>
+         <ns9:timePattern name="full">H:MM:SS Z</ns9:timePattern>
+         <ns9:timePattern name="long">H:MM:SS Z</ns9:timePattern>
+         <ns9:timePattern name="med">H:MM:SS</ns9:timePattern>
+         <ns9:timePattern name="short">H:MM</ns9:timePattern>
+      </ns9:timePatterns>
+      <ns9:dateTimeSymbols>GuMtkHmsSEDFwWahKzZ</ns9:dateTimeSymbols>
+      <ns9:numberPatterns>
+         <ns9:numberPattern name="numeric">z,zz9.zz</ns9:numberPattern>
+         <ns9:numberPattern name="currency">z,zz9.zz $</ns9:numberPattern>
+         <ns9:numberPattern name="percent">z,zz9%</ns9:numberPattern>
+      </ns9:numberPatterns>
+      <ns9:numberSymbols>
+         <ns9:numberSymbol name="decimal">,</ns9:numberSymbol>
+         <ns9:numberSymbol name="grouping">&#160;</ns9:numberSymbol>
+         <ns9:numberSymbol name="percent">%</ns9:numberSymbol>
+         <ns9:numberSymbol name="minus">-</ns9:numberSymbol>
+         <ns9:numberSymbol name="zero">0</ns9:numberSymbol>
+      </ns9:numberSymbols>
+      <ns9:currencySymbols>
+         <ns9:currencySymbol name="symbol">K&#269;</ns9:currencySymbol>
+         <ns9:currencySymbol name="isoname">CZK</ns9:currencySymbol>
+         <ns9:currencySymbol name="decimal">,</ns9:currencySymbol>
+      </ns9:currencySymbols>
+   </ns9:locale>
+   <ns9:locale desc="Chinese (Simplified, PRC)" name="zh_CN">
+      <ns9:calendarSymbols name="gregorian">
+         <ns9:monthNames>
+            <ns9:month>&#19968;&#26376;</ns9:month>
+            <ns9:month>&#20108;&#26376;</ns9:month>
+            <ns9:month>&#19977;&#26376;</ns9:month>
+            <ns9:month>&#22235;&#26376;</ns9:month>
+            <ns9:month>&#20116;&#26376;</ns9:month>
+            <ns9:month>&#20845;&#26376;</ns9:month>
+            <ns9:month>&#19971;&#26376;</ns9:month>
+            <ns9:month>&#20843;&#26376;</ns9:month>
+            <ns9:month>&#20061;&#26376;</ns9:month>
+            <ns9:month>&#21313;&#26376;</ns9:month>
+            <ns9:month>&#21313;&#19968;&#26376;</ns9:month>
+            <ns9:month>&#21313;&#20108;&#26376;</ns9:month>
+         </ns9:monthNames>
+         <ns9:monthNames abbr="1">
+            <ns9:month>&#19968;&#26376;</ns9:month>
+            <ns9:month>&#20108;&#26376;</ns9:month>
+            <ns9:month>&#19977;&#26376;</ns9:month>
+            <ns9:month>&#22235;&#26376;</ns9:month>
+            <ns9:month>&#20116;&#26376;</ns9:month>
+            <ns9:month>&#20845;&#26376;</ns9:month>
+            <ns9:month>&#19971;&#26376;</ns9:month>
+            <ns9:month>&#20843;&#26376;</ns9:month>
+            <ns9:month>&#20061;&#26376;</ns9:month>
+            <ns9:month>&#21313;&#26376;</ns9:month>
+            <ns9:month>&#21313;&#19968;&#26376;</ns9:month>
+            <ns9:month>&#21313;&#20108;&#26376;</ns9:month>
+         </ns9:monthNames>
+         <ns9:dayNames>
+            <ns9:day>&#26143;&#26399;&#26085;</ns9:day>
+            <ns9:day>&#26143;&#26399;&#19968;</ns9:day>
+            <ns9:day>&#26143;&#26399;&#20108;</ns9:day>
+            <ns9:day>&#26143;&#26399;&#19977;</ns9:day>
+            <ns9:day>&#26143;&#26399;&#22235;</ns9:day>
+            <ns9:day>&#26143;&#26399;&#20116;</ns9:day>
+            <ns9:day>&#26143;&#26399;&#20845;</ns9:day>
+         </ns9:dayNames>
+         <ns9:dayNames abbr="1">
+            <ns9:day>&#26085;</ns9:day>
+            <ns9:day>&#19968;</ns9:day>
+            <ns9:day>&#20108;</ns9:day>
+            <ns9:day>&#19977;</ns9:day>
+            <ns9:day>&#22235;</ns9:day>
+            <ns9:day>&#20116;</ns9:day>
+            <ns9:day>&#20845;</ns9:day>
+         </ns9:dayNames>
+         <ns9:meridiemNames>
+            <ns9:meridiem>&#19978;&#21320;</ns9:meridiem>
+            <ns9:meridiem>&#19979;&#21320;</ns9:meridiem>
+         </ns9:meridiemNames>
+         <ns9:eraNames>
+            <ns9:era>&#20844;&#20803;&#21069;</ns9:era>
+            <ns9:era>&#20844;&#20803;</ns9:era>
+         </ns9:eraNames>
+      </ns9:calendarSymbols>
+      <ns9:datePatterns>
+         <ns9:datePattern name="full">YYYY'&#24180;'M'&#26376;'D'&#26085;'EEEE</ns9:datePattern>
+         <ns9:datePattern name="long">YYYY'&#24180;'M'&#26376;'D'&#26085;'</ns9:datePattern>
+         <ns9:datePattern name="med">YYYY-M-D</ns9:datePattern>
+         <ns9:datePattern name="short">YY-M-D</ns9:datePattern>
+      </ns9:datePatterns>
+      <ns9:timePatterns>
+         <ns9:timePattern name="full">Ahh'&#26102;'MM'&#20998;'SS'&#31186;' Z</ns9:timePattern>
+         <ns9:timePattern name="long">Ahh'&#26102;'MM'&#20998;'SS'&#31186;'</ns9:timePattern>
+         <ns9:timePattern name="med">Ahh:MM:SS</ns9:timePattern>
+         <ns9:timePattern name="short">Ah:MM</ns9:timePattern>
+      </ns9:timePatterns>
+      <ns9:dateTimeSymbols>GanjkHmsSEDFwWxhKzZ</ns9:dateTimeSymbols>
+      <ns9:numberPatterns>
+         <ns9:numberPattern name="numeric">z,zz9.zzz</ns9:numberPattern>
+         <ns9:numberPattern name="currency">$z,zz9.99</ns9:numberPattern>
+         <ns9:numberPattern name="percent">z,zz9%</ns9:numberPattern>
+      </ns9:numberPatterns>
+      <ns9:numberSymbols>
+         <ns9:numberSymbol name="decimal">.</ns9:numberSymbol>
+         <ns9:numberSymbol name="grouping">,</ns9:numberSymbol>
+         <ns9:numberSymbol name="percent">%</ns9:numberSymbol>
+         <ns9:numberSymbol name="minus">-</ns9:numberSymbol>
+         <ns9:numberSymbol name="zero">0</ns9:numberSymbol>
+      </ns9:numberSymbols>
+      <ns9:currencySymbols>
+         <ns9:currencySymbol name="symbol">&#65509;</ns9:currencySymbol>
+         <ns9:currencySymbol name="isoname">CNY</ns9:currencySymbol>
+         <ns9:currencySymbol name="decimal">.</ns9:currencySymbol>
+      </ns9:currencySymbols>
+      <ns9:typefaces>
+         <ns9:typeface name="Adobe Song Std L" />
+         <ns9:typeface name="Myriad Pro" />
+         <ns9:typeface name="Minion Pro" />
+         <ns9:typeface name="Courier Std" />
+         <ns9:typeface name="Adobe Pi Std" />
+         <ns9:typeface name="Adobe Hebrew" />
+         <ns9:typeface name="Adobe Arabic" />
+         <ns9:typeface name="Adobe Thai" />
+         <ns9:typeface name="Kozuka Gothic Pro-VI M" />
+         <ns9:typeface name="Kozuka Mincho Pro-VI R" />
+         <ns9:typeface name="Adobe Ming Std L" />
+         <ns9:typeface name="Adobe Myungjo Std M" />
+      </ns9:typefaces>
+   </ns9:locale>
+</ns9:localeSet>
+<ns10:xmpmeta ns10:xmptk="Adobe XMP Core 4.0-c319 44.281645, Sun Mar 25 2007 16:17:34">
+   <rdf:RDF>
+      <rdf:Description rdf:about="">
+         <ns12:MetadataDate>2018-01-26T09:41:10Z</ns12:MetadataDate>
+         <ns12:CreatorTool>Adobe LiveCycle Designer ES 10.4</ns12:CreatorTool>
+      </rdf:Description>
+      <rdf:Description rdf:about="">
+         <ns13:Producer>Adobe LiveCycle Designer ES 10.4</ns13:Producer>
+      </rdf:Description>
+      <rdf:Description rdf:about="">
+         <ns14:DocumentID>uuid:82ec3b5e-a364-431a-afe1-71f8efd9c11a</ns14:DocumentID>
+      </rdf:Description>
+   </rdf:RDF>
+</ns10:xmpmeta></ns0:xdp>

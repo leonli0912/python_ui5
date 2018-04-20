@@ -1,0 +1,2930 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><?xfa generator="AdobeLiveCycleDesignerES_V10.4.0.20121103.1.882846_SAP" APIVersion="3.6.12290.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2018-01-26T09:41:33Z" uuid="82ec3b5e-a364-431a-afe1-71f8efd9c11a">
+<template xmlns="http://www.xfa.org/schema/xfa-template/2.5/" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.1">
+   <tags xmlns="http://www.xfa.org/schema/xfa-xliff/1.0/"><value id="24FB61E6-08CE-479E-82B9-05B9C9560411">Liabilities</value><value id="2C1FEB37-91D4-4005-98F1-9A8DC8FA1311">-1</value><value id="4097BF42-A810-4B4D-AD35-DDD2B60F7092">Last Period</value><value id="459F2280-1712-4003-B040-6E34C97DC33E">Current Period</value><value id="4E4FB1D0-B7D0-471A-A07B-CE71A0737BA0">Item</value><value id="612E17BB-254F-4AE8-A848-D3806F376A0A">Assets - Period-end Balance</value><value id="618E8219-F172-4DEF-AA9F-322FF4C09CA3">Assets - Number</value><value id="7B5DB33A-13A2-4BA4-A94C-02AA2E6A1FD5">Assets - Year-beginning Balance</value><value id="81D9F9AB-69D4-4786-B6EC-AB9564C774D9">-1</value><value id="AE871168-9AB1-4194-90AB-D0EE8DA03825">Liabilities - Year-beginning Balance</value><value id="B466038D-D706-48F7-9745-3A736234BF71">Assets</value><value id="D21918DB-7CE3-4B9C-9292-32B81A62683B">Liabilities - Period-end Balance</value><value id="EFC134DA-5190-4E8B-B817-DF3A4EAE45B2">Number</value><value id="F801F91B-BDB2-45DB-8473-8ADA9D8F6BB4">-1</value><value id="N1187">Balance Sheet</value><value id="N1246">Enterprise accounting report 01</value><value id="N1313">Reporting company:</value><value id="N1379">Year:</value><value id="N1445">Month:</value><value id="N1511">Currency:</value><value id="N1739">Income Statement</value><value id="N2044">Current Period</value><value id="N2052-1181">Day:</value><value id="N2131">Year:</value><value id="N2197">Month:</value><value id="N2215-1141">Item</value><value id="N2263">Currency:</value><value id="N2328">Reporting company:</value><value id="N2368">Enterprise accounting report 02</value><value id="N2372-1141">Last Period</value><value id="N523-1181">Day:</value><value id="N566">Assets</value><value id="N608">No</value><value id="N650"><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xfa:APIVersion="2.5.7087.0"><p>Period-end</p><p>Balance</p></body></value><value id="N710">Year-beginning Balance</value><value id="N752">Liabilities and Owner's Equity</value><value id="N794">No</value><value id="N836"><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xfa:APIVersion="2.5.7087.0"><p>Period-end</p><p>Balance</p></body></value><value id="N894">Year-beginning Balance</value></tags>
+   <?formServer defaultPDFRenderFormat acrobat8.0static?>
+   <?formServer allowRenderCaching 0?>
+   <?formServer formModel both?>
+   <subform layout="tb" locale="zh_CN" name="data" restoreState="auto">
+      <pageSet>
+         <pageArea id="Page1" name="Page">
+            <contentArea h="284.3001mm" name="MasterPage" w="197.3002mm" x="0.25in" y="0.25in"/>
+            <medium long="297mm" short="210mm" stock="a4"/>
+            <?templateDesigner expand 1?></pageArea>
+         <pageArea id="6f084e43-48f2-11e2-893f-70f3950cb3ea" name="Page_L">
+            <medium long="297mm" orientation="landscape" short="210mm" stock="a4"/>
+            <contentArea h="203.696mm" name="MasterPage" w="287.133mm" x="4.997mm" y="3mm"/>
+            <?templateDesigner expand 1?></pageArea>
+         <?templateDesigner expand 1?></pageSet>
+      <subform h="283.596mm" name="Balance" w="197.3mm">
+         <draw h="7mm" name="Title" w="2.875in" x="63.65mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N1187" xliff:rid="N1187">Balance Sheet</text>
+            </value>
+            <font baselineShift="0pt" size="14pt" typeface="Arial" weight="bold"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+            <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+            <?renderCache.bounds 204166 17009 0 0 1417 1417 0 0?>
+            <?renderCache.textRun 13 Balance Sheet 0 55645 12471 0 0 0 "Arial" 1 0 14000 ISO-8859-1?></draw>
+         <draw h="6mm" name="Report_ID" w="2.022097in" x="145.939mm" y="6.35mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N1246" xliff:rid="N1246">Enterprise accounting report 01</text>
+            </value>
+            <font baselineShift="0pt" typeface="Arial"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+            <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+            <?renderCache.bounds 142757 14174 0 0 1417 1417 0 0?>
+            <?renderCache.textRun 31 Enterprise accounting report 01 0 1417 9313 0 0 0 "Arial" 0 0 10000 ISO-8859-1?></draw>
+         <field access="readOnly" h="6mm" name="GSBER" w="47.62mm" y="6.35mm">
+            <ui>
+               <textEdit>
+                  <border presence="hidden">
+                     <?templateDesigner StyleID aped0?></border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <caption reserve="32.7309mm">
+               <font baselineShift="0pt" typeface="Arial"/>
+               <para hAlign="right" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+               <value>
+                  <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N1313" xliff:rid="B1DCEC19-8DD1-4BD6-B272-27A038C504DB">Business Area:</text>
+               </value>
+            </caption>
+            <bind match="dataRef" ref="GS_FORMHDR.GSBER"/>
+            <desc>
+               <text name="Schema Annotation">Business Area</text>
+            </desc>
+            <assist>
+               <speak priority="caption"/>
+            </assist>
+            <?digestForSAP digest="eab0eda0b7731a4fb831530b1d0ebbe4"?></field>
+         <field access="readOnly" h="6mm" name="PRCTR" w="72.636mm" y="12.85mm">
+            <ui>
+               <textEdit>
+                  <border presence="hidden">
+                     <?templateDesigner StyleID aped0?></border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <caption reserve="32.7309mm">
+               <font baselineShift="0pt" typeface="Arial"/>
+               <para hAlign="right" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+               <value>
+                  <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N1313" xliff:rid="0A09F9A4-48F1-4388-B20E-FEE3432D3694">Profit Center:</text>
+               </value>
+            </caption>
+            <bind match="dataRef" ref="GS_FORMHDR.PRCTR"/>
+            <desc>
+               <text name="Schema Annotation">Business Area</text>
+            </desc>
+            <assist>
+               <speak priority="caption"/>
+            </assist>
+            <?digestForSAP digest="01142969094fc11e33f3f319908ace8d"?></field>
+         <field access="readOnly" h="9.0001mm" name="COMPANY" w="79.375mm" y="19.65mm">
+            <ui>
+               <textEdit>
+                  <border presence="hidden">
+                     <?templateDesigner StyleID aped0?></border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <caption reserve="32.7309mm">
+               <font baselineShift="0pt" typeface="Arial"/>
+               <para hAlign="right" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+               <value>
+                  <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N1313" xliff:rid="N1313">Reporting company:</text>
+               </value>
+            </caption>
+            <bind match="dataRef" ref="GS_FORMHDR.COMPANY"/>
+            <value>
+               <text maxChars="30"/>
+            </value>
+            <desc>
+               <text name="Schema Annotation">Company name</text>
+            </desc>
+            <assist>
+               <speak priority="caption"/>
+            </assist>
+            <?digestForSAP digest="9f8b351bf9445ef34998ec78272a1114"?></field>
+         <subform h="9mm" name="EN_FORMAT" w="71.4mm" x="79.735mm" y="19.56mm">
+            <bind match="none"/>
+            <field access="readOnly" h="9.0001mm" name="CYEAR" w="25.4mm" y="0mm">
+               <ui>
+                  <textEdit>
+                     <border presence="hidden">
+                        <?templateDesigner StyleID aped0?></border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="10.3371mm">
+                  <para vAlign="middle"/>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N1379" xliff:rid="N1379">Year:</text>
+                  </value>
+               </caption>
+               <bind match="dataRef" ref="GS_FORMHDR.VPERIOD_D"/>
+               <value>
+                  <text maxChars="4"/>
+               </value>
+               <desc>
+                  <text name="Schema Annotation">Fiscal Year</text>
+               </desc>
+               <assist>
+                  <speak priority="caption"/>
+               </assist>
+               <?digestForSAP digest="4f618a52216f69de613b9f9d1699888f"?></field>
+            <field access="readOnly" h="9.0001mm" name="CMONTH" w="25.4mm" x="23mm" y="0mm">
+               <ui>
+                  <textEdit>
+                     <border presence="hidden">
+                        <?templateDesigner StyleID aped0?></border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="11.4156mm">
+                  <para vAlign="middle"/>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N1445" xliff:rid="N1445">Month:</text>
+                  </value>
+               </caption>
+               <bind match="dataRef" ref="GS_FORMHDR.BPERIOD_D"/>
+               <value>
+                  <text maxChars="2"/>
+               </value>
+               <desc>
+                  <text name="Schema Annotation">Fiscal Period</text>
+               </desc>
+               <calculate override="error"/>
+               <assist>
+                  <speak priority="caption"/>
+               </assist>
+               <?digestForSAP digest="922dac8f27866a86f62ab56f7a597600"?></field>
+            <field access="readOnly" h="9.0001mm" name="CDAY" w="25.4mm" x="46mm" y="0mm">
+               <ui>
+                  <textEdit>
+                     <border presence="hidden">
+                        <?templateDesigner StyleID aped0?></border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="8.7871mm">
+                  <para vAlign="middle"/>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N523-1181" xliff:rid="N523-1181">Day:</text>
+                  </value>
+               </caption>
+               <bind match="dataRef" ref="GS_FORMHDR.BDAY"/>
+               <value>
+                  <text maxChars="2"/>
+               </value>
+               <desc>
+                  <text name="Schema Annotation">Fiscal Period</text>
+               </desc>
+               <assist>
+                  <speak priority="caption"/>
+               </assist>
+               <?digestForSAP digest="a9db22fd7e973351aa4a6c13e49f16f7"?></field>
+            <event activity="initialize" name="event__initialize">
+               <script>//log on in ZH: EN_FORMAT hidden while ZH_FORMAT shown
+if ( $record.GV_LANGU eq "ZH" )
+then
+  this.presence = "hidden";
+endif
+
+</script>
+            </event>
+            <?templateDesigner expand 1?></subform>
+         <subform h="9mm" name="ZH_FORMAT" w="71.4mm" x="79.735mm" y="19.56mm">
+            <bind match="none"/>
+            <field access="readOnly" h="9mm" name="CYEAR" w="20.067mm" x="12.74mm">
+               <ui>
+                  <textEdit>
+                     <border presence="hidden">
+                        <?templateDesigner StyleID aped0?></border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para hAlign="right" vAlign="middle"/>
+               <caption placement="right" reserve="10mm">
+                  <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                  <value>
+                     <text xliff:rid="9D7D7F8A-2DE9-4814-8875-3BD49B69E614">Year</text>
+                  </value>
+                  <font baselineShift="0pt" typeface="Arial"/>
+               </caption>
+               <bind match="dataRef" ref="GS_FORMHDR.VPERIOD_D"/>
+               <value>
+                  <text maxChars="4"/>
+               </value>
+               <desc>
+                  <text name="Schema Annotation">Fiscal Year</text>
+               </desc>
+               <assist>
+                  <speak priority="caption"/>
+               </assist>
+               <?digestForSAP digest="4f618a52216f69de613b9f9d1699888f"?></field>
+            <field access="readOnly" h="9mm" name="CMONTH" w="15.903mm" x="28.46mm">
+               <ui>
+                  <textEdit>
+                     <border presence="hidden">
+                        <?templateDesigner StyleID aped0?></border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para hAlign="right" vAlign="middle"/>
+               <caption placement="right" reserve="10mm">
+                  <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                  <value>
+                     <text xliff:rid="E6346F32-B6D3-473E-AC12-46DF20008D63">Month</text>
+                  </value>
+                  <font baselineShift="0pt" typeface="Arial"/>
+               </caption>
+               <bind match="dataRef" ref="GS_FORMHDR.BPERIOD_D"/>
+               <value>
+                  <text maxChars="2"/>
+               </value>
+               <desc>
+                  <text name="Schema Annotation">Fiscal Period</text>
+               </desc>
+               <assist>
+                  <speak priority="caption"/>
+               </assist>
+               <?digestForSAP digest="922dac8f27866a86f62ab56f7a597600"?></field>
+            <field access="readOnly" h="9mm" name="CDAY" w="13.951mm" x="42.1mm">
+               <ui>
+                  <textEdit>
+                     <border presence="hidden">
+                        <?templateDesigner StyleID aped0?></border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para hAlign="right" vAlign="middle"/>
+               <caption placement="right" reserve="7.964mm">
+                  <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                  <value>
+                     <text xliff:rid="6AF9CA5C-C55B-498C-BC27-7250D0CDD9A6">Day</text>
+                  </value>
+                  <font baselineShift="0pt" typeface="Arial"/>
+               </caption>
+               <bind match="dataRef" ref="GS_FORMHDR.BDAY"/>
+               <value>
+                  <text maxChars="2"/>
+               </value>
+               <desc>
+                  <text name="Schema Annotation">Fiscal Period</text>
+               </desc>
+               <assist>
+                  <speak priority="caption"/>
+               </assist>
+               <?digestForSAP digest="a9db22fd7e973351aa4a6c13e49f16f7"?></field>
+            <event activity="initialize" name="event__initialize">
+               <script>//log on in non-ZH: EN_FORMAT shown while ZH_FORMAT hidden
+if ( $record.GV_LANGU ne "ZH" )
+then
+  this.presence = "hidden";
+endif
+
+</script>
+            </event>
+            <?templateDesigner expand 1?></subform>
+         <field access="readOnly" h="9mm" name="CURRENCY" w="51.084mm" x="145.939mm" y="19.65mm">
+            <ui>
+               <textEdit multiLine="1">
+                  <border presence="hidden">
+                     <?templateDesigner StyleID aped0?></border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <caption reserve="16.7978mm">
+               <para hAlign="right" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+               <value>
+                  <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N1511" xliff:rid="N1511">Currency:</text>
+               </value>
+               <font baselineShift="0pt" typeface="Arial"/>
+            </caption>
+            <bind match="dataRef" ref="GS_FORMHDR.CURRENCY"/>
+            <desc>
+               <text name="Schema Annotation">Currency Key</text>
+            </desc>
+            <assist>
+               <speak priority="caption"/>
+            </assist>
+            <?digestForSAP digest="6c737dc04add1ef06013907b949048a3"?></field>
+         <subform columnWidths="46mm 6mm 23.325mm 23.325mm 46mm 6mm 23.325mm 23.325mm" layout="table" name="Table" y="27.65mm">
+            <border>
+               <edge/>
+            </border>
+            <subform id="HeaderRow_ID_copy1_copy2" layout="row" name="HeaderRow">
+               <assist role="TH"/>
+               <draw h="11.504mm" name="TEXT45_AS" w="30mm">
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N566" xliff:rid="N566">Assets</text>
+                  </value>
+                  <font size="8pt" typeface="Arial" weight="bold"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para hAlign="center" vAlign="middle"/>
+               </draw>
+               <draw h="11.504mm" name="LINENR_AS" w="30mm">
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N608" xliff:rid="N608">No</text>
+                  </value>
+                  <font size="8pt" typeface="Arial" weight="bold"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para hAlign="center" vAlign="middle"/>
+               </draw>
+               <draw minH="11.504mm" name="BSUM_AS" w="21.325mm">
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N710" xliff:rid="CA9F4A7A-95DE-4122-90FC-BD3F0A98409F">Period-end Balance</text>
+                  </value>
+                  <font size="8pt" typeface="Arial" weight="bold"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para hAlign="center" vAlign="middle"/>
+               </draw>
+               <draw h="11.504mm" name="VSUM_AS" w="30mm">
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N710" xliff:rid="N710">Year-beginning Balance</text>
+                  </value>
+                  <font size="8pt" typeface="Arial" weight="bold"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para hAlign="center" vAlign="middle"/>
+               </draw>
+               <draw h="11.504mm" name="TEXT45_LE" w="30mm">
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N752" xliff:rid="N752">Liabilities and Owner's Equity</text>
+                  </value>
+                  <font size="8pt" typeface="Arial" weight="bold"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para hAlign="center" vAlign="middle"/>
+               </draw>
+               <draw h="11.504mm" name="LINENR_LE" w="30mm">
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N794" xliff:rid="N794">No</text>
+                  </value>
+                  <font size="8pt" typeface="Arial" weight="bold"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para hAlign="center" vAlign="middle"/>
+               </draw>
+               <draw minH="11.504mm" name="BSUM_LE" w="21.325mm">
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N894" xliff:rid="0FE34CE6-7D52-40BD-95D7-10C7910C6E69">Period-end Balance</text>
+                  </value>
+                  <font baselineShift="0pt" size="8pt" typeface="Arial" weight="bold"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+               </draw>
+               <draw h="11.504mm" name="VSUM_LE" w="30mm">
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N894" xliff:rid="N894">Year-beginning Balance</text>
+                  </value>
+                  <font baselineShift="0pt" size="8pt" typeface="Arial" weight="bold"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+               </draw>
+               <border>
+                  <edge presence="hidden"/>
+               </border>
+               <occur max="-1"/>
+               <bind match="none"/>
+               <?templateDesigner expand 0?></subform>
+            <subform layout="row" name="Row">
+               <assist role="TR"/>
+               <field access="readOnly" minH="5mm" name="LINETEXT_AS" w="30mm">
+                  <ui>
+                     <textEdit multiLine="1">
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="8pt" typeface="Arial"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para vAlign="middle"/>
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <bind match="dataRef" ref="GT_FORMLINES_AS.DATA[*].LINETEXT"/>
+                  <desc>
+                     <text name="Schema Annotation">ZJF Line description</text>
+                  </desc>
+                  <assist>
+                     <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="B466038D-D706-48F7-9745-3A736234BF71" xliff:rid="B466038D-D706-48F7-9745-3A736234BF71">Assets</speak>
+                  </assist>
+                  <event activity="initialize" name="event__initialize">
+                     <script>A = A + 1
+
+if ( count($record.GT_FORMLINES_AS.DATA[*].LINELEV) gt A ) then
+   this.margin.leftInset = concat( 0.5 + 2 * $record.GT_FORMLINES_AS.DATA[A].LINELEV, "mm")
+endif
+</script>
+                  </event>
+                  <?digestForSAP digest="b3e3d0bb70b243d84c68d1244827b983"?></field>
+               <field access="readOnly" h="5mm" name="LINENR_AS" w="30mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="8pt" typeface="Arial"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para hAlign="center" vAlign="middle"/>
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <bind match="dataRef" ref="GT_FORMLINES_AS.DATA[*].LINENREXT"/>
+                  <assist>
+                     <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="618E8219-F172-4DEF-AA9F-322FF4C09CA3" xliff:rid="618E8219-F172-4DEF-AA9F-322FF4C09CA3">Assets - Number</speak>
+                  </assist>
+                  <?digestForSAP digest="17f84f607aea27b1a220849cf9b0f966"?></field>
+               <field access="readOnly" h="5mm" name="BSUM_AS" w="30mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                     <picture>zero{}|num.decimal{}</picture>
+                  </ui>
+                  <font size="7pt" typeface="Arial"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para hAlign="right" vAlign="middle"/>
+                  <assist>
+                     <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="612E17BB-254F-4AE8-A848-D3806F376A0A" xliff:rid="612E17BB-254F-4AE8-A848-D3806F376A0A">Assets - Period-end Balance</speak>
+                  </assist>
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <calculate override="error"/>
+                  <event activity="initialize" name="event__initialize">
+                     <script>//if (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "1") then
+//   this.format.picture.value = "num{zzzzzzzzzz9.9}"
+//elseif (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "0") then
+//   this.format.picture.value = "num{zzzzzzzzzz9}"
+//endif
+
+if ( count($record.GT_FORMLINES_AS.DATA[*].LINELEV) gt A ) then
+   if ($record.GT_FORMLINES_AS.DATA[A].LINETYPE eq "B") then
+//      this.format.picture.value = "zero{}"
+      this.rawValue = null
+   endif
+endif
+</script>
+                  </event>
+                  <bind match="dataRef" ref="GT_FORMLINES_AS.DATA[*].BSUM"/>
+                  <?digestForSAP digest="f2c74329c1aa0da6c2341d97d6f0d64f"?></field>
+               <field access="readOnly" h="5mm" name="VSUM_AS" w="30mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                     <picture>zero{}|num.decimal{}</picture>
+                  </ui>
+                  <font size="7pt" typeface="Arial"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para hAlign="right" vAlign="middle"/>
+                  <assist>
+                     <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="7B5DB33A-13A2-4BA4-A94C-02AA2E6A1FD5" xliff:rid="7B5DB33A-13A2-4BA4-A94C-02AA2E6A1FD5">Assets - Year-beginning Balance</speak>
+                  </assist>
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <event activity="initialize" name="event__initialize">
+                     <script>//if (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "1") then
+//  this.format.picture.value = "num{zzzzzzzzzz9.9}"
+//elseif (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "0") then
+//   this.format.picture.value = "num{zzzzzzzzzz9}"
+//endif
+
+if ( count($record.GT_FORMLINES_AS.DATA[*].LINELEV) gt A ) then
+   if ($record.GT_FORMLINES_AS.DATA[A].LINETYPE eq "B") then
+//      this.format.picture.value = "zero{}"
+      this.rawValue = null
+   endif
+endif
+</script>
+                  </event>
+                  <bind match="dataRef" ref="GT_FORMLINES_AS.DATA[*].VSUM"/>
+                  <?digestForSAP digest="f570d133c5f266b7186bdab6db9e3c16"?></field>
+               <field access="readOnly" minH="5mm" name="LINETEXT_LE" w="30mm">
+                  <ui>
+                     <textEdit multiLine="1">
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="8pt" typeface="Arial"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para vAlign="middle"/>
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <bind match="dataRef" ref="GT_FORMLINES_LE.DATA[*].LINETEXT"/>
+                  <event activity="initialize" name="event__initialize">
+                     <script>
+L = L + 1
+
+if ( count($record.GT_FORMLINES_LE.DATA[*].LINELEV) gt L ) then
+   this.margin.leftInset = concat( 0.5 + 2 * $record.GT_FORMLINES_LE.DATA[L].LINELEV, "mm")
+endif
+</script>
+                  </event>
+                  <assist>
+                     <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="24FB61E6-08CE-479E-82B9-05B9C9560411" xliff:rid="24FB61E6-08CE-479E-82B9-05B9C9560411">Liabilities</speak>
+                  </assist>
+                  <?digestForSAP digest="67afa3c79681d0cb11b1b7dac8e24d24"?></field>
+               <field h="5mm" w="30mm">
+                  <font size="8pt" typeface="Arial"/>
+                  <para hAlign="center" vAlign="middle"/>
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <bind match="dataRef" ref="GT_FORMLINES_LE.DATA[*].LINENREXT"/>
+                  <assist>
+                     <speak disable="1"/>
+                  </assist>
+                  
+               <?digestForSAP digest="e4c11b3b5712d6013020745f0bce9b78"?></field>
+               <field access="readOnly" h="5mm" name="BSUM_LE" w="30mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="7pt" typeface="Arial"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para hAlign="right" vAlign="middle"/>
+                  <assist>
+                     <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="D21918DB-7CE3-4B9C-9292-32B81A62683B" xliff:rid="D21918DB-7CE3-4B9C-9292-32B81A62683B">Liabilities - Period-end Balance</speak>
+                  </assist>
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <event activity="initialize" name="event__initialize">
+                     <script>//if (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "1") then
+//   this.format.picture.value = "num{zzzzzzzzzz9.9}"
+//elseif (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "0") then
+//   this.format.picture.value = "num{zzzzzzzzzz9}"
+//endif
+
+if ( count($record.GT_FORMLINES_LE.DATA[*].LINELEV) gt L ) then
+   if ($record.GT_FORMLINES_LE.DATA[L].LINETYPE eq "B") then
+//      this.format.picture.value = "zero{}"
+      this.rawValue = null
+   endif
+endif
+</script>
+                  </event>
+                  <bind match="dataRef" ref="GT_FORMLINES_LE.DATA[*].BSUM"/>
+                  <?digestForSAP digest="2aaa60fb15ab36656b30a24da9fa75e9"?></field>
+               <field access="readOnly" h="5mm" name="VSUM_LE" w="30mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="7pt" typeface="Arial"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para hAlign="right" vAlign="middle"/>
+                  <assist>
+                     <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="AE871168-9AB1-4194-90AB-D0EE8DA03825" xliff:rid="AE871168-9AB1-4194-90AB-D0EE8DA03825">Liabilities - Year-beginning Balance</speak>
+                  </assist>
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <event activity="initialize" name="event__initialize">
+                     <script>//if (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "1") then
+ //  this.format.picture.value = "num{zzzzzzzzzz9.9}"
+//elseif (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "0") then
+//   this.format.picture.value = "num{zzzzzzzzzz9}"
+//endif
+
+if ( count($record.GT_FORMLINES_LE.DATA[*].LINELEV) gt L ) then
+   if ($record.GT_FORMLINES_LE.DATA[L].LINETYPE eq "B") then
+//      this.format.picture.value = "zero{}"
+      this.rawValue = null
+   endif
+endif
+</script>
+                  </event>
+                  <bind match="dataRef" ref="GT_FORMLINES_LE.DATA[*].VSUM"/>
+                  <?digestForSAP digest="3e28676e0ead31c74081e4d76cb1dbdf"?></field>
+               <border>
+                  <edge presence="hidden"/>
+               </border>
+               <bind match="none"/>
+               <occur max="44"/>
+               <?templateDesigner expand 1?></subform>
+            <?templateDesigner rowpattern first:1, next:1, firstcolor:f0f0f0, nextcolor:ffffff, apply:0?>
+            <break overflowLeader="#HeaderRow_ID_copy1_copy2"/>
+            <bind match="none"/>
+            <assist>
+               <speak disable="1"/>
+            </assist>
+            <?templateDesigner expand 1?></subform>
+         <bind match="none"/>
+         <occur max="-1" min="0"/>
+         <event activity="initialize" name="event__initialize">
+            <script>
+if ( $record.GS_FORMHDR.BILATYPE eq "I" or $record.GV_ORIENT eq "L" ) then
+  data.Balance.presence = "hidden"
+endif
+
+if ($record.GS_FORMHDR.GSBER eq null) then
+   data.Balance.GSBER.presence = "hidden"
+  else
+   data.Balance.GSBER.presence = "visible"
+endif
+
+if ($record.GS_FORMHDR.PRCTR eq null) then
+   data.Balance.PRCTR.presence = "hidden"
+  else
+   data.Balance.PRCTR.presence = "visible"
+endif
+</script>
+         </event>
+         <?templateDesigner expand 1?></subform>
+      <subform h="284.3001mm" name="Income" w="197.3mm">
+         <draw h="7mm" name="Title" w="2.875in" x="63.65mm">
+            <ui>
+               <textEdit>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <value>
+               <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N1739" xliff:rid="N1739">Income Statement</text>
+            </value>
+            <font baselineShift="0pt" size="14pt" typeface="Arial" weight="bold"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+            <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+            <?renderCache.bounds 204166 17009 0 0 1417 1417 0 0?>
+            <?renderCache.textRun 16 Income Statement 0 43207 12471 0 0 0 "Arial" 1 0 14000 ISO-8859-1?></draw>
+         <draw h="0.25in" name="Report_ID" w="2.022097in" x="145.939mm" y="6.35mm">
+            <ui>
+               <textEdit>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <value>
+               <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N2368" xliff:rid="N2368">Enterprise accounting report 02</text>
+            </value>
+            <font baselineShift="0pt" typeface="Arial"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+            <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+            <?renderCache.bounds 142757 15166 0 0 1417 1417 0 0?>
+            <?renderCache.textRun 31 Enterprise accounting report 02 0 1417 9313 0 0 0 "Arial" 0 0 10000 ISO-8859-1?></draw>
+         <field access="readOnly" h="6mm" name="GSBER" w="47.62mm" y="10.991mm">
+            <ui>
+               <textEdit>
+                  <border presence="hidden">
+                     <?templateDesigner StyleID aped0?></border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <caption reserve="32.7309mm">
+               <font baselineShift="0pt" typeface="Arial"/>
+               <para hAlign="right" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+               <value>
+                  <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N1313" xliff:rid="E211F2AD-39B4-4E36-AE70-D043D4B26E94">Business Area:</text>
+               </value>
+            </caption>
+            <bind match="dataRef" ref="GS_FORMHDR.GSBER"/>
+            <desc>
+               <text name="Schema Annotation">Business Area</text>
+            </desc>
+            <assist>
+               <speak priority="caption"/>
+            </assist>
+            <?digestForSAP digest="eab0eda0b7731a4fb831530b1d0ebbe4"?></field>
+         <field access="readOnly" h="6mm" name="PRCTR" w="72.636mm" y="16.777mm">
+            <ui>
+               <textEdit>
+                  <border presence="hidden">
+                     <?templateDesigner StyleID aped0?></border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <caption reserve="32.7309mm">
+               <font baselineShift="0pt" typeface="Arial"/>
+               <para hAlign="right" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+               <value>
+                  <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N1313" xliff:rid="E231DD51-DDBB-4392-A8FE-48846B360141">Profit Center:</text>
+               </value>
+            </caption>
+            <bind match="dataRef" ref="GS_FORMHDR.PRCTR"/>
+            <desc>
+               <text name="Schema Annotation">Business Area</text>
+            </desc>
+            <assist>
+               <speak priority="caption"/>
+            </assist>
+            <?digestForSAP digest="01142969094fc11e33f3f319908ace8d"?></field>
+         <field access="readOnly" h="6mm" name="COMPANY" w="79.375mm" y="22.506mm">
+            <ui>
+               <textEdit>
+                  <border presence="hidden">
+                     <?templateDesigner StyleID aped0?></border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <caption reserve="32.7309mm">
+               <font baselineShift="0pt" typeface="Arial"/>
+               <para hAlign="right" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+               <value>
+                  <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N2328" xliff:rid="N2328">Reporting company:</text>
+               </value>
+            </caption>
+            <bind match="dataRef" ref="GS_FORMHDR.COMPANY"/>
+            <value>
+               <text maxChars="30"/>
+            </value>
+            <desc>
+               <text name="Schema Annotation">Company name</text>
+            </desc>
+            <assist>
+               <speak priority="caption"/>
+            </assist>
+            <?digestForSAP digest="9f8b351bf9445ef34998ec78272a1114"?></field>
+         <subform h="9.044mm" name="EN_FORMAT" w="48.869mm" x="88.082mm" y="19.389mm">
+            <bind match="none"/>
+            <field access="readOnly" h="9.0001mm" name="CYEAR" w="25.4mm" y="0mm">
+               <ui>
+                  <textEdit>
+                     <border presence="hidden">
+                        <?templateDesigner StyleID aped0?></border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="10.3371mm">
+                  <para vAlign="middle"/>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N2131" xliff:rid="N2131">Year:</text>
+                  </value>
+               </caption>
+               <bind match="dataRef" ref="GS_FORMHDR.VPERIOD_D"/>
+               <value>
+                  <text maxChars="4"/>
+               </value>
+               <desc>
+                  <text name="Schema Annotation">Fiscal Year</text>
+               </desc>
+               <assist>
+                  <speak priority="caption"/>
+               </assist>
+               <?digestForSAP digest="4f618a52216f69de613b9f9d1699888f"?></field>
+            <field access="readOnly" h="9.0001mm" name="CMONTH" w="25.4mm" x="23mm" y="0mm">
+               <ui>
+                  <textEdit>
+                     <border presence="hidden">
+                        <?templateDesigner StyleID aped0?></border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="11.4156mm">
+                  <para vAlign="middle"/>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N2197" xliff:rid="N2197">Month:</text>
+                  </value>
+               </caption>
+               <bind match="dataRef" ref="GS_FORMHDR.BPERIOD_D"/>
+               <value>
+                  <text maxChars="2"/>
+               </value>
+               <desc>
+                  <text name="Schema Annotation">Fiscal Period</text>
+               </desc>
+               <assist>
+                  <speak priority="caption"/>
+               </assist>
+               <?digestForSAP digest="922dac8f27866a86f62ab56f7a597600"?></field>
+            <event activity="initialize" name="event__initialize">
+               <script>//log on in ZH: EN_FORMAT hidden while ZH_FORMAT shown
+if ( $record.GV_LANGU eq "ZH" )
+then
+  this.presence = "hidden";
+endif
+
+</script>
+            </event>
+            <?templateDesigner expand 1?></subform>
+         <subform h="9.044mm" name="ZH_FORMAT" w="48.514mm" x="88.26mm" y="19.307mm">
+            <bind match="none"/>
+            <field access="readOnly" h="9mm" name="CYEAR" w="20.511mm" x="7.231mm">
+               <ui>
+                  <textEdit>
+                     <border presence="hidden">
+                        <?templateDesigner StyleID aped0?></border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para hAlign="right" vAlign="middle"/>
+               <caption placement="right" reserve="10mm">
+                  <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                  <value>
+                     <text xliff:rid="6916D8C0-7F77-44B7-A8E6-94B3C2370735">Year</text>
+                  </value>
+                  <font baselineShift="0pt" typeface="Arial"/>
+               </caption>
+               <bind match="dataRef" ref="GS_FORMHDR.VPERIOD_D"/>
+               <value>
+                  <text maxChars="4"/>
+               </value>
+               <desc>
+                  <text name="Schema Annotation">Fiscal Year</text>
+               </desc>
+               <assist>
+                  <speak priority="caption"/>
+               </assist>
+               <?digestForSAP digest="4f618a52216f69de613b9f9d1699888f"?></field>
+            <field access="readOnly" h="9mm" name="CMONTH" w="16.013mm" x="23mm">
+               <ui>
+                  <textEdit>
+                     <border presence="hidden">
+                        <?templateDesigner StyleID aped0?></border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para hAlign="right" vAlign="middle"/>
+               <caption placement="right" reserve="10mm">
+                  <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                  <value>
+                     <text xliff:rid="4FE8A2B4-A609-4312-9E6C-8244AD63F815">Month</text>
+                  </value>
+                  <font baselineShift="0pt" typeface="Arial"/>
+               </caption>
+               <bind match="dataRef" ref="GS_FORMHDR.BPERIOD_D"/>
+               <value>
+                  <text maxChars="2"/>
+               </value>
+               <desc>
+                  <text name="Schema Annotation">Fiscal Period</text>
+               </desc>
+               <assist>
+                  <speak priority="caption"/>
+               </assist>
+               <?digestForSAP digest="922dac8f27866a86f62ab56f7a597600"?></field>
+            <event activity="initialize" name="event__initialize">
+               <script>//log on in non-ZH: EN_FORMAT shown while ZH_FORMAT hidden
+if ( $record.GV_LANGU ne "ZH" )
+then
+  this.presence = "hidden";
+endif
+
+</script>
+            </event>
+            <?templateDesigner expand 1?></subform>
+         <field access="readOnly" h="9mm" name="CURRENCY" w="50.911mm" x="145.939mm" y="19.65mm">
+            <ui>
+               <textEdit multiLine="1">
+                  <border presence="hidden">
+                     <?templateDesigner StyleID aped0?></border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <caption reserve="16.6256mm">
+               <para hAlign="right" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+               <value>
+                  <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N2263" xliff:rid="N2263">Currency:</text>
+               </value>
+               <font baselineShift="0pt" typeface="Arial"/>
+            </caption>
+            <bind match="dataRef" ref="GS_FORMHDR.CURRENCY"/>
+            <desc>
+               <text name="Schema Annotation">Currency Key</text>
+            </desc>
+            <assist>
+               <speak priority="caption"/>
+            </assist>
+            <?digestForSAP digest="6c737dc04add1ef06013907b949048a3"?></field>
+         <bind match="none"/>
+         <subform columnWidths="115mm 12.064mm 35mm 35mm" layout="table" name="Table" y="28.65mm">
+            <?templateDesigner rowpattern first:1, next:1, firstcolor:f0f0f0, nextcolor:ffffff, apply:0?>
+            <border>
+               <edge/>
+            </border>
+            <subform id="HeaderRow_ID_copy1_copy2_copy1" layout="row" name="HeaderRow">
+               <assist role="TH"/>
+               <draw h="12mm" name="TEXT45_PL" w="30mm">
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N2215-1141" xliff:rid="N2215-1141">Item</text>
+                  </value>
+                  <font size="8pt" typeface="Arial" weight="bold"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para hAlign="center" vAlign="middle"/>
+               </draw>
+               <draw h="12mm" name="LINENR_PL" w="30mm">
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N608" xliff:rid="D61E6290-361A-4E06-8963-05107BEDED14">No</text>
+                  </value>
+                  <font size="8pt" typeface="Arial" weight="bold"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para hAlign="center" vAlign="middle"/>
+               </draw>
+               <draw h="12mm" name="BSUM_PL" w="30mm">
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N2044" xliff:rid="N2044">Current Period</text>
+                  </value>
+                  <font baselineShift="0pt" size="8pt" typeface="Arial" weight="bold"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+               </draw>
+               <field access="readOnly" minH="12mm" name="GV_VSUM_PL" w="32mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="8pt" typeface="Arial" weight="bold"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para hAlign="center" vAlign="middle"/>
+                  <value>
+                     <text maxChars="12"/>
+                  </value>
+                  <bind match="dataRef" ref="$.GV_VSUM_PL"/>
+                  <desc>
+                     <text name="Schema Annotation">Character Field of Length 12</text>
+                  </desc>
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <assist>
+                     <speak priority="caption"/>
+                     <toolTip xliff:rid="AEBBBEB3-45CF-4A63-9E75-843A8EEDD8D6">Period Name</toolTip>
+                  </assist>
+                  <?digestForSAP digest="114364cdb1cab866cbb81273e8911a0e"?></field>
+               <border>
+                  <edge presence="hidden"/>
+               </border>
+               <occur max="-1"/>
+               <bind match="none"/>
+               <?templateDesigner expand 1?></subform>
+            <subform layout="row" name="Row">
+               <assist role="TR"/>
+               <field access="readOnly" minH="6mm" name="LINETEXT_PL" w="30mm">
+                  <ui>
+                     <textEdit multiLine="1">
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="8pt" typeface="Arial"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para vAlign="middle"/>
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <bind match="dataRef" ref="GT_FORMLINES_PL.DATA[*].LINETEXT"/>
+                  <assist>
+                     <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="4E4FB1D0-B7D0-471A-A07B-CE71A0737BA0" xliff:rid="4E4FB1D0-B7D0-471A-A07B-CE71A0737BA0">Item</speak>
+                  </assist>
+                  <event activity="initialize" name="event__initialize">
+                     <script>
+P = P + 1
+
+this.margin.leftInset = concat(0.5 + 2 * $record.GT_FORMLINES_PL.DATA[P].LINELEV, "mm")
+</script>
+                  </event>
+                  <?digestForSAP digest="67323044db1336aa80579040fe5c159e"?></field>
+               <field access="readOnly" h="6mm" name="LINENR_PL" w="30mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="8pt" typeface="Arial"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para hAlign="center" vAlign="middle"/>
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <bind match="dataRef" ref="GT_FORMLINES_PL.DATA[*].LINENREXT"/>
+                  <calculate override="error"/>
+                  <assist>
+                     <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="EFC134DA-5190-4E8B-B817-DF3A4EAE45B2" xliff:rid="EFC134DA-5190-4E8B-B817-DF3A4EAE45B2">Number</speak>
+                  </assist>
+                  <?digestForSAP digest="96059458e01e81f3f57239d90425096b"?></field>
+               <field access="readOnly" h="6mm" name="BSUM_PL" w="30mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="8pt" typeface="Arial"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para hAlign="right" vAlign="middle"/>
+                  <assist>
+                     <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="459F2280-1712-4003-B040-6E34C97DC33E" xliff:rid="459F2280-1712-4003-B040-6E34C97DC33E">Current Period</speak>
+                  </assist>
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <calculate override="error"/>
+                  <event activity="initialize" name="event__initialize">
+                     <script>//if (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "1") then
+ //  this.format.picture.value = "num{zzzzzzzzzz9.9}"
+//elseif (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "0") then
+//   this.format.picture.value = "num{zzzzzzzzzz9}"
+//endif
+
+if ($record.GT_FORMLINES_PL.DATA[P].LINETYPE eq "B") then
+ //  this.format.picture.value = "zero{}"
+   this.rawValue = null
+endif
+</script>
+                  </event>
+                  <bind match="dataRef" ref="GT_FORMLINES_PL.DATA[*].BSUM"/>
+                  <?digestForSAP digest="096218e0197953b5a4e5e803db45ba91"?></field>
+               <field access="readOnly" h="6mm" name="VSUM_PL" w="30mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                     <picture>num{zzzzzzzzzz9.99}</picture>
+                  </ui>
+                  <font size="8pt" typeface="Arial"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para hAlign="right" vAlign="middle"/>
+                  <assist>
+                     <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="4097BF42-A810-4B4D-AD35-DDD2B60F7092" xliff:rid="4097BF42-A810-4B4D-AD35-DDD2B60F7092">Last Period</speak>
+                  </assist>
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <event activity="initialize" name="event__initialize">
+                     <script>//if (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "1") then
+//   this.format.picture.value = "num{zzzzzzzzzz9.9}"
+//elseif (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "0") then
+//   this.format.picture.value = "num{zzzzzzzzzz9}"
+//endif
+
+if ($record.GT_FORMLINES_PL.DATA[P].LINETYPE eq "B") then
+//   this.format.picture.value = "zero{}"
+   this.rawValue = null
+endif
+</script>
+                  </event>
+                  <bind match="dataRef" ref="GT_FORMLINES_PL.DATA[*].VSUM"/>
+                  <?digestForSAP digest="23c01253542d2eb77ec6051c40c1caf9"?></field>
+               <border>
+                  <edge presence="hidden"/>
+               </border>
+               <bind match="none"/>
+               <occur max="44"/>
+               <?templateDesigner expand 1?></subform>
+            <break overflowLeader="#HeaderRow_ID_copy1_copy2"/>
+            <bind match="none"/>
+            <assist>
+               <speak disable="1"/>
+            </assist>
+            <?templateDesigner expand 1?></subform>
+         <occur max="-1"/>
+         <event activity="initialize" name="event__initialize">
+            <script>
+if ( $record.GS_FORMHDR.BILATYPE eq "B" or $record.GV_ORIENT eq "L") then
+  data.Income.presence = "hidden"
+endif
+
+if ($record.GS_FORMHDR.GSBER eq null) then
+   data.Income.GSBER.presence = "hidden"
+  else
+   data.Income.GSBER.presence = "visible"
+endif
+
+if ($record.GS_FORMHDR.PRCTR eq null) then
+   data.Income.PRCTR.presence = "hidden"
+  else
+   data.Income.PRCTR.presence = "visible"
+endif
+</script>
+         </event>
+         <?templateDesigner expand 1?></subform>
+      <subform h="203mm" name="Balance_L" w="287.132mm">
+         <break after="pageArea" afterTarget="#6f084e43-48f2-11e2-893f-70f3950cb3ea" before="pageArea" beforeTarget="#6f084e43-48f2-11e2-893f-70f3950cb3ea"/>
+         <bind match="none"/>
+         <draw h="7mm" name="Title" w="2.875in" x="107.349mm" y="0.175mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N1187" xliff:rid="C1441C64-9B64-4DA6-B365-8564DBEEE9B4">Balance Sheet</text>
+            </value>
+            <font baselineShift="0pt" size="14pt" typeface="Arial" weight="bold"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+            <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+            <?renderCache.bounds 204166 17009 0 0 1417 1417 0 0?>
+            <?renderCache.textRun 13 Balance Sheet 0 55645 12471 0 0 0 "Arial" 1 0 14000 ISO-8859-1?></draw>
+         <draw h="6mm" name="Report_ID" w="51mm" x="236.082mm" y="6.55mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N1246" xliff:rid="EC8E860F-21FC-45E1-8FAB-992D7E523444">Enterprise accounting report 01</text>
+            </value>
+            <font baselineShift="0pt" typeface="Arial"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+            <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+            <?renderCache.bounds 141733 14174 0 0 1417 1417 0 0?>
+            <?renderCache.textRun 31 Enterprise accounting report 01 0 1417 9313 0 0 0 "Arial" 0 0 10000 ISO-8859-1?></draw>
+         <field access="readOnly" h="6mm" name="GSBER" w="48.628mm" x="0.297mm" y="6.55mm">
+            <ui>
+               <textEdit>
+                  <border presence="hidden">
+                     <?templateDesigner StyleID aped0?></border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <caption reserve="32.7309mm">
+               <font baselineShift="0pt" typeface="Arial"/>
+               <para hAlign="right" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+               <value>
+                  <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N1313" xliff:rid="32476FD8-7B36-446C-A0DE-42C4F884F232">Business Area:</text>
+               </value>
+            </caption>
+            <bind match="dataRef" ref="GS_FORMHDR.GSBER"/>
+            <desc>
+               <text name="Schema Annotation">Business Area</text>
+            </desc>
+            <assist>
+               <speak priority="caption"/>
+            </assist>
+            <?digestForSAP digest="eab0eda0b7731a4fb831530b1d0ebbe4"?></field>
+         <field access="readOnly" h="6mm" name="PRCTR" w="73.633mm" x="0.297mm" y="12.55mm">
+            <ui>
+               <textEdit>
+                  <border presence="hidden">
+                     <?templateDesigner StyleID aped0?></border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <caption reserve="32.7309mm">
+               <font baselineShift="0pt" typeface="Arial"/>
+               <para hAlign="right" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+               <value>
+                  <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N1313" xliff:rid="59F70C68-7E9C-4B56-99DB-2A982EAA2E9A">Profit Center:</text>
+               </value>
+            </caption>
+            <bind match="dataRef" ref="GS_FORMHDR.PRCTR"/>
+            <desc>
+               <text name="Schema Annotation">Business Area</text>
+            </desc>
+            <assist>
+               <speak priority="caption"/>
+            </assist>
+            <?digestForSAP digest="01142969094fc11e33f3f319908ace8d"?></field>
+         <field access="readOnly" h="6mm" name="COMPANY" w="79.375mm" x="0.297mm" y="18.55mm">
+            <ui>
+               <textEdit>
+                  <border presence="hidden">
+                     <?templateDesigner StyleID aped0?></border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <caption reserve="32.7309mm">
+               <font baselineShift="0pt" typeface="Arial"/>
+               <para hAlign="right" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+               <value>
+                  <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N1313" xliff:rid="D3AC629C-BAAE-4A7D-8EC4-8E5BA742A2A1">Reporting company:</text>
+               </value>
+            </caption>
+            <bind match="dataRef" ref="GS_FORMHDR.COMPANY"/>
+            <value>
+               <text maxChars="30"/>
+            </value>
+            <desc>
+               <text name="Schema Annotation">Company name</text>
+            </desc>
+            <assist>
+               <speak priority="caption"/>
+            </assist>
+            <?digestForSAP digest="9f8b351bf9445ef34998ec78272a1114"?></field>
+         <field access="readOnly" h="6mm" name="CURRENCY" w="51.084mm" x="236.048mm" y="18.55mm">
+            <ui>
+               <textEdit multiLine="1">
+                  <border presence="hidden">
+                     <?templateDesigner StyleID aped0?></border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <caption reserve="16.7672mm">
+               <para hAlign="right" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+               <value>
+                  <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N1511" xliff:rid="2DFA26A0-AD45-4B6B-8FF8-FD934A37A73C">Currency:</text>
+               </value>
+               <font baselineShift="0pt" typeface="Arial"/>
+            </caption>
+            <bind match="dataRef" ref="GS_FORMHDR.CURRENCY"/>
+            <desc>
+               <text name="Schema Annotation">Currency Key</text>
+            </desc>
+            <assist>
+               <speak priority="caption"/>
+            </assist>
+            <?digestForSAP digest="6c737dc04add1ef06013907b949048a3"?></field>
+         <subform columnWidths="46.5mm 6mm 45.5mm 45.5mm 46.5mm 6mm 45.5mm 45.5mm" layout="table" name="Table" x="0.132mm" y="24.521mm">
+            <border>
+               <edge/>
+            </border>
+            <subform id="HeaderRow_ID" layout="row" name="HeaderRow">
+               <assist role="TH"/>
+               <draw h="6mm" name="TEXT45_AS" w="30mm">
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N566" xliff:rid="3B0E69C1-2858-4EF5-883A-ADFFF91A7D3F">Assets</text>
+                  </value>
+                  <font size="8pt" typeface="Arial" weight="bold"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para hAlign="center" vAlign="middle"/>
+               </draw>
+               <draw h="6mm" name="LINENR_AS" w="30mm">
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N608" xliff:rid="609CE942-0ADA-4C52-AB9F-88C2431DD1B0">No</text>
+                  </value>
+                  <font size="8pt" typeface="Arial" weight="bold"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para hAlign="center" vAlign="middle"/>
+               </draw>
+               <draw minH="6mm" name="BSUM_AS" w="21.325mm">
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N710" xliff:rid="A7F2A4AA-0D72-4CD1-AAD7-E5CA188E9D7D">Period-end Balance</text>
+                  </value>
+                  <font size="8pt" typeface="Arial" weight="bold"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para hAlign="center" vAlign="middle"/>
+               </draw>
+               <draw h="6mm" name="VSUM_AS" w="30mm">
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N710" xliff:rid="9294E27B-0EEF-4CEC-BE09-16AB42E1804F">Year-beginning Balance</text>
+                  </value>
+                  <font size="8pt" typeface="Arial" weight="bold"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para hAlign="center" vAlign="middle"/>
+               </draw>
+               <draw h="6mm" name="TEXT45_LE" w="30mm">
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N752" xliff:rid="DB1F9807-3C83-4A92-AD3C-636D85BD7F88">Liabilities and Owner's Equity</text>
+                  </value>
+                  <font size="8pt" typeface="Arial" weight="bold"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para hAlign="center" vAlign="middle"/>
+               </draw>
+               <draw h="6mm" name="LINENR_LE" w="30mm">
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N794" xliff:rid="AE3EEA1C-2698-433D-8B31-A5DC990CF152">No</text>
+                  </value>
+                  <font size="8pt" typeface="Arial" weight="bold"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para hAlign="center" vAlign="middle"/>
+               </draw>
+               <draw minH="6mm" name="BSUM_LE" w="21.325mm">
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N894" xliff:rid="45C9A6CA-C919-4666-B279-C57390CE6B1B">Period-end Balance</text>
+                  </value>
+                  <font baselineShift="0pt" size="8pt" typeface="Arial" weight="bold"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+               </draw>
+               <draw h="6mm" name="VSUM_LE" w="30mm">
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N894" xliff:rid="D805CC0A-0A21-45A4-929B-EFDACFE6BC3A">Year-beginning Balance</text>
+                  </value>
+                  <font baselineShift="0pt" size="8pt" typeface="Arial" weight="bold"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+               </draw>
+               <border>
+                  <edge presence="hidden"/>
+               </border>
+               <occur max="-1"/>
+               <bind match="none"/>
+               <?templateDesigner expand 0?></subform>
+            <subform layout="row" name="Row">
+               <assist role="TR"/>
+               <field access="readOnly" minH="4.8mm" name="LINETEXT_AS" w="30mm">
+                  <ui>
+                     <textEdit multiLine="1">
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="8pt" typeface="Arial"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para vAlign="middle"/>
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <bind match="dataRef" ref="GT_FORMLINES_AS1.DATA[*].LINETEXT"/>
+                  <desc>
+                     <text name="Schema Annotation">ZJF Line description</text>
+                  </desc>
+                  <assist>
+                     <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="B466038D-D706-48F7-9745-3A736234BF71" xliff:rid="AFE36CB9-9AD9-4880-8881-27FC85DA6A4A">Assets</speak>
+                  </assist>
+                  <event activity="initialize" name="event__initialize">
+                     <script>AL = AL + 1
+
+if ( count($record.GT_FORMLINES_AS1.DATA[*].LINELEV) gt AL ) then
+   this.margin.leftInset = concat( 0.5 + 2 * $record.GT_FORMLINES_AS1.DATA[AL].LINELEV, "mm")
+endif
+</script>
+                  </event>
+                  <?digestForSAP digest="90263ec14784899fe9a627067037a749"?></field>
+               <field access="readOnly" h="4.8mm" name="LINENR_AS" w="30mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="8pt" typeface="Arial"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para hAlign="center" vAlign="middle"/>
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <bind match="dataRef" ref="GT_FORMLINES_AS1.DATA[*].LINENREXT"/>
+                  <assist>
+                     <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="618E8219-F172-4DEF-AA9F-322FF4C09CA3" xliff:rid="0916888E-8AD4-42C4-A354-3DE620C9E6E8">Assets - Number</speak>
+                  </assist>
+                  <?digestForSAP digest="93c22648bc114f2852bdac8b805a5076"?></field>
+               <field access="readOnly" h="4.8mm" name="BSUM_AS" w="30mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                     <picture>zero{}|num.decimal{}</picture>
+                  </ui>
+                  <font size="8pt" typeface="Arial"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para hAlign="right" vAlign="middle"/>
+                  <assist>
+                     <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="612E17BB-254F-4AE8-A848-D3806F376A0A" xliff:rid="C904083C-7B76-41BE-85BA-1AB642485DA7">Assets - Period-end Balance</speak>
+                  </assist>
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <calculate override="error"/>
+                  <event activity="initialize" name="event__initialize">
+                     <script>//if (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "1") then
+//   this.format.picture.value = "num{zzzzzzzzzz9.9}"
+//elseif (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "0") then
+//   this.format.picture.value = "num{zzzzzzzzzz9}"
+//endif
+
+if ( count($record.GT_FORMLINES_AS1.DATA[*].LINELEV) gt A ) then
+   if ($record.GT_FORMLINES_AS1.DATA[A].LINETYPE eq "B") then
+//      this.format.picture.value = "zero{}"
+      this.rawValue = null
+   endif
+endif
+</script>
+                  </event>
+                  <bind match="dataRef" ref="GT_FORMLINES_AS1.DATA[*].BSUM"/>
+                  <?digestForSAP digest="9954fce76b12d1418cbcd78b0b7f0b8e"?></field>
+               <field access="readOnly" h="4.8mm" name="VSUM_AS" w="30mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                     <picture>zero{}|num.decimal{}</picture>
+                  </ui>
+                  <font size="8pt" typeface="Arial"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para hAlign="right" vAlign="middle"/>
+                  <assist>
+                     <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="7B5DB33A-13A2-4BA4-A94C-02AA2E6A1FD5" xliff:rid="D4B3FDB4-B43E-4AA4-BA07-A5E8D2641BD0">Assets - Year-beginning Balance</speak>
+                  </assist>
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <event activity="initialize" name="event__initialize">
+                     <script>//if (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "1") then
+//  this.format.picture.value = "num{zzzzzzzzzz9.9}"
+//elseif (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "0") then
+//   this.format.picture.value = "num{zzzzzzzzzz9}"
+//endif
+
+if ( count($record.GT_FORMLINES_AS1.DATA[*].LINELEV) gt AL ) then
+   if ($record.GT_FORMLINES_AS1.DATA[AL].LINETYPE eq "B") then
+//      this.format.picture.value = "zero{}"
+      this.rawValue = null
+   endif
+endif
+</script>
+                  </event>
+                  <bind match="dataRef" ref="GT_FORMLINES_AS1.DATA[*].VSUM"/>
+                  <?digestForSAP digest="ab3c30923a5af55308b2116d2d222da6"?></field>
+               <field access="readOnly" minH="4.8mm" name="LINETEXT_LE" w="30mm">
+                  <ui>
+                     <textEdit multiLine="1">
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="8pt" typeface="Arial"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para vAlign="middle"/>
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <bind match="dataRef" ref="GT_FORMLINES_LE1.DATA[*].LINETEXT"/>
+                  <event activity="initialize" name="event__initialize">
+                     <script>
+LL = LL + 1
+
+if ( count($record.GT_FORMLINES_LE1.DATA[*].LINELEV) gt LL ) then
+   this.margin.leftInset = concat( 0.5 + 2 * $record.GT_FORMLINES_LE1.DATA[LL].LINELEV, "mm")
+endif
+</script>
+                  </event>
+                  <assist>
+                     <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="24FB61E6-08CE-479E-82B9-05B9C9560411" xliff:rid="518C25CD-80FE-437C-B317-3D96F09AE22B">Liabilities</speak>
+                  </assist>
+                  <?digestForSAP digest="e7588caffc87f83c40c812d24955dbd2"?></field>
+               <field h="4.8mm" w="30mm">
+                  <font size="8pt" typeface="Arial"/>
+                  <para hAlign="center" vAlign="middle"/>
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <bind match="dataRef" ref="GT_FORMLINES_LE1.DATA[*].LINENREXT"/>
+                  <assist>
+                     <speak disable="1"/>
+                  </assist>
+                  
+               <?digestForSAP digest="36109afb500db0358c47ba9e987fa676"?></field>
+               <field access="readOnly" h="4.8mm" name="BSUM_LE" w="30mm">
+                  <ui>
+                     <textEdit hScrollPolicy="off">
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="8pt" typeface="Arial"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para hAlign="right" vAlign="middle"/>
+                  <assist>
+                     <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="D21918DB-7CE3-4B9C-9292-32B81A62683B" xliff:rid="A8F889F6-ADA8-4B37-9661-E0B5C113BBED">Liabilities - Period-end Balance</speak>
+                  </assist>
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <event activity="initialize" name="event__initialize">
+                     <script>//if (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "1") then
+//   this.format.picture.value = "num{zzzzzzzzzz9.9}"
+//elseif (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "0") then
+//   this.format.picture.value = "num{zzzzzzzzzz9}"
+//endif
+
+if ( count($record.GT_FORMLINES_LE1.DATA[*].LINELEV) gt LL ) then
+   if ($record.GT_FORMLINES_LE1.DATA[LL].LINETYPE eq "B") then
+//      this.format.picture.value = "zero{}"
+      this.rawValue = null
+   endif
+
+
+endif
+</script>
+                  </event>
+                  <bind match="dataRef" ref="GT_FORMLINES_LE1.DATA[*].BSUM"/>
+                  <?digestForSAP digest="acba415a5566c1b110fc43ef28050e17"?></field>
+               <field access="readOnly" h="4.8mm" name="VSUM_LE" w="30mm" x="-0.131mm">
+                  <ui>
+                     <textEdit hScrollPolicy="off">
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="8pt" typeface="Arial"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para hAlign="right" vAlign="middle"/>
+                  <assist>
+                     <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="AE871168-9AB1-4194-90AB-D0EE8DA03825" xliff:rid="729A82C3-3A37-479F-B2EB-BB276FB01F82">Liabilities - Year-beginning Balance</speak>
+                  </assist>
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <event activity="initialize" name="event__initialize">
+                     <script>//if (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "1") then
+ //  this.format.picture.value = "num{zzzzzzzzzz9.9}"
+//elseif (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "0") then
+//   this.format.picture.value = "num{zzzzzzzzzz9}"
+//endif
+
+if ( count($record.GT_FORMLINES_LE1.DATA[*].LINELEV) gt LL ) then
+   if ($record.GT_FORMLINES_LE1.DATA[LL].LINETYPE eq "B") then
+//      this.format.picture.value = "zero{}"
+      this.rawValue = null
+   endif
+endif
+</script>
+                  </event>
+                  <bind match="dataRef" ref="GT_FORMLINES_LE1.DATA[*].VSUM"/>
+                  <?digestForSAP digest="f4ec283cebdaf18e6414d25af7a30dab"?></field>
+               <border>
+                  <edge presence="hidden"/>
+               </border>
+               <bind match="none"/>
+               <occur max="44"/>
+               <?templateDesigner expand 1?></subform>
+            <?templateDesigner rowpattern first:1, next:1, firstcolor:f0f0f0, nextcolor:ffffff, apply:0?>
+            <break overflowLeader="#HeaderRow_ID"/>
+            <bind match="none"/>
+            <assist>
+               <speak disable="1"/>
+            </assist>
+            <?templateDesigner expand 0?></subform>
+         <subform h="6mm" name="EN_FORMAT" w="71.4mm" x="108.027mm" y="18.55mm">
+            <bind match="none"/>
+            <field access="readOnly" h="6mm" name="CYEAR" w="25.4mm" y="0mm">
+               <ui>
+                  <textEdit>
+                     <border presence="hidden">
+                        <?templateDesigner StyleID aped0?></border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="10.3371mm">
+                  <para vAlign="middle"/>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N1379" xliff:rid="23681DE5-DA2A-47D4-A9BB-5AF2E8BC6CC6">Year:</text>
+                  </value>
+               </caption>
+               <bind match="dataRef" ref="GS_FORMHDR.VPERIOD_D"/>
+               <value>
+                  <text maxChars="4"/>
+               </value>
+               <desc>
+                  <text name="Schema Annotation">Fiscal Year</text>
+               </desc>
+               <assist>
+                  <speak priority="caption"/>
+               </assist>
+               <?digestForSAP digest="4f618a52216f69de613b9f9d1699888f"?></field>
+            <field access="readOnly" h="6mm" name="CMONTH" w="25.4mm" x="23mm" y="0mm">
+               <ui>
+                  <textEdit>
+                     <border presence="hidden">
+                        <?templateDesigner StyleID aped0?></border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="11.4156mm">
+                  <para vAlign="middle"/>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N1445" xliff:rid="4EEEA1A1-069D-4348-BBB5-4A743DBD1E58">Month:</text>
+                  </value>
+               </caption>
+               <bind match="dataRef" ref="GS_FORMHDR.BPERIOD_D"/>
+               <value>
+                  <text maxChars="2"/>
+               </value>
+               <desc>
+                  <text name="Schema Annotation">Fiscal Period</text>
+               </desc>
+               <calculate override="error"/>
+               <assist>
+                  <speak priority="caption"/>
+               </assist>
+               <?digestForSAP digest="922dac8f27866a86f62ab56f7a597600"?></field>
+            <field access="readOnly" h="6mm" name="CDAY" w="25.4mm" x="46mm" y="0mm">
+               <ui>
+                  <textEdit>
+                     <border presence="hidden">
+                        <?templateDesigner StyleID aped0?></border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="8.7871mm">
+                  <para vAlign="middle"/>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N523-1181" xliff:rid="B4DCEF91-E638-427F-8F05-8017112091A2">Day:</text>
+                  </value>
+               </caption>
+               <bind match="dataRef" ref="GS_FORMHDR.BDAY"/>
+               <value>
+                  <text maxChars="2"/>
+               </value>
+               <desc>
+                  <text name="Schema Annotation">Fiscal Period</text>
+               </desc>
+               <assist>
+                  <speak priority="caption"/>
+               </assist>
+               <?digestForSAP digest="a9db22fd7e973351aa4a6c13e49f16f7"?></field>
+            <event activity="initialize" name="event__initialize">
+               <script>//log on in ZH: EN_FORMAT hidden while ZH_FORMAT shown
+if ( $record.GV_LANGU eq "ZH" )
+then
+  this.presence = "hidden";
+endif
+
+</script>
+            </event>
+            <?templateDesigner expand 1?></subform>
+         <subform h="7.194mm" name="ZH_FORMAT" w="66.749mm" x="107.74mm" y="17.378mm">
+            <bind match="none"/>
+            <field access="readOnly" h="6mm" name="CYEAR" w="20.067mm" x="9.453mm" y="1.194mm">
+               <ui>
+                  <textEdit>
+                     <border presence="hidden">
+                        <?templateDesigner StyleID aped0?></border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para hAlign="right" vAlign="middle"/>
+               <caption placement="right" reserve="10mm">
+                  <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                  <value>
+                     <text xliff:rid="2DED69E5-DD5B-4054-BD20-8BB569E1E3F8">Year</text>
+                  </value>
+                  <font baselineShift="0pt" typeface="Arial"/>
+               </caption>
+               <bind match="dataRef" ref="GS_FORMHDR.VPERIOD_D"/>
+               <value>
+                  <text maxChars="4"/>
+               </value>
+               <desc>
+                  <text name="Schema Annotation">Fiscal Year</text>
+               </desc>
+               <assist>
+                  <speak priority="caption"/>
+               </assist>
+               <?digestForSAP digest="4f618a52216f69de613b9f9d1699888f"?></field>
+            <field access="readOnly" h="6mm" name="CMONTH" w="15.903mm" x="25.173mm" y="1.194mm">
+               <ui>
+                  <textEdit>
+                     <border presence="hidden">
+                        <?templateDesigner StyleID aped0?></border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para hAlign="right" vAlign="middle"/>
+               <caption placement="right" reserve="10.1374mm">
+                  <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                  <value>
+                     <text xliff:rid="5C7D0240-F111-47E0-88B6-4FC4E781FEDC">Month</text>
+                  </value>
+                  <font baselineShift="0pt" typeface="Arial"/>
+               </caption>
+               <bind match="dataRef" ref="GS_FORMHDR.BPERIOD_D"/>
+               <value>
+                  <text maxChars="2"/>
+               </value>
+               <desc>
+                  <text name="Schema Annotation">Fiscal Period</text>
+               </desc>
+               <assist>
+                  <speak priority="caption"/>
+               </assist>
+               <?digestForSAP digest="922dac8f27866a86f62ab56f7a597600"?></field>
+            <field access="readOnly" h="6mm" name="CDAY" w="13.951mm" x="38.813mm" y="1.194mm">
+               <ui>
+                  <textEdit>
+                     <border presence="hidden">
+                        <?templateDesigner StyleID aped0?></border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para hAlign="right" vAlign="middle"/>
+               <caption placement="right" reserve="7.964mm">
+                  <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                  <value>
+                     <text xliff:rid="2ECB8803-BC13-4EA0-8A64-E334F2FE46C6">Day</text>
+                  </value>
+                  <font baselineShift="0pt" typeface="Arial"/>
+               </caption>
+               <bind match="dataRef" ref="GS_FORMHDR.BDAY"/>
+               <value>
+                  <text maxChars="2"/>
+               </value>
+               <desc>
+                  <text name="Schema Annotation">Fiscal Period</text>
+               </desc>
+               <assist>
+                  <speak priority="caption"/>
+               </assist>
+               <?digestForSAP digest="a9db22fd7e973351aa4a6c13e49f16f7"?></field>
+            <event activity="initialize" name="event__initialize">
+               <script>//log on in non-ZH: EN_FORMAT shown while ZH_FORMAT hidden
+if ( $record.GV_LANGU ne "ZH" )
+then
+  this.presence = "hidden";
+endif
+
+</script>
+            </event>
+            <?templateDesigner expand 1?></subform>
+         <event activity="initialize" name="event__initialize">
+            <script>//if ( $record.GS_FORMHDR.BILATYPE eq "I" ) then
+if ( $record.GS_FORMHDR.BILATYPE eq "I" or $record.GV_ORIENT ne "L" ) then
+  data.Balance_L.presence = "hidden"
+endif
+
+if ($record.GS_FORMHDR.GSBER eq null) then
+   data.Balance_L.GSBER.presence = "hidden"
+  else
+   data.Balance_L.GSBER.presence = "visible"
+endif
+
+if ($record.GS_FORMHDR.PRCTR eq null) then
+   data.Balance_L.PRCTR.presence = "hidden"
+  else
+   data.Balance_L.PRCTR.presence = "visible"
+endif
+</script>
+         </event>
+         <?templateDesigner expand 1?></subform>
+      <subform h="203mm" name="Income_L" w="286.763mm">
+         <break before="pageArea" beforeTarget="#6f084e43-48f2-11e2-893f-70f3950cb3ea"/>
+         <bind match="none"/>
+         <draw h="7mm" name="Title" w="2.875in" x="109.969mm" y="0.407mm">
+            <ui>
+               <textEdit>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <value>
+               <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N1739" xliff:rid="D4FA2B98-9FFA-4C6E-8CE8-92BA9DBBD94C">Income Statement</text>
+            </value>
+            <font baselineShift="0pt" size="14pt" typeface="Arial" weight="bold"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+            <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+            <?renderCache.bounds 204166 17009 0 0 1417 1417 0 0?>
+            <?renderCache.textRun 16 Income Statement 0 43207 12471 0 0 0 "Arial" 1 0 14000 ISO-8859-1?></draw>
+         <draw h="6mm" name="Report_ID" w="2.022097in" x="235.173mm" y="6.42mm">
+            <ui>
+               <textEdit>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <value>
+               <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N2368" xliff:rid="926CCC0B-775F-4F0D-B291-82E9C3BEF546">Enterprise accounting report 02</text>
+            </value>
+            <font baselineShift="0pt" typeface="Arial"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+            <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+            <?renderCache.bounds 142757 14174 0 0 1417 1417 0 0?>
+            <?renderCache.textRun 31 Enterprise accounting report 02 0 1417 9313 0 0 0 "Arial" 0 0 10000 ISO-8859-1?></draw>
+         <field access="readOnly" h="6mm" name="GSBER" w="47.62mm" x="0.297mm" y="6.175mm">
+            <ui>
+               <textEdit>
+                  <border presence="hidden">
+                     <?templateDesigner StyleID aped0?></border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <caption reserve="32.7309mm">
+               <font baselineShift="0pt" typeface="Arial"/>
+               <para hAlign="right" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+               <value>
+                  <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N1313" xliff:rid="FD684D31-93BD-412A-A767-49B6DFAF64F8">Business Area:</text>
+               </value>
+            </caption>
+            <bind match="dataRef" ref="GS_FORMHDR.GSBER"/>
+            <desc>
+               <text name="Schema Annotation">Business Area</text>
+            </desc>
+            <assist>
+               <speak priority="caption"/>
+            </assist>
+            <?digestForSAP digest="eab0eda0b7731a4fb831530b1d0ebbe4"?></field>
+         <field access="readOnly" h="6mm" name="PRCTR" w="72.636mm" x="0.297mm" y="12.175mm">
+            <ui>
+               <textEdit>
+                  <border presence="hidden">
+                     <?templateDesigner StyleID aped0?></border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <caption reserve="32.7309mm">
+               <font baselineShift="0pt" typeface="Arial"/>
+               <para hAlign="right" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+               <value>
+                  <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N1313" xliff:rid="F29494AD-C904-4910-AE74-D2A77C70744A">Profit Center:</text>
+               </value>
+            </caption>
+            <bind match="dataRef" ref="GS_FORMHDR.PRCTR"/>
+            <desc>
+               <text name="Schema Annotation">Business Area</text>
+            </desc>
+            <assist>
+               <speak priority="caption"/>
+            </assist>
+            <?digestForSAP digest="01142969094fc11e33f3f319908ace8d"?></field>
+         <field access="readOnly" h="6mm" name="COMPANY" w="79.375mm" x="0.297mm" y="18.175mm">
+            <ui>
+               <textEdit>
+                  <border presence="hidden">
+                     <?templateDesigner StyleID aped0?></border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <caption reserve="32.6559mm">
+               <font baselineShift="0pt" typeface="Arial"/>
+               <para hAlign="right" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+               <value>
+                  <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N2328" xliff:rid="481EA39A-7160-45DA-A9EF-EEEFA62F118D">Reporting company:</text>
+               </value>
+            </caption>
+            <bind match="dataRef" ref="GS_FORMHDR.COMPANY"/>
+            <value>
+               <text maxChars="30"/>
+            </value>
+            <desc>
+               <text name="Schema Annotation">Company name</text>
+            </desc>
+            <assist>
+               <speak priority="caption"/>
+            </assist>
+            <?digestForSAP digest="9f8b351bf9445ef34998ec78272a1114"?></field>
+         <subform h="10.184mm" name="EN_FORMAT" w="50.769mm" x="124.318mm" y="18.175mm">
+            <bind match="none"/>
+            <field access="readOnly" h="6mm" name="CYEAR" w="25.4mm" x="1.718mm" y="0.867mm">
+               <ui>
+                  <textEdit>
+                     <border presence="hidden">
+                        <?templateDesigner StyleID aped0?></border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="10.3371mm">
+                  <para vAlign="middle"/>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N2131" xliff:rid="97777D72-CA5E-4344-80AD-648E6802DBC0">Year:</text>
+                  </value>
+               </caption>
+               <bind match="dataRef" ref="GS_FORMHDR.VPERIOD_D"/>
+               <value>
+                  <text maxChars="4"/>
+               </value>
+               <desc>
+                  <text name="Schema Annotation">Fiscal Year</text>
+               </desc>
+               <assist>
+                  <speak priority="caption"/>
+               </assist>
+               <?digestForSAP digest="4f618a52216f69de613b9f9d1699888f"?></field>
+            <field access="readOnly" h="6mm" name="CMONTH" w="25.4mm" x="24.718mm" y="0.867mm">
+               <ui>
+                  <textEdit>
+                     <border presence="hidden">
+                        <?templateDesigner StyleID aped0?></border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="11.4156mm">
+                  <para vAlign="middle"/>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N2197" xliff:rid="0A93A269-8EBB-44CC-A076-88A88CE56094">Month:</text>
+                  </value>
+               </caption>
+               <bind match="dataRef" ref="GS_FORMHDR.BPERIOD_D"/>
+               <value>
+                  <text maxChars="2"/>
+               </value>
+               <desc>
+                  <text name="Schema Annotation">Fiscal Period</text>
+               </desc>
+               <assist>
+                  <speak priority="caption"/>
+               </assist>
+               <?digestForSAP digest="922dac8f27866a86f62ab56f7a597600"?></field>
+            <event activity="initialize" name="event__initialize">
+               <script>//log on in ZH: EN_FORMAT hidden while ZH_FORMAT shown
+if ( $record.GV_LANGU eq "ZH" )
+then
+  this.presence = "hidden";
+endif
+
+</script>
+            </event>
+            <?templateDesigner expand 1?></subform>
+         <subform h="10.14mm" name="ZH_FORMAT" w="48.514mm" x="126.396mm" y="18.175mm">
+            <bind match="none"/>
+            <field access="readOnly" h="6mm" name="CYEAR" w="20.511mm" x="7.049mm" y="0.867mm">
+               <ui>
+                  <textEdit>
+                     <border presence="hidden">
+                        <?templateDesigner StyleID aped0?></border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para hAlign="right" vAlign="middle"/>
+               <caption placement="right" reserve="10mm">
+                  <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                  <value>
+                     <text xliff:rid="DF340DD7-CA18-4FEF-B63F-62F10D071478">Year</text>
+                  </value>
+                  <font baselineShift="0pt" typeface="Arial"/>
+               </caption>
+               <bind match="dataRef" ref="GS_FORMHDR.VPERIOD_D"/>
+               <value>
+                  <text maxChars="4"/>
+               </value>
+               <desc>
+                  <text name="Schema Annotation">Fiscal Year</text>
+               </desc>
+               <assist>
+                  <speak priority="caption"/>
+               </assist>
+               <?digestForSAP digest="4f618a52216f69de613b9f9d1699888f"?></field>
+            <field access="readOnly" h="6mm" name="CMONTH" w="16.013mm" x="22.818mm" y="0.867mm">
+               <ui>
+                  <textEdit>
+                     <border presence="hidden">
+                        <?templateDesigner StyleID aped0?></border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para hAlign="right" vAlign="middle"/>
+               <caption placement="right" reserve="10mm">
+                  <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                  <value>
+                     <text xliff:rid="FE496203-C882-4D4D-9485-340AF5A94ED7">Month</text>
+                  </value>
+                  <font baselineShift="0pt" typeface="Arial"/>
+               </caption>
+               <bind match="dataRef" ref="GS_FORMHDR.BPERIOD_D"/>
+               <value>
+                  <text maxChars="2"/>
+               </value>
+               <desc>
+                  <text name="Schema Annotation">Fiscal Period</text>
+               </desc>
+               <assist>
+                  <speak priority="caption"/>
+               </assist>
+               <?digestForSAP digest="922dac8f27866a86f62ab56f7a597600"?></field>
+            <event activity="initialize" name="event__initialize">
+               <script>//log on in non-ZH: EN_FORMAT shown while ZH_FORMAT hidden
+if ( $record.GV_LANGU ne "ZH" )
+then
+  this.presence = "hidden";
+endif
+
+</script>
+            </event>
+            <?templateDesigner expand 1?></subform>
+         <field access="readOnly" h="6mm" name="CURRENCY" w="50.911mm" x="235.623mm" y="18.175mm">
+            <ui>
+               <textEdit multiLine="1">
+                  <border presence="hidden">
+                     <?templateDesigner StyleID aped0?></border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <caption reserve="16.6256mm">
+               <para hAlign="right" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+               <value>
+                  <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N2263" xliff:rid="AD8715DC-94A7-4FE3-9D44-37CCB3EEFC6C">Currency:</text>
+               </value>
+               <font baselineShift="0pt" typeface="Arial"/>
+            </caption>
+            <bind match="dataRef" ref="GS_FORMHDR.CURRENCY"/>
+            <desc>
+               <text name="Schema Annotation">Currency Key</text>
+            </desc>
+            <assist>
+               <speak priority="caption"/>
+            </assist>
+            <?digestForSAP digest="6c737dc04add1ef06013907b949048a3"?></field>
+         <subform columnWidths="122.3418mm 10.0247mm 73.3838mm 80.453mm" layout="table" name="Table" x="0.297mm" y="24.178mm">
+            <?templateDesigner rowpattern first:1, next:1, firstcolor:f0f0f0, nextcolor:ffffff, apply:0?>
+            <border>
+               <edge/>
+            </border>
+            <subform id="HeaderRow_ID_copy1_copy2_copy1_copy1" layout="row" name="HeaderRow">
+               <assist role="TH"/>
+               <draw h="8.284mm" name="TEXT45_PL" w="30mm">
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N2215-1141" xliff:rid="A72465A0-CF11-415E-BE32-87863AE2AECC">Item</text>
+                  </value>
+                  <font size="8pt" typeface="Arial" weight="bold"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para hAlign="center" vAlign="middle"/>
+               </draw>
+               <draw h="8.284mm" name="LINENR_PL" w="30mm">
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N608" xliff:rid="F60EC06C-CC6D-40C3-A8AC-796BA47A9B87">No</text>
+                  </value>
+                  <font size="8pt" typeface="Arial" weight="bold"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para hAlign="center" vAlign="middle"/>
+               </draw>
+               <draw h="8.284mm" name="BSUM_PL" w="30mm">
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N2044" xliff:rid="477B776C-31FF-4251-BD68-C32A683F1E7F">Current Period</text>
+                  </value>
+                  <font baselineShift="0pt" size="8pt" typeface="Arial" weight="bold"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+               </draw>
+               <field access="readOnly" minH="8.284mm" name="GV_VSUM_PL" w="32mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="8pt" typeface="Arial" weight="bold"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para hAlign="center" vAlign="middle"/>
+                  <value>
+                     <text maxChars="12"/>
+                  </value>
+                  <bind match="dataRef" ref="$.GV_VSUM_PL"/>
+                  <desc>
+                     <text name="Schema Annotation">Character Field of Length 12</text>
+                  </desc>
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <assist>
+                     <speak priority="caption"/>
+                     <toolTip xliff:rid="67D08E1C-CFB7-44C3-A78E-DD487AA43E94">Period Name</toolTip>
+                  </assist>
+                  <?digestForSAP digest="114364cdb1cab866cbb81273e8911a0e"?></field>
+               <border>
+                  <edge presence="hidden"/>
+               </border>
+               <occur max="-1"/>
+               <bind match="none"/>
+               <?templateDesigner expand 1?></subform>
+            <subform layout="row" name="Row">
+               <assist role="TR"/>
+               <field access="readOnly" minH="8.284mm" name="LINETEXT_PL" w="30mm">
+                  <ui>
+                     <textEdit multiLine="1">
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="8pt" typeface="Arial"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para vAlign="middle"/>
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <bind match="dataRef" ref="GT_FORMLINES_PL1.DATA[*].LINETEXT"/>
+                  <assist>
+                     <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="4E4FB1D0-B7D0-471A-A07B-CE71A0737BA0" xliff:rid="0AACD135-99CB-4C75-81BA-EFE7DD3DCEE8">Item</speak>
+                  </assist>
+                  <event activity="initialize" name="event__initialize">
+                     <script>
+PL = PL + 1
+
+this.margin.leftInset = concat(0.5 + 2 * $record.GT_FORMLINES_PL1.DATA[PL].LINELEV, "mm")
+</script>
+                  </event>
+                  <?digestForSAP digest="a81dac54ef98f3ce78281d926f55fb08"?></field>
+               <field access="readOnly" h="8.284mm" name="LINENR_PL" w="30mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="8pt" typeface="Arial"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para hAlign="center" vAlign="middle"/>
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <bind match="dataRef" ref="GT_FORMLINES_PL1.DATA[*].LINENREXT"/>
+                  <calculate override="error"/>
+                  <assist>
+                     <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="EFC134DA-5190-4E8B-B817-DF3A4EAE45B2" xliff:rid="BC57856D-605D-4521-9A78-867455B0301B">Number</speak>
+                  </assist>
+                  <?digestForSAP digest="b7e80d90e6f9fbc9a5d4fc4418498e78"?></field>
+               <field access="readOnly" h="8mm" name="BSUM_PL" w="30mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="8pt" typeface="Arial"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para hAlign="right" vAlign="middle"/>
+                  <assist>
+                     <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="459F2280-1712-4003-B040-6E34C97DC33E" xliff:rid="DD4C07B6-5719-42F6-A038-BEAE8F40CA85">Current Period</speak>
+                  </assist>
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <calculate override="error"/>
+                  <event activity="initialize" name="event__initialize">
+                     <script>//if (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "1") then
+ //  this.format.picture.value = "num{zzzzzzzzzz9.9}"
+//elseif (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "0") then
+//   this.format.picture.value = "num{zzzzzzzzzz9}"
+//endif
+
+if ($record.GT_FORMLINES_PL1.DATA[PL].LINETYPE eq "B") then
+ //  this.format.picture.value = "zero{}"
+ 
+   this.rawValue = null
+endif
+</script>
+                  </event>
+                  <bind match="dataRef" ref="GT_FORMLINES_PL1.DATA[*].BSUM"/>
+                  <?digestForSAP digest="f714dfc60691bb145eb91296c57cb641"?></field>
+               <field access="readOnly" h="8.284mm" name="VSUM_PL" w="30mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                     <picture>num{zzzzzzzzzz9.99}</picture>
+                  </ui>
+                  <font size="8pt" typeface="Arial"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para hAlign="right" vAlign="middle"/>
+                  <assist>
+                     <speak xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" disable="1" xft-xliff:id="4097BF42-A810-4B4D-AD35-DDD2B60F7092" xliff:rid="EBECF98A-5FC4-420E-8C83-68632D97101C">Last Period</speak>
+                  </assist>
+                  <border>
+                     <edge/>
+                     <corner thickness="0.1778mm"/>
+                  </border>
+                  <event activity="initialize" name="event__initialize">
+                     <script>//if (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "1") then
+//   this.format.picture.value = "num{zzzzzzzzzz9.9}"
+//elseif (Substr($record.GS_FORMHDR.BILASKAL, 3, 1) eq "0") then
+//   this.format.picture.value = "num{zzzzzzzzzz9}"
+//endif
+
+if ($record.GT_FORMLINES_PL1.DATA[PL].LINETYPE eq "B") then
+//   this.format.picture.value = "zero{}"
+   this.rawValue = null
+endif
+</script>
+                  </event>
+                  <bind match="dataRef" ref="GT_FORMLINES_PL1.DATA[*].VSUM"/>
+                  <?digestForSAP digest="7f8478fc6753eb2f26066c6827e9ad97"?></field>
+               <border>
+                  <edge presence="hidden"/>
+               </border>
+               <bind match="none"/>
+               <occur max="44"/>
+               <?templateDesigner expand 1?></subform>
+            <break overflowLeader="#HeaderRow_ID_copy1_copy2"/>
+            <bind match="none"/>
+            <assist>
+               <speak disable="1"/>
+            </assist>
+            <?templateDesigner expand 0?></subform>
+         <event activity="initialize" name="event__initialize">
+            <script>
+if ( $record.GS_FORMHDR.BILATYPE eq "B" or $record.GV_ORIENT ne "L" ) then
+  data.Income_L.presence = "hidden"
+endif
+
+if ($record.GS_FORMHDR.GSBER eq null) then
+   data.Income_L.GSBER.presence = "hidden"
+  else
+   data.Income_L.GSBER.presence = "visible"
+endif
+
+if ($record.GS_FORMHDR.PRCTR eq null) then
+   data.Income_L.PRCTR.presence = "hidden"
+  else
+   data.Income_L.PRCTR.presence = "visible"
+endif
+</script>
+         </event>
+         <?templateDesigner expand 1?></subform>
+      <proto/>
+      <variables>
+         <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="A" xft-xliff:id="2C1FEB37-91D4-4005-98F1-9A8DC8FA1311" xliff:rid="2C1FEB37-91D4-4005-98F1-9A8DC8FA1311">-1</text>
+         <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="L" xft-xliff:id="F801F91B-BDB2-45DB-8473-8ADA9D8F6BB4" xliff:rid="F801F91B-BDB2-45DB-8473-8ADA9D8F6BB4">-1</text>
+         <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="P" xft-xliff:id="81D9F9AB-69D4-4786-B6EC-AB9564C774D9" xliff:rid="81D9F9AB-69D4-4786-B6EC-AB9564C774D9">-1</text>
+         <text name="AL" xliff:rid="88A5B3CF-7129-4BE7-ABD9-23660F0DCBCB">-1
+</text>
+         <text name="LL" xliff:rid="6A9159B0-0028-426E-B63A-6D18B8883AA5">-1</text>
+         <text name="PL" xliff:rid="5387B161-D050-40E8-BB6D-A77BE0DB09D6">-1</text>
+         <?templateDesigner expand 1?></variables>
+      <?templateDesigner expand 1?>
+      <?renderCache.subset "Arial" 0 0 ISO-8859-1 4 120 30 0003001300140015001D00240025002600270028003000330035003C0044004600480049004A004B004C00500051005200530055005600570058005C 012:ABCDEMPRYacefghimnoprstuy?>
+      <?renderCache.subset "Arial" 1 0 ISO-8859-1 4 132 33 0003000A00100024002500260028002C002F0031003200330036003C00440045004600470048004A004B004C004F00500051005200540055005600570058005A005C '-ABCEILNOPSYabcdeghilmnoqrstuwy?>
+   </subform>
+   <?originalXFAVersion http://www.xfa.org/schema/xfa-template/2.4/?>
+   <?templateDesigner Grid show:1, snap:0, units:17, color:ff8080, origin:(0,0), interval:(79375,79375), objsnap:0, guidesnap:0, pagecentersnap:-2130833851?>
+   <?templateDesigner DefaultLanguage FormCalc?>
+   <?templateDesigner DefaultRunAt client?>
+   <?PDFPrintOptions embedViewerPrefs 0?>
+   <?PDFPrintOptions embedPrintOnFormOpen 0?>
+   <?PDFPrintOptions scalingPrefs 0?>
+   <?PDFPrintOptions enforceScalingPrefs 0?>
+   <?PDFPrintOptions paperSource 0?>
+   <?PDFPrintOptions duplexMode 0?>
+   <?templateDesigner DefaultPreviewType interactive?>
+   <?templateDesigner DefaultPreviewPagination simplex?>
+   <?templateDesigner XDPPreviewFormat 19?>
+   <?templateDesigner SaveTaggedPDF 1?>
+   <?templateDesigner SavePDFWithEmbeddedFonts 1?>
+   <?templateDesigner FormTargetVersion 25?>
+   <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?>
+   <?templateDesigner Zoom 50?></template>
+<config xmlns="http://www.xfa.org/schema/xci/1.0/">
+   <agent name="designer">
+      <!--  [0..n]  -->
+      <destination>pdf</destination>
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+         <taggedMode>custom</taggedMode>
+      </pdf>
+      <common>
+         <template>
+            <base>https://ldai4er9.wdf.sap.corp:44300/sap/bc/fp/form/layout/</base>
+         </template>
+      </common>
+   </agent>
+   <present>
+      <!--  [0..n]  -->
+      <pdf>
+         <!--  [0..n]  -->
+         <version>1.7</version>
+      </pdf>
+      <common>
+         <data>
+            <xsl>
+               <uri/>
+            </xsl>
+            <outputXSL>
+               <uri/>
+            </outputXSL>
+         </data>
+      </common>
+      <cache>
+         <macroCache/>
+      </cache>
+      <xdp>
+         <packets>*</packets>
+      </xdp>
+   </present>
+   <psMap>
+      <font posture="normal" psName="AdobeArabic-Regular" typeface="Adobe Arabic" weight="normal"/>
+      <font posture="normal" psName="AdobeHebrew-Regular" typeface="Adobe Hebrew" weight="normal"/>
+      <font posture="normal" psName="AdobeThai-Regular" typeface="Adobe Thai" weight="normal"/>
+      <font posture="normal" psName="AgencyFB-Bold" typeface="Agency FB" weight="bold"/>
+      <font posture="normal" psName="Algerian" typeface="Algerian" weight="normal"/>
+      <font posture="normal" psName="ArabicTypesetting" typeface="Arabic Typesetting" weight="normal"/>
+   </psMap>
+</config>
+<connectionSet xmlns="http://www.xfa.org/schema/xfa-connection-set/2.1/">
+   <xsdConnection dataDescription="data" name="IDCN_BSAIS">
+      <uri/>
+      <rootElement>data</rootElement>
+   </xsdConnection>
+   <?originalXFAVersion http://www.xfa.org/schema/xfa-connection-set/2.1/?></connectionSet>
+<xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+   <xfa:data xfa:dataNode="dataGroup"/>
+   <dd:dataDescription xmlns:dd="http://ns.adobe.com/data-description/" dd:name="data">
+      <data>
+         <GS_FORMHDR>
+            <COMPANY/>
+            <CURRENCY/>
+            <BILASKAL/>
+            <BILASKALTXT/>
+            <BILATYPE/>
+            <CDATE/>
+            <CTIME/>
+            <CUSER/>
+            <FSCDES/>
+            <BYEAR/>
+            <BMONTH/>
+            <BDAY/>
+            <VYEAR/>
+            <VMONTH/>
+            <VDAY/>
+            <BPERIOD_D/>
+            <VPERIOD_D/>
+            <BJJV/>
+            <BMMV/>
+            <BJJB/>
+            <BMMB/>
+            <VJJV/>
+            <VMMV/>
+            <VJJB/>
+            <VMMB/>
+            <TITLE/>
+            <BTXTCOL/>
+            <VTXTCOL/>
+            <PDF/>
+            <GSBER/>
+            <PRCTR/>
+         </GS_FORMHDR>
+         <GT_FORMLINES_PL dd:minOccur="0">
+            <DATA dd:maxOccur="-1">
+               <LINENR/>
+               <LINESEC/>
+               <LINELEV/>
+               <LINETYPE/>
+               <LINETEXT/>
+               <LINENREXT/>
+               <ERGSL/>
+               <BSUM/>
+               <VSUM/>
+               <SALDO/>
+               <WAERS/>
+            </DATA>
+         </GT_FORMLINES_PL>
+         <GT_FORMLINES_AS dd:minOccur="0">
+            <DATA dd:maxOccur="-1">
+               <LINENR/>
+               <LINESEC/>
+               <LINELEV/>
+               <LINETYPE/>
+               <LINETEXT/>
+               <LINENREXT/>
+               <ERGSL/>
+               <BSUM/>
+               <VSUM/>
+               <SALDO/>
+               <WAERS/>
+            </DATA>
+         </GT_FORMLINES_AS>
+         <GT_FORMLINES_LE dd:minOccur="0">
+            <DATA dd:maxOccur="-1">
+               <LINENR/>
+               <LINESEC/>
+               <LINELEV/>
+               <LINETYPE/>
+               <LINETEXT/>
+               <LINENREXT/>
+               <ERGSL/>
+               <BSUM/>
+               <VSUM/>
+               <SALDO/>
+               <WAERS/>
+            </DATA>
+         </GT_FORMLINES_LE>
+         <GV_VSUM_PL/>
+      </data>
+   </dd:dataDescription>
+</xfa:datasets>
+<localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.1/">
+   <locale desc="Czech (Czech Republic)" name="cs_CZ">
+      <calendarSymbols name="gregorian">
+         <monthNames>
+            <month>leden</month>
+            <month>únor</month>
+            <month>březen</month>
+            <month>duben</month>
+            <month>květen</month>
+            <month>červen</month>
+            <month>červenec</month>
+            <month>srpen</month>
+            <month>září</month>
+            <month>říjen</month>
+            <month>listopad</month>
+            <month>prosinec</month>
+         </monthNames>
+         <monthNames abbr="1">
+            <month>I</month>
+            <month>II</month>
+            <month>III</month>
+            <month>IV</month>
+            <month>V</month>
+            <month>VI</month>
+            <month>VII</month>
+            <month>VIII</month>
+            <month>IX</month>
+            <month>X</month>
+            <month>XI</month>
+            <month>XII</month>
+         </monthNames>
+         <dayNames>
+            <day>Neděle</day>
+            <day>Pondělí</day>
+            <day>Úterý</day>
+            <day>Středa</day>
+            <day>Čtvrtek</day>
+            <day>Pátek</day>
+            <day>Sobota</day>
+         </dayNames>
+         <dayNames abbr="1">
+            <day>Ne</day>
+            <day>Po</day>
+            <day>Út</day>
+            <day>St</day>
+            <day>Čt</day>
+            <day>Pá</day>
+            <day>So</day>
+         </dayNames>
+         <meridiemNames>
+            <meridiem>dop.</meridiem>
+            <meridiem>odp.</meridiem>
+         </meridiemNames>
+         <eraNames>
+            <era>př.Kr.</era>
+            <era>po Kr.</era>
+         </eraNames>
+      </calendarSymbols>
+      <datePatterns>
+         <datePattern name="full">EEEE, D. MMMM YYYY</datePattern>
+         <datePattern name="long">D. MMMM YYYY</datePattern>
+         <datePattern name="med">D.M.YYYY</datePattern>
+         <datePattern name="short">D.M.YY</datePattern>
+      </datePatterns>
+      <timePatterns>
+         <timePattern name="full">H:MM:SS Z</timePattern>
+         <timePattern name="long">H:MM:SS Z</timePattern>
+         <timePattern name="med">H:MM:SS</timePattern>
+         <timePattern name="short">H:MM</timePattern>
+      </timePatterns>
+      <dateTimeSymbols>GuMtkHmsSEDFwWahKzZ</dateTimeSymbols>
+      <numberPatterns>
+         <numberPattern name="numeric">z,zz9.zz</numberPattern>
+         <numberPattern name="currency">z,zz9.zz $</numberPattern>
+         <numberPattern name="percent">z,zz9%</numberPattern>
+      </numberPatterns>
+      <numberSymbols>
+         <numberSymbol name="decimal">,</numberSymbol>
+         <numberSymbol name="grouping"> </numberSymbol>
+         <numberSymbol name="percent">%</numberSymbol>
+         <numberSymbol name="minus">-</numberSymbol>
+         <numberSymbol name="zero">0</numberSymbol>
+      </numberSymbols>
+      <currencySymbols>
+         <currencySymbol name="symbol">Kč</currencySymbol>
+         <currencySymbol name="isoname">CZK</currencySymbol>
+         <currencySymbol name="decimal">,</currencySymbol>
+      </currencySymbols>
+   </locale>
+   <locale desc="Chinese (Simplified, PRC)" name="zh_CN">
+      <calendarSymbols name="gregorian">
+         <monthNames>
+            <month>一月</month>
+            <month>二月</month>
+            <month>三月</month>
+            <month>四月</month>
+            <month>五月</month>
+            <month>六月</month>
+            <month>七月</month>
+            <month>八月</month>
+            <month>九月</month>
+            <month>十月</month>
+            <month>十一月</month>
+            <month>十二月</month>
+         </monthNames>
+         <monthNames abbr="1">
+            <month>一月</month>
+            <month>二月</month>
+            <month>三月</month>
+            <month>四月</month>
+            <month>五月</month>
+            <month>六月</month>
+            <month>七月</month>
+            <month>八月</month>
+            <month>九月</month>
+            <month>十月</month>
+            <month>十一月</month>
+            <month>十二月</month>
+         </monthNames>
+         <dayNames>
+            <day>星期日</day>
+            <day>星期一</day>
+            <day>星期二</day>
+            <day>星期三</day>
+            <day>星期四</day>
+            <day>星期五</day>
+            <day>星期六</day>
+         </dayNames>
+         <dayNames abbr="1">
+            <day>日</day>
+            <day>一</day>
+            <day>二</day>
+            <day>三</day>
+            <day>四</day>
+            <day>五</day>
+            <day>六</day>
+         </dayNames>
+         <meridiemNames>
+            <meridiem>上午</meridiem>
+            <meridiem>下午</meridiem>
+         </meridiemNames>
+         <eraNames>
+            <era>公元前</era>
+            <era>公元</era>
+         </eraNames>
+      </calendarSymbols>
+      <datePatterns>
+         <datePattern name="full">YYYY'年'M'月'D'日'EEEE</datePattern>
+         <datePattern name="long">YYYY'年'M'月'D'日'</datePattern>
+         <datePattern name="med">YYYY-M-D</datePattern>
+         <datePattern name="short">YY-M-D</datePattern>
+      </datePatterns>
+      <timePatterns>
+         <timePattern name="full">Ahh'时'MM'分'SS'秒' Z</timePattern>
+         <timePattern name="long">Ahh'时'MM'分'SS'秒'</timePattern>
+         <timePattern name="med">Ahh:MM:SS</timePattern>
+         <timePattern name="short">Ah:MM</timePattern>
+      </timePatterns>
+      <dateTimeSymbols>GanjkHmsSEDFwWxhKzZ</dateTimeSymbols>
+      <numberPatterns>
+         <numberPattern name="numeric">z,zz9.zzz</numberPattern>
+         <numberPattern name="currency">$z,zz9.99</numberPattern>
+         <numberPattern name="percent">z,zz9%</numberPattern>
+      </numberPatterns>
+      <numberSymbols>
+         <numberSymbol name="decimal">.</numberSymbol>
+         <numberSymbol name="grouping">,</numberSymbol>
+         <numberSymbol name="percent">%</numberSymbol>
+         <numberSymbol name="minus">-</numberSymbol>
+         <numberSymbol name="zero">0</numberSymbol>
+      </numberSymbols>
+      <currencySymbols>
+         <currencySymbol name="symbol">￥</currencySymbol>
+         <currencySymbol name="isoname">CNY</currencySymbol>
+         <currencySymbol name="decimal">.</currencySymbol>
+      </currencySymbols>
+      <typefaces>
+         <typeface name="Adobe Song Std L"/>
+         <typeface name="Myriad Pro"/>
+         <typeface name="Minion Pro"/>
+         <typeface name="Courier Std"/>
+         <typeface name="Adobe Pi Std"/>
+         <typeface name="Adobe Hebrew"/>
+         <typeface name="Adobe Arabic"/>
+         <typeface name="Adobe Thai"/>
+         <typeface name="Kozuka Gothic Pro-VI M"/>
+         <typeface name="Kozuka Mincho Pro-VI R"/>
+         <typeface name="Adobe Ming Std L"/>
+         <typeface name="Adobe Myungjo Std M"/>
+      </typefaces>
+   </locale>
+</localeSet>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 4.0-c319 44.281645, Sun Mar 25 2007 16:17:34">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" rdf:about="">
+         <xmp:MetadataDate>2018-01-26T09:41:10Z</xmp:MetadataDate>
+         <xmp:CreatorTool>Adobe LiveCycle Designer ES 10.4</xmp:CreatorTool>
+      </rdf:Description>
+      <rdf:Description xmlns:pdf="http://ns.adobe.com/pdf/1.3/" rdf:about="">
+         <pdf:Producer>Adobe LiveCycle Designer ES 10.4</pdf:Producer>
+      </rdf:Description>
+      <rdf:Description xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" rdf:about="">
+         <xmpMM:DocumentID>uuid:82ec3b5e-a364-431a-afe1-71f8efd9c11a</xmpMM:DocumentID>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta></xdp:xdp>

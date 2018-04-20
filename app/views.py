@@ -1,9 +1,13 @@
-from flask import render_template,jsonify,request
-from app import app
+from flask import render_template,jsonify,request,send_from_directory
+from app import app,xdpXMLParser
+import os.path
 
+root_dir = os.path.dirname(os.getcwd())
+dirpath = os.path.join(app.root_path, 'download')
 @app.route('/')
 def index():
     return 'welcome!'
+
 @app.route('/load')
 def load():
     user = { 'nickname': 'Miguel' } # fake user
@@ -21,15 +25,28 @@ def load():
         title = 'Home',
         user = user,
         posts = posts)
+
 @app.route('/upload/',methods=['POST'])
-def start_parse():
+def start_upload():
     if request.method == 'POST': 
         filename = 'initial'       
         f = request.files['myFileUpload']
         filename = f.filename
         minetype = f.content_type
-        f.save('./'+filename)
-    return filename
+        f.save('./tmp/'+filename)
+    return filename,201
+
+@app.route('/parse',methods=['GET'])
+def start_parse():
+    xdpXMLParser.transfer()
+    return 'parse success!',201
+
+@app.route('/download',methods=['GET'])
+def download():
+    #return dirpath
+    return send_from_directory(directory=dirpath, 
+        filename='IDCN_BSAIS_xfa2.XML',
+        as_attachment=True),200
 
 @app.route('/result',methods=['GET'])
 def get_xml():
