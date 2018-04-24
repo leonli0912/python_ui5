@@ -36,9 +36,21 @@
 	<script type="text/javascript">
 //		jQuery.sap.registerModulePath("sap.ushell.renderers.fiorisandbox", "sap/ushell/renderers/fiorisandbox");
 		sap.ui.getCore().attachInit(function() {
-            sap.ui.xmlview({
-                viewName : "UI5_uploader.view.Browse"
-             }).placeAt("content");
+//            sap.ui.xmlview({
+//                viewName : "UI5_uploader.view.Browse"
+//             }).placeAt("content");
+			sap.ui.require([
+				"sap/m/Shell",
+				"sap/ui/core/ComponentContainer"
+			], function(Shell, ComponentContainer) {
+				// initialize the UI component
+				new Shell({
+					app: new ComponentContainer({
+						height: "100%",
+						name: "UI5_uploader"
+					})
+				}).placeAt("content");
+			});
 		});
 	</script>
 

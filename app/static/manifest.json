@@ -1,0 +1,68 @@
+{
+  "_version": "1.8.0",
+  "sap.app": {
+	"id": "UI5_UPLOADER",
+	"type": "application",
+	"i18n": "i18n/i18n.properties",
+	"title": "{{appTitle}}",
+	"description": "{{appDescription}}",
+	"applicationVersion": {
+	  "version": "1.0.0"
+	}
+  },
+  "sap.ui": {
+	"technology": "UI5",
+	"deviceTypes": {
+		"desktop": true,
+		"tablet": true,
+		"phone": true
+	}
+  },
+  "sap.ui5": {
+	"rootView": {
+		"viewName": "UI5_uploader.view.Index",
+		"type": "XML",
+		"async": true,
+		"id": "b"
+	},
+	"dependencies": {
+	  "minUI5Version": "1.30",
+	  "libs": {
+		"sap.m": {}
+	  }
+	},
+
+	"routing": {
+	  "config": {
+		"routerClass": "sap.m.routing.Router",
+		"viewType": "XML",
+		"viewPath": "UI5_uploader.view",
+		"controlId": "rootApp",
+		"controlAggregation": "pages"
+		
+	  },
+	  "routes": [
+		{
+		  "pattern": "",
+		  "name": "index",
+		  "target": "index"
+		},
+		{
+		  "pattern": "load",
+		  "name": "load",
+		  "target": "load"
+		}
+	  ],
+	  "targets": {
+		"index": {
+		  "viewID": "index",
+		  "viewName":"Index"
+		},
+		"load": {
+		  "viewId": "browse",
+		  "viewName":"Browse"
+		}
+	  }
+	}
+  }
+}

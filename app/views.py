@@ -6,25 +6,8 @@ root_dir = os.path.dirname(os.getcwd())
 dirpath = os.path.join(app.root_path, 'download')
 @app.route('/')
 def index():
-    return 'welcome!'
-
-@app.route('/load')
-def load():
-    user = { 'nickname': 'Miguel' } # fake user
-    posts = [ # fake array of posts
-        {
-            'author': { 'nickname': 'John' },
-            'body': 'Beautiful day in Portland!'
-        },
-        {
-            'author': { 'nickname': 'Susan' },
-            'body': 'The Avengers movie was so cool!'
-        }
-    ]
     return render_template("localindex.html",
-        title = 'Home',
-        user = user,
-        posts = posts)
+        title = 'Home')
 
 @app.route('/upload/',methods=['POST'])
 def start_upload():
