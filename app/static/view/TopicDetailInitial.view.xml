@@ -1,0 +1,14 @@
+<mvc:View
+		height="100%"
+		width="100%"
+		controllerName="UI5_uploader.controller.TopicDetailInitial"
+		xmlns="sap.m"
+		xmlns:l="sap.ui.layout"
+		xmlns:mvc="sap.ui.core.mvc"
+		xmlns:core="sap.ui.core"
+		>
+	<Page id="topicDetailPage"
+		  showHeader="false">
+		  detail page
+	</Page>
+</mvc:View>

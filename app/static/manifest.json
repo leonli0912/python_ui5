@@ -37,7 +37,7 @@
 		"routerClass": "sap.m.routing.Router",
 		"viewType": "XML",
 		"viewPath": "UI5_uploader.view",
-		"controlId": "rootApp",
+		"controlId": "splitApp",
 		"controlAggregation": "pages"
 		
 	  },
@@ -45,14 +45,13 @@
 		{
 		  "pattern": "",
 		  "name": "index",
-		  "target": "index"
+		  "target": ["topicMaster", "topicDetailInitial"]
 		},
 		{
 		  "pattern": "load",
 		  "name": "load",
 		  "target": "load"
-		}
-	  ],
+		}],
 	  "targets": {
 		"index": {
 		  "viewID": "index",
@@ -61,6 +60,16 @@
 		"load": {
 		  "viewId": "browse",
 		  "viewName":"Browse"
+		},
+		"topicMaster":{
+		  "viewId": "topicmaster",
+		  "viewLevel":1,
+		  "viewName":"TopicMaster"			
+		},
+		"topicDetailInitial":{
+			"viewId":"topicdetailinit",
+			"viewLevel":2,
+			"viewName":"TopicDetailInitial"
 		}
 	  }
 	}
