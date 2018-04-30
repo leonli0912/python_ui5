@@ -9,7 +9,8 @@
     	enableScrolling="true"
     	showFooter="false"
     	navButtonPress="onNavBack"
-    	showNavButton="false">
+    	showNavButton="false"
+        class="MasterPage">
     	<customHeader>
     		<Toolbar width="100%">
     			<SearchField id="searchField" placeholder="Filter" liveChange="onTreeFilter"/>

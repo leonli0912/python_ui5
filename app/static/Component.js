@@ -7,7 +7,10 @@ sap.ui.define([
 	return UIComponent.extend("UI5_uploader.Component", {
 
 		metadata: {
-			manifest: "json"
+			manifest: "json",
+			includes : [
+					"css/style.css"
+				]
 		},
 
 		/**
