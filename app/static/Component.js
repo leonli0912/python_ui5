@@ -27,7 +27,7 @@ sap.ui.define([
 		},
 		createContent: function() {
 			// create root view
-			return sap.ui.view("AppView", {
+			return sap.ui.view("index", {
 				viewName: "UI5_uploader.view.Index",
 				type: "XML"
 			});

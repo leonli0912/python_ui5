@@ -23,7 +23,7 @@
 		"viewName": "UI5_uploader.view.Index",
 		"type": "XML",
 		"async": true,
-		"id": "b"
+		"id": "index"
 	},
 	"dependencies": {
 	  "minUI5Version": "1.30",
@@ -38,7 +38,7 @@
 		"viewType": "XML",
 		"viewPath": "UI5_uploader.view",
 		"controlId": "splitApp",
-		"controlAggregation": "pages"
+		"controlAggregation": "detailPages"
 		
 	  },
 	  "routes": [
@@ -50,7 +50,7 @@
 		{
 		  "pattern": "load",
 		  "name": "load",
-		  "target": "load"
+		  "target": ["topicMaster", "load"]
 		}],
 	  "targets": {
 		"index": {
@@ -64,7 +64,8 @@
 		"topicMaster":{
 		  "viewId": "topicmaster",
 		  "viewLevel":1,
-		  "viewName":"TopicMaster"			
+		  "viewName":"TopicMaster",
+		  "controlAggregation": "masterPages"			
 		},
 		"topicDetailInitial":{
 			"viewId":"topicdetailinit",

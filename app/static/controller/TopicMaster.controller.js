@@ -6,17 +6,18 @@ sap.ui.define([
 	"use strict";
 
 	var SplitAppMode = mobileLibrary.SplitAppMode;
-	return Controller.extend("UI5_uploader.controller.MasterController",{
-		onInit:funtion(){
+	var oRouter;
+	return Controller.extend("UI5_uploader.controller.TopicMasterController",{
+		onInit:function(){
 			var oModel = new JSONModel();
 			oModel.setSizeLimit(10000);
 			this.getView().setModel(oModel);
-
-			this.getRouter().getRoute("topic").attachPatternMatched(this._onMatched,this);
-			this.getRouter().getRoute("topicId").attachPatternMatched(this._onTopicMatched,this);
+			oRouter=sap.ui.core.UIComponent.getRouterFor(this);
+			oRouter.getRoute("index").attachPatternMatched(this._onMatched,this);
+//			oRouter.getRoute("topicId").attachPatternMatched(this._onTopicMatched,this);
 		},
 
-		_onTopicMatched:funtion(event){
+		_onTopicMatched:function(event){
 			try{
 				this.showMasterSide();
 			}catch(e){
@@ -24,13 +25,13 @@ sap.ui.define([
 			}
 
 		},
-		_onMatched:funtion(){
+		_onMatched:function(){
 			var splitApp = this.getView().getParent().getParent();
 			splitApp.setMode(SplitAppMode.ShowHideMode);
 
 			if(Device.system.desktop){
 				jQuery.sap.delayedCall(0, this, function () {
-				this.getView().byId("searchField").getFocusDomRef().focus();
+//				this.getView().byId("searchField").getFocusDomRef().focus();
 				});				
 			}			
 		},

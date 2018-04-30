@@ -12,10 +12,11 @@
 			<ScrollContainer 
 				id="contentId"
 				width="100%"
+				height="calc(100% - 3rem)"
 				horizontal="false"
 				vertical="false">
 				<SplitApp id="splitApp"
-						  mode="HideMode"
+						  mode="ShowHideMode"
 						  defaultTransitionNameDetail="show"
 						  defaultTransitionNameMaster="fade">
 				</SplitApp>

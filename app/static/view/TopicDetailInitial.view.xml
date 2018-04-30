@@ -6,9 +6,9 @@
 		xmlns:l="sap.ui.layout"
 		xmlns:mvc="sap.ui.core.mvc"
 		xmlns:core="sap.ui.core"
-		>
+		class="viewPadding">
 	<Page id="topicDetailPage"
 		  showHeader="false">
-		  detail page
+		  
 	</Page>
 </mvc:View>

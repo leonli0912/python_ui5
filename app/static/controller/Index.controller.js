@@ -1,7 +1,7 @@
 sap.ui.define(['sap/ui/core/mvc/Controller'
 ], function(Controller) {
 	"use strict";
-
+	var oRouter;
 	return Controller.extend("UI5_uploader.controller.Index", {
 		/**
 		 * The component is initialized by UI5 automatically during the startup of the app and calls the init method once.
@@ -13,7 +13,7 @@ sap.ui.define(['sap/ui/core/mvc/Controller'
 			
 		},
 		onGotoLoad:function(oEvt){
-			var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
+			oRouter = sap.ui.core.UIComponent.getRouterFor(this);
 			oRouter.navTo("load");
 		}
 	});
