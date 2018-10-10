@@ -23,12 +23,14 @@
     	<content>
     		<Tree
     			id="tree"
-    			mode="SingleSelectMaster"
+    			
     			selectionChange="onNodeSelect"
-    			items="{path:'/'}">
+    			items="{path:'tree>/'}">
     			<StandardTreeItem
-    				title="{text}"
-    				selected="{isSelected}">
+    				title="{tree>text}"
+    				selected="{tree>isSelected}"
+                    type="Active"
+                    press="onItemPress">
     				<customData>
     					<core:CustomData key="nodeId" value="{key}"/>
     				</customData>		

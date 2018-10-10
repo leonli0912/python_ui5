@@ -11,7 +11,7 @@ sap.ui.define([
 		onInit:function(){
 			var oModel = new JSONModel("/static/model/tree.json");
 			oModel.setSizeLimit(10000);
-			this.getView().setModel(oModel);
+			this.getView().setModel(oModel,"tree");
 			oRouter=sap.ui.core.UIComponent.getRouterFor(this);
 			oRouter.getRoute("index").attachPatternMatched(this._onMatched,this);
 //			oRouter.getRoute("topicId").attachPatternMatched(this._onTopicMatched,this);
@@ -36,6 +36,9 @@ sap.ui.define([
 			}			
 		},
 		onNodeSelect:function(){},
+		onItemPress:function(oEvent){
+			var okey = oEvent.getSource();
+		},
 		showMasterSide : function() {
 			var splitApp = this.getSplitApp();
 			splitApp.setMode(SplitAppMode.ShowHideMode);
