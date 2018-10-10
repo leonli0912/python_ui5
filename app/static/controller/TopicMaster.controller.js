@@ -9,7 +9,7 @@ sap.ui.define([
 	var oRouter;
 	return Controller.extend("UI5_uploader.controller.TopicMasterController",{
 		onInit:function(){
-			var oModel = new JSONModel();
+			var oModel = new JSONModel("/static/model/tree.json");
 			oModel.setSizeLimit(10000);
 			this.getView().setModel(oModel);
 			oRouter=sap.ui.core.UIComponent.getRouterFor(this);
